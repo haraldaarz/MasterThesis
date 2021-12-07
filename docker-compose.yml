@@ -5,4 +5,5 @@ services:
     ports:
       - "8000:80"
     volumes:
-      - ./app:/usr/share/nginx/html
+      - website:/usr/share/nginx/html
+      
