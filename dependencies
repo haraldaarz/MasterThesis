@@ -1,0 +1,4 @@
+sudo apt update && upgrade
+sudo apt install masscan
+sudo apt install net-tools
+

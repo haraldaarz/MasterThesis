@@ -1,0 +1,2 @@
+Denne fungerer:
+sudo masscan 137.74.187.0/24 -p 80 
