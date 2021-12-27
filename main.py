@@ -1,5 +1,6 @@
 import subprocess
 import os
+import sys
 #os.system('nmap 127.0.0.1')
 # os.system('masscan -banners')
 
@@ -21,6 +22,8 @@ def dockerController():
     containerNr = os.system('docker ps | wc -l')
     
     print(containerNr)
+    os.system('docker-compose up -d')
+
 dockerController()
 
 #docker ps -a | wc -l
