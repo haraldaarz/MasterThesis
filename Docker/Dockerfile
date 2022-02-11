@@ -6,7 +6,5 @@ masscan \
 net-tools
 #COPY /Masscan/requirements.txt ./
 #RUN pip install --no-cache-dir -r requirements.txt
-CMD masscan 172.21.0.0/24 --banners
-
-# Go to masscan file
-# Run masscan python file
+#ADD python file
+#CMD/RUN python file

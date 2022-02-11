@@ -5,12 +5,12 @@ services:
     container_name: ubuntuScanner
     volumes:
       - .:/code
-  web:
-    image: nginx:alpine
-    container_name: nginx
-    ports:
-      - "80:80"
-    volumes:
-      - ./website:/usr/share/nginx/html
+#  web:
+#    image: nginx:alpine
+#    container_name: nginx
+#    ports:
+#      - "80:80"
+#    volumes:
+#      - ./website:/usr/share/nginx/html
 
         
