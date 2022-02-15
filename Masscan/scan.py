@@ -1,20 +1,10 @@
-import subprocess
 import os
+import time
+import subprocess
+import sys
 
 # Program to scan computers from a list. Ran by Docker containers which are spawned by the main.py
 
-# Check if a scan is currently running
-# docker ps
-
-
-### WORKING COMMANDS ####
-# sudo masscan 137.74.187.0/24 -p 80 
-# masscan --banners # For å få med versjoner 
-# til fil: -oL
-# --rate 100000000
-##   Til testing: 10000 
-# port: -p1-65535
-# masscan 192.168.0.0/24 --top-ports --banners --rate 10000 -oX scan3.xml
 
 ### User agent
 # Leave user agent tag
@@ -23,7 +13,7 @@ import os
 
 ### IPs ###
 # Get IPs from file, and parse it in as an argument
-
+# hosts.txt
 
 ### Ports ###
 # Use most common ports
@@ -33,35 +23,69 @@ import os
 
 ### Rate ###
 # How fast to scan
-
-
-### Output ###
-# output to file
-# -oX scan.xml
-# -oG grepable
-# -oJ Json
-
+# Calculate max speed from network speed & cpu
 
 
 ### Exclude ###
 # Excluded IP ranges
 
 
-# Clean old files
+def cleanBeforeRun():
+    if os.path.exists("nmap.xml"):
+        os.remove("nmap.xml")
+
+    if os.path.exists("nmap_targets.txt"):
+        os.remove("nmap_targets.txt")
+
+    if os.path.exists("masscan"):
+        os.remove("nmap_targets.txt")
 
 
+def masscanExecute():
+    ports = "-p1-444"
+    rate = "10000"
+    print("Starting scan")
+    os.system('masscan ' + '-iL hosts.txt ' + ports + ' --max-rate ' + rate + ' -oX ' + ' masscanOUTXX --wait 1')
+
+def masscanParse():
+
+    # If file is not empty
+
+    with open ("masscanOUTXX" , "r+") as f:
+        if f.read(1):
+            print("File is not empty")
+
+            with open("masscanOUTXX") as origin, \
+                open('nmap_targets.txt', mode='w') as out_file:
+
+                for line in origin:
+                    if "portid" in line:
+                        # Prints out only the IP address from the masscan list
+                        out_file.write(line.split('"')[3]+"\n")
+            print("Done parsing")
+
+        else:
+            print("Masscan output file is empty")
+            sys.exit()
 
 
-print("Starting Masscan")
-# os.system('masscan%s-p%s --rate %i -oG %s %s %s >/dev/null 2>&1' % (host, ports_to_scan, args.rate, savefile, hostfile, exclude))
-os.system('masscan 161.35.17.0/24 -p1-1000 --rate 10000 -oX scan.xml')
+def nmapExecute():
+    target_file = 'nmap_targets.txt'
+    output_file = 'nmap.xml'
+    open_ports = ' 1-400'
+    print("Starting Nmap")
+    os.system('nmap -sV -p' + open_ports + ' -T4 -Pn --script=vulners -iL ' + target_file + ' -oX ' +  output_file)
+    # Hissing Nmap scan -defeat-rst-ratelimit --host-timeout 23H --max-retries 1 
+    # -O --osscan-guess
 
-print("Masscan done")
 
-print("Starting Nmap")
-# Nmap banner grabber
-# nmap 161.35.17.24 -sV -p80 --script=banner
+def generateHtml():
+    os.system('xsltproc -o scanme.html nmap-bootstrap.xsl nmap.xml')
 
-
-print("Scan finished")
+if __name__ == "__main__":
+    
+    cleanBeforeRun()
+    masscanExecute()
+    masscanParse()
+    nmapExecute()
 # Clean up files

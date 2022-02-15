@@ -23,3 +23,10 @@ DigitalOcean
 - Automatisk git pull & compose
 
 # Database
+
+# Nmap
+Possible speedups:
+- -T5
+
+# Dependencies
+xsltproc
