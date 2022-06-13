@@ -2,52 +2,62 @@ import subprocess
 import os
 import sys
 import docker
+#pip3 install docker-compose
+
 
 # Main program to controll Docker containers, and logging
 
 #### Consts
-client = docker.from_env()
 
 
 def installDependencies():
     os.system('apt install python3-pip')
+    # if os.system('masscan --regres) returns [hint]: you must install libpcap or WinPcap
+        # then os.system('apt install libpcap-dev -y)
     pass
 
 def checkForGitUpdate():
-    pass
-    # git pull
+    if os.path.exists("MasterThesis"):
+        print("Folder exists")
+        os.system('cd MasterThesis && git pull')
+    else:
+        print("Folder does not exist")
+        os.system('git clone xxx') # Clone repo
     
 
+def prepearInterface():
+    os.system('iptables -A INPUT -i eth0 -p tcp --dport 44444 -j DROP')
+
+
+
+
+def getIPs():
+    os.system('curl -s https://www.nirsoft.net/countryip/no.csv > scanme.csv') # Get IPs from nirsoft
+    with open ("scanme.csv", "r+") as f:
+        for line in f:
+            ip1 = (line.split(',')[0])
+            ip2 = (line.split(',')[1])
+            amount = (line.split(',')[2])
+            ipRange = ip1 + "-" + ip2
+            print(ipRange)
+            with open("hosts.txt", "a") as f:
+                f.write(ipRange + "\n")
+        print("Total IPs:", amount)
+
 def masscan():
+    # Start the masscan container
     pass
-# Masscan supports json output
-# take results from masscan, and do nmap on the ports
 
-def startTestDocker():
-    #client.containers.run('ubuntu', 'echo hello world')
-    client.containers.list()
 
-### Check Docker container
-def dockerController():
-    #print(containerNr)
-    os.system('cd Docker && docker-compose up -d --remove-orphans')
+
+
+
+
 
 
 def main():
-
-    print("Containers running:")
-    containerNr = int(os.system('docker ps | wc -l'))
-    print(containerNr)
-    print("There are", containerNr, "running")
-    val1 = input("Start docker? y/n ")
-    if val1 == "y":
-        dockerController()
-    else:
-        print("Not starting.")
-    if val1 == "n":
-        val2 = input("Start Test container? y/n")
-        if val2 == "y":
-            startTestDocker()
+    getIPs()
+    
 
 
 # main
