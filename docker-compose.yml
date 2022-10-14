@@ -13,4 +13,5 @@ services:
 #    volumes:
 #      - ./website:/usr/share/nginx/html
 
-        
+# Build from Dockerfile
+
