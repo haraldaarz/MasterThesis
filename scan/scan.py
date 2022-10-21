@@ -61,7 +61,7 @@ def masscanExecute():
     rate = "100000"
     print("Starting scan")
     #os.system('masscan ' + '-iL hosts.txt ' + ports + ' --rate ' + rate + ' -oL ' + ' ' + scanfile + '' + '--wait 10')
-    os.system('masscan ' + '-iL hosts.txt ‐‐top-ports 100 --rate ' + rate + ' -oL ' + ' ' + scanfile + '' + '--wait 10')
+    os.system('masscan ' + '-iL hosts.txt --top-ports 10000 --rate ' + rate + ' -oL ' + ' ' + scanfile + '' + '--wait 10')
 
    # os.system('cp masscanOUTXX2' + scanfile)
     # --source-ip 192.168.1.200. To make banners more persistent
@@ -157,8 +157,14 @@ if __name__ == "__main__":
     
     date = time.strftime("%d-%m-%Y-%H:%M:%S") 
 
-    ip = sys.argv[1]
-    port = sys.argv[2]
+    # if there is an argument
+    if len(sys.argv) == 2:
+        ip = sys.argv[1]
+    
+    if len(sys.argv) == 3:
+        ip = sys.argv[1]
+        port = sys.argv[2]
+
 
 
     #cleanBeforeRun()
