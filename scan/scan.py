@@ -4,7 +4,7 @@ import subprocess
 import sys
 import argparse
 
-# print current date 
+# print current date
 currentDate = time.strftime("%d-%m-%Y-%H:%M:%S")
 scanfile = "masscanOUT3"
 portsandIP = "portsandIP.txt"
@@ -57,11 +57,10 @@ def discoveryScan(date):
 
 
 def masscanExecute():
-    ports = "-p1-4444"
     rate = "100000"
     print("Starting scan")
     #os.system('masscan ' + '-iL hosts.txt ' + ports + ' --rate ' + rate + ' -oL ' + ' ' + scanfile + '' + '--wait 10')
-    os.system('masscan ' + '-iL hosts.txt --top-ports 10000 --rate ' + rate + ' -oL ' + ' ' + scanfile + '' + '--wait 10')
+    os.system('masscan ' + '-iL hosts.txt --ports 80,443,8080,8000,21,25,139,445,23 --rate ' + rate + ' -oL ' + ' ' + scanfile + '' + '--wait 10')
 
    # os.system('cp masscanOUTXX2' + scanfile)
     # --source-ip 192.168.1.200. To make banners more persistent
@@ -88,7 +87,7 @@ def uniquePorts():
 
 def parsefile(): # Takes input from masscan -oL file
     print("Parsing ports and IP addresses to corresponding files")
-    with open (scanfile , "r+") as f: 
+    with open (scanfile , "r+") as f:
         if f.read(1):
             os.system("awk '{print $3 \" \" $4}' " + scanfile + "> '" + portsandIP + "'") # Store only the IP and port in a file
         else:
@@ -109,7 +108,7 @@ def parsefile(): # Takes input from masscan -oL file
             ip = line.split()[1] # Get the IP
 
             #store the port and ip in a file named after the port
-            filename = "ports/" + port + ".txt" 
+            filename = "ports/" + port + ".txt"
             with open(filename, "a+") as f:
                 f.write(ip + "\n")
         #else:
@@ -121,7 +120,7 @@ def parsefile(): # Takes input from masscan -oL file
 def mostUsedPortOrder(): # Start nmap on the most used ports first
     ports = sortedPorts
     os.system("cat " + scanfile + "| awk '{print $3}' | sort | uniq -c | sort -nr | awk '{print $2}' > " + onlyPorts + "")
-    
+
 
 
 
@@ -137,7 +136,7 @@ def nmapExecute(port):
                 port = line.strip()
                 hosts = "ports/" + port + ".txt"
                 outputFile = "outputs/nmapOutput-" + port + ".xml"
-                    
+
                 os.system("nmap -sV -iL " + hosts + " -p " + port + " -oX " + outputFile)
 
 
@@ -146,7 +145,7 @@ def nmapExecute(port):
     output_file = port + 'nmap.xml'
     print("Starting Nmap")
     os.system('nmap -sV -p' + port + ' -T4 -Pn --script=vulners -iL ' + target_file + ' -oL ' +  output_file)
-    # Hissing Nmap scan -defeat-rst-ratelimit --host-timeout 23H --max-retries 1 
+    # Hissing Nmap scan -defeat-rst-ratelimit --host-timeout 23H --max-retries 1
     # -O --osscan-guess
 
 
@@ -154,13 +153,13 @@ def nmapExecute(port):
 
 
 if __name__ == "__main__":
-    
-    date = time.strftime("%d-%m-%Y-%H:%M:%S") 
+
+    date = time.strftime("%d-%m-%Y-%H:%M:%S")
 
     # if there is an argument
     if len(sys.argv) == 2:
         ip = sys.argv[1]
-    
+
     if len(sys.argv) == 3:
         ip = sys.argv[1]
         port = sys.argv[2]
@@ -174,7 +173,7 @@ if __name__ == "__main__":
     #    nmapTest(ip)
     #elif len(sys.argv) == 3:
     #    nmapTest(ip, port)
-    
+
     #discoveryScan(date)
     masscanExecute()
     #nmapExecute()
