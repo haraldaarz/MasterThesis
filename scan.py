@@ -29,11 +29,16 @@ def cleanBeforeRun():
 
 
 def nmapTest(ip, port):
+
+    
     if len(sys.argv) == 2:
         os.system("nmap -sV -T4 " + ip)
 
     elif len(sys.argv) == 3:
         os.system("nmap -sV -T4 " + ip + " " + "-p " + port)
+
+    
+    os.system("nmap -sV -T4 " + ip + port)
 
 
 def inputIps(ips): # take in from sysargs
@@ -45,24 +50,23 @@ def inputIps(ips): # take in from sysargs
         else :
             print("No IP addresses entered")
 
-
-def discoveryScan(date):
+        
+def discoveryScan():
 
     # Discovery Scan
     # masscan all ports on all hosts
     # Output number of open ports and IP addresses to a file
     # Run a screen instance
+    date = time.strftime("%d-%m-%Y-%H:%M:%S") 
     os.system('masscan -iL hosts.txt -p1-65535 --max-rate 100000 -oX discoveryScan' + date + ' --wait 20')
     os.system('cp hosts.txt ' + "discoveryScan_" + date)
 
 
 def masscanExecute():
-    ports = "-p1-4444"
-    rate = "100000"
+    ports = "-p1-444"
+    rate = "1000"
     print("Starting scan")
-    #os.system('masscan ' + '-iL hosts.txt ' + ports + ' --rate ' + rate + ' -oL ' + ' ' + scanfile + '' + '--wait 10')
-    os.system('masscan ' + '-iL hosts.txt ‐‐top-ports 100 --rate ' + rate + ' -oL ' + ' ' + scanfile + '' + '--wait 10')
-
+    os.system('masscan ' + '-iL hosts.txt ' + ports + ' --rate ' + rate + ' -oL ' + ' masscanOUT3 --wait 10')
    # os.system('cp masscanOUTXX2' + scanfile)
     # --source-ip 192.168.1.200. To make banners more persistent
 
@@ -155,8 +159,6 @@ def nmapExecute(port):
 
 if __name__ == "__main__":
     
-    date = time.strftime("%d-%m-%Y-%H:%M:%S") 
-
     ip = sys.argv[1]
     port = sys.argv[2]
 
@@ -164,13 +166,14 @@ if __name__ == "__main__":
     #cleanBeforeRun()
 
     # if there is 1 argument, run discovery scan
-    #if len(sys.argv) == 2:
-    #    nmapTest(ip)
-    #elif len(sys.argv) == 3:
-    #    nmapTest(ip, port)
+    if len(sys.argv) == 2:
+        nmapTest(ip)
+
+    elif len(sys.argv) == 3:
+        nmapTest(ip, port)
     
-    #discoveryScan(date)
-    masscanExecute()
+    #discoveryScan()
+    #masscanExecute()
     #nmapExecute()
     #uniquePorts()
     #parsefile()

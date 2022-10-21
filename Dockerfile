@@ -10,4 +10,10 @@ net-tools
 
 COPY scan.py .
 
+ENV IP={$ip}
+ENV PORT={$port}
+
+
 ENTRYPOINT ["python3", "scan.py"]
+
+
