@@ -1,8 +1,11 @@
 import subprocess
 import os
 import sys
-import docker
+import requests
+import csv
+#import docker
 #pip3 install docker-compose
+# from the file scan import *
 
 
 # Main program to controll Docker containers, and logging
@@ -31,24 +34,38 @@ def prepearInterface():
 
 
 
+
 def getIPs():
-    os.system('curl -s https://www.nirsoft.net/countryip/no.csv > scanme.csv') # Get IPs from nirsoft
-    with open ("scanme.csv", "r+") as f:
-        for line in f:
-            ip1 = (line.split(',')[0])
-            ip2 = (line.split(',')[1])
-            amount = (line.split(',')[2])
-            ipRange = ip1 + "-" + ip2
-            print(ipRange)
-            with open("hosts.txt", "a") as f:
-                f.write(ipRange + "\n")
-        print("Total IPs:", amount)
+    response = requests.get("https://www.nirsoft.net/countryip/no.csv")
+    reader = csv.reader(response.text.splitlines())
+    ip_data = {}
+    for row in reader:
+        try:
+            # Extract the IP range and amount from the row
+            ip_range = row[0] + "-" + row[1]
+            amount = row[2]
+
+            # Add the IP range and amount to the dictionary
+            ip_data[ip_range] = amount
+        except IndexError:
+            # Handle the error here
+            pass
+
+    # Write the IP ranges to the hosts.txt file
+    with open("allhosts.txt", "w") as f:
+        for ip_range, amount in ip_data.items():
+            f.write(ip_range + "\n")
+
+    # Calculate the total number of IPs
+    total_ips = sum(int(amount) for amount in ip_data.values())
+    print("Total IPs:", total_ips)
+
+
+
 
 def masscan():
     # Start the masscan container
     pass
-
-
 
 
 

@@ -8,12 +8,14 @@ nmap \
 python3 \
 net-tools
 
-COPY scan.py .
+COPY scan2.py .
 
+# Usikker på om jeg trenger disse
 ENV IP={$ip}
 ENV PORT={$port}
 
 
-ENTRYPOINT ["python3", "scan.py"]
+
+ENTRYPOINT ["python3", "scan2.py"]
 
 

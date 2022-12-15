@@ -19,29 +19,21 @@ uPorts = "uniqPorts.txt"
 
 def cleanBeforeRun():
     # Clean up old files before running
-    # delete all files in the ports folder
-    os.system("rm -rf ports")
-    os.system("rm sortedPorts.txt")
-    os.system("rm portsandIP.txt")
-    os.system("rm uniqPorts.txt")
-    os.system("rm paused.conf")
-    pass
 
-
-def nmapTest(ip, port):
-
+    if os.path.exists('ports'):
+        os.system("rm -rf ports")
+    if os.path.exists('outputs'):
+        os.system("rm -rf outputs")
+    if os.path.exists('sortedPorts.txt'):
+        os.system("rm sortedPorts.txt")
+    if os.path.exists('portsandIP.txt'):
+        os.system("rm portsandIP.txt")
+    if os.path.exists('uniqPorts.txt'):
+        os.system("rm uniqPorts.txt")
+    if os.path.exists('paused.txt'):
+        os.system("rm paused.conf")
     
-    if len(sys.argv) == 2:
-        os.system("nmap -sV -T4 " + ip)
-
-    elif len(sys.argv) == 3:
-        os.system("nmap -sV -T4 " + ip + " " + "-p " + port)
-
-    
-    os.system("nmap -sV -T4 " + ip + port)
-
-
-def inputIps(ips): # take in from sysargs
+def inputIps(ips): # Stores provided IP addresses in a file
     os.system("rm hosts2.txt")
     ## take in a input of different number strings which are ip addresses, and store them in a file
     with open ("hosts2.txt", "a+") as file:
@@ -50,9 +42,8 @@ def inputIps(ips): # take in from sysargs
         else :
             print("No IP addresses entered")
 
-        
-def discoveryScan():
 
+def discoveryScan():
     # Discovery Scan
     # masscan all ports on all hosts
     # Output number of open ports and IP addresses to a file
@@ -61,17 +52,11 @@ def discoveryScan():
     os.system('masscan -iL hosts.txt -p1-65535 --max-rate 100000 -oX discoveryScan' + date + ' --wait 20')
     os.system('cp hosts.txt ' + "discoveryScan_" + date)
 
-
-def masscanExecute():
-    ports = "-p1-444"
-    rate = "1000"
-    print("Starting scan")
-    os.system('masscan ' + '-iL hosts.txt ' + ports + ' --rate ' + rate + ' -oL ' + ' masscanOUT3 --wait 10')
-   # os.system('cp masscanOUTXX2' + scanfile)
-    # --source-ip 192.168.1.200. To make banners more persistent
-
-
-
+# TODO: Jobbe med denne funksjonen
+def masscanExecute2(ports, rate):
+    print("Starting masscan")
+    os.system('masscan ' + '-iL hosts.txt ' + ports + ' --rate ' + rate + ' -oL ' + ' masscanOUT3 --wait 20')
+    
 
 # Create a file for each open port
 def uniquePorts():
@@ -90,6 +75,7 @@ def uniquePorts():
             sys.exit()
 
 
+# Lik funksjon som er i test.py
 def parsefile(): # Takes input from masscan -oL file
     print("Parsing ports and IP addresses to corresponding files")
     with open (scanfile , "r+") as f: 
@@ -108,7 +94,6 @@ def parsefile(): # Takes input from masscan -oL file
 
     with open(sortedPorts, "r+") as f:
         for line in f:
-
             port = line.split()[0] # Get the port
             ip = line.split()[1] # Get the IP
 
@@ -121,13 +106,11 @@ def parsefile(): # Takes input from masscan -oL file
         #    sys.exit()
 
 
-
+# Mulig jeg ikke trenger denne funksjonen
 def mostUsedPortOrder(): # Start nmap on the most used ports first
     ports = sortedPorts
     os.system("cat " + scanfile + "| awk '{print $3}' | sort | uniq -c | sort -nr | awk '{print $2}' > " + onlyPorts + "")
     
-
-
 
 def nmapExecute(port):
     # run nmap on each of the port files. Starting with the most used port
@@ -163,14 +146,15 @@ if __name__ == "__main__":
     port = sys.argv[2]
 
 
+    masscanExecute2(port, "1000")
     #cleanBeforeRun()
 
     # if there is 1 argument, run discovery scan
-    if len(sys.argv) == 2:
-        nmapTest(ip)
+    #if len(sys.argv) == 2:
+    #    nmapTest(ip)
 
-    elif len(sys.argv) == 3:
-        nmapTest(ip, port)
+    #elif len(sys.argv) == 3:
+    #    nmapTest(ip, port)
     
     #discoveryScan()
     #masscanExecute()
