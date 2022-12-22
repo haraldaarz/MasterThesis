@@ -33,6 +33,16 @@ def cleanBeforeRun():
     if os.path.exists('paused.txt'):
         os.system("rm paused.conf")
     
+def cleanAfterRun():
+    # Clean up old files after running
+    if os.path.exists('sortedPorts.txt'):
+        os.system("rm sortedPorts.txt")
+    if os.path.exists('portsandIP.txt'):
+        os.system("rm portsandIP.txt")
+    if os.path.exists('uniqPorts.txt'):
+        os.system("rm uniqPorts.txt")
+
+
 def inputIps(ips): # Stores provided IP addresses in a file
     os.system("rm hosts2.txt")
     ## take in a input of different number strings which are ip addresses, and store them in a file
@@ -112,7 +122,7 @@ def mostUsedPortOrder(): # Start nmap on the most used ports first
     os.system("cat " + scanfile + "| awk '{print $3}' | sort | uniq -c | sort -nr | awk '{print $2}' > " + onlyPorts + "")
     
 
-def nmapExecute(port):
+def nmapExecute():
     # run nmap on each of the port files. Starting with the most used port
     # nmap on the ports with banners found in the masscan output file to separate files for each port
     if not os.path.exists('outputs'):
@@ -137,13 +147,18 @@ def nmapExecute(port):
     # -O --osscan-guess
 
 
-
+def combineFiles():
+    # Combine all the nmap output files into one file
+    #os.system("cat outputs/*.xml > allNmap.xml") # Dette er autogenerert. Må teste ut.
+    pass
 
 
 if __name__ == "__main__":
     
-    ip = sys.argv[1]
-    port = sys.argv[2]
+    # if there are two arguments
+    if len(sys.argv) == 2:
+        ip = sys.argv[1]
+        port = sys.argv[2]
 
 
     masscanExecute2(port, "1000")
