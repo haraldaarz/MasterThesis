@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:37:05 2022 as: nmap -sV -iL ports/5001.txt -p 5001 -oX outputs/nmapOutput-5001.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/5001.txt -p 5001 -oX outputs/nmapOutput-5001.xml" start="1671143825" startstr="Thu Dec 15 22:37:05 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="5001"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671143825" endtime="1671143836"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<times srtt="29312" rttvar="22080" to="117632"/>
+</host>
+<host starttime="1671143825" endtime="1671143884"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28731" rttvar="21689" to="115487"/>
+</host>
+<host starttime="1671143825" endtime="1671143836"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<times srtt="29404" rttvar="22283" to="118536"/>
+</host>
+<host starttime="1671143825" endtime="1671143884"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29005" rttvar="21902" to="116613"/>
+</host>
+<host starttime="1671143825" endtime="1671143836"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<times srtt="29356" rttvar="22173" to="118048"/>
+</host>
+<host starttime="1671143825" endtime="1671143884"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28908" rttvar="21809" to="116144"/>
+</host>
+<host starttime="1671143825" endtime="1671143886"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<times srtt="29268" rttvar="22063" to="117520"/>
+</host>
+<host starttime="1671143825" endtime="1671143885"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28878" rttvar="21800" to="116078"/>
+</host>
+<runstats><finished time="1671143886" timestr="Thu Dec 15 22:38:06 2022" elapsed="61.10" summary="Nmap done at Thu Dec 15 22:38:06 2022; 8 IP addresses (8 hosts up) scanned in 61.10 seconds" exit="success"/><hosts up="8" down="0" total="8"/>
+</runstats>
+</nmaprun>

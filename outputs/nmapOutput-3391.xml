@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 23:49:36 2022 as: nmap -sV -iL ports/3391.txt -p 3391 -oX outputs/nmapOutput-3391.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/3391.txt -p 3391 -oX outputs/nmapOutput-3391.xml" start="1671148176" startstr="Thu Dec 15 23:49:36 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="3391"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671148176" endtime="1671148195"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.139.106" addrtype="ipv4"/>
+<hostnames>
+<hostname name="106.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="3391"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ms-wbt-server" product="Microsoft Terminal Services" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28858" rttvar="21744" to="115834"/>
+</host>
+<host starttime="1671148176" endtime="1671148195"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.139.106" addrtype="ipv4"/>
+<hostnames>
+<hostname name="106.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="3391"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ms-wbt-server" product="Microsoft Terminal Services" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28689" rttvar="21672" to="115377"/>
+</host>
+<host starttime="1671148176" endtime="1671148195"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.139.106" addrtype="ipv4"/>
+<hostnames>
+<hostname name="106.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="3391"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ms-wbt-server" product="Microsoft Terminal Services" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28535" rttvar="21494" to="114511"/>
+</host>
+<host starttime="1671148176" endtime="1671148195"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.139.106" addrtype="ipv4"/>
+<hostnames>
+<hostname name="106.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="3391"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ms-wbt-server" product="Microsoft Terminal Services" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28877" rttvar="21758" to="115909"/>
+</host>
+<runstats><finished time="1671148195" timestr="Thu Dec 15 23:49:55 2022" elapsed="19.71" summary="Nmap done at Thu Dec 15 23:49:55 2022; 4 IP addresses (4 hosts up) scanned in 19.71 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

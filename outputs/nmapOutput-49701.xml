@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 23:30:14 2022 as: nmap -sV -iL ports/49701.txt -p 49701 -oX outputs/nmapOutput-49701.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/49701.txt -p 49701 -oX outputs/nmapOutput-49701.xml" start="1671147014" startstr="Thu Dec 15 23:30:14 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="49701"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671147014" endtime="1671147068"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.73" addrtype="ipv4"/>
+<hostnames>
+<hostname name="73.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="49701"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28378" rttvar="21321" to="113662"/>
+</host>
+<host starttime="1671147014" endtime="1671147068"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.73" addrtype="ipv4"/>
+<hostnames>
+<hostname name="73.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="49701"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28465" rttvar="21422" to="114153"/>
+</host>
+<host starttime="1671147014" endtime="1671147068"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.73" addrtype="ipv4"/>
+<hostnames>
+<hostname name="73.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="49701"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28418" rttvar="21354" to="113834"/>
+</host>
+<host starttime="1671147014" endtime="1671147068"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.73" addrtype="ipv4"/>
+<hostnames>
+<hostname name="73.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="49701"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28396" rttvar="21338" to="113748"/>
+</host>
+<runstats><finished time="1671147068" timestr="Thu Dec 15 23:31:08 2022" elapsed="54.61" summary="Nmap done at Thu Dec 15 23:31:08 2022; 4 IP addresses (4 hosts up) scanned in 54.61 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 23:46:32 2022 as: nmap -sV -iL ports/35102.txt -p 35102 -oX outputs/nmapOutput-35102.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/35102.txt -p 35102 -oX outputs/nmapOutput-35102.xml" start="1671147992" startstr="Thu Dec 15 23:46:32 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="35102"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671147992" endtime="1671147999"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.121" addrtype="ipv4"/>
+<hostnames>
+<hostname name="121.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="35102"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="mc-nmf" product=".NET Message Framing" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28389" rttvar="21362" to="113837"/>
+</host>
+<host starttime="1671147992" endtime="1671147999"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.121" addrtype="ipv4"/>
+<hostnames>
+<hostname name="121.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="35102"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="mc-nmf" product=".NET Message Framing" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28535" rttvar="21471" to="114419"/>
+</host>
+<host starttime="1671147992" endtime="1671147999"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.121" addrtype="ipv4"/>
+<hostnames>
+<hostname name="121.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="35102"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="mc-nmf" product=".NET Message Framing" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28436" rttvar="21376" to="113940"/>
+</host>
+<host starttime="1671147992" endtime="1671147999"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.121" addrtype="ipv4"/>
+<hostnames>
+<hostname name="121.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="35102"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="mc-nmf" product=".NET Message Framing" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28414" rttvar="21359" to="113850"/>
+</host>
+<runstats><finished time="1671147999" timestr="Thu Dec 15 23:46:39 2022" elapsed="6.86" summary="Nmap done at Thu Dec 15 23:46:39 2022; 4 IP addresses (4 hosts up) scanned in 6.86 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 23:16:47 2022 as: nmap -sV -iL ports/6067.txt -p 6067 -oX outputs/nmapOutput-6067.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/6067.txt -p 6067 -oX outputs/nmapOutput-6067.xml" start="1671146207" startstr="Thu Dec 15 23:16:47 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="6067"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671146207" endtime="1671146208"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.152.98" addrtype="ipv4"/>
+<hostnames>
+<hostname name="98.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="6067"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="telnet" product="Cisco or Actiontec MI424WR router telnetd" devicetype="broadband router" method="probed" conf="10"><cpe>cpe:/h:actiontec:mi424wr</cpe></service></port>
+</ports>
+<times srtt="51774" rttvar="38912" to="207422"/>
+</host>
+<host starttime="1671146207" endtime="1671146208"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.152.98" addrtype="ipv4"/>
+<hostnames>
+<hostname name="98.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="6067"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="51482" rttvar="38874" to="206978"/>
+</host>
+<host starttime="1671146207" endtime="1671146208"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.152.98" addrtype="ipv4"/>
+<hostnames>
+<hostname name="98.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="6067"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="51385" rttvar="38732" to="206313"/>
+</host>
+<host starttime="1671146207" endtime="1671146208"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.152.98" addrtype="ipv4"/>
+<hostnames>
+<hostname name="98.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="6067"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="51711" rttvar="39120" to="208191"/>
+</host>
+<runstats><finished time="1671146208" timestr="Thu Dec 15 23:16:48 2022" elapsed="0.72" summary="Nmap done at Thu Dec 15 23:16:48 2022; 4 IP addresses (4 hosts up) scanned in 0.72 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

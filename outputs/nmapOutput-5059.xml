@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 23:19:08 2022 as: nmap -sV -iL ports/5059.txt -p 5059 -oX outputs/nmapOutput-5059.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/5059.txt -p 5059 -oX outputs/nmapOutput-5059.xml" start="1671146348" startstr="Thu Dec 15 23:19:08 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="5059"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671146348" endtime="1671146505"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.30" addrtype="ipv4"/>
+<hostnames>
+<hostname name="30.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5059"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="sds" servicefp="SF-Port5059-TCP:V=7.80%I=7%D=12/15%Time=639BAB77%P=x86_64-pc-linux-gnu%r(GenericLines,2,&quot;\r\n&quot;)%r(GetRequest,BB,&quot;HTTP/1\.0\x20501\x20Not\x20Implemented\r\nSia:\x20SIP/2\.0/TCP\x20161\.35\.17\.219:42444\r\nContent-Type:\x20text/html\r\nServer:\x20kamailio\x20\(5\.0\.3\x20\(ppc/linux\)\)\r\nContent-Length:\x2034\r\n\r\n&lt;html&gt;&lt;body&gt;XCAP\x20GET&lt;/body&gt;&lt;/html&gt;&quot;)%r(HTTPOptions,BF,&quot;HTTP/1\.0\x20501\x20Not\x20Implemented\r\nSia:\x20SIP/2\.0/TCP\x20161\.35\.17\.219:42448\r\nContent-Type:\x20text/html\r\nServer:\x20kamailio\x20\(5\.0\.3\x20\(ppc/linux\)\)\r\nContent-Length:\x2038\r\n\r\n&lt;html&gt;&lt;body&gt;XCAP\x20OPTIONS&lt;/body&gt;&lt;/html&gt;&quot;)%r(FourOhFourRequest,BB,&quot;HTTP/1\.0\x20501\x20Not\x20Implemented\r\nSia:\x20SIP/2\.0/TCP\x20161\.35\.17\.219:42546\r\nContent-Type:\x20text/html\r\nServer:\x20kamailio\x20\(5\.0\.3\x20\(ppc/linux\)\)\r\nContent-Length:\x2034\r\n\r\n&lt;html&gt;&lt;body&gt;XCAP\x20GET&lt;/body&gt;&lt;/html&gt;&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="32228" rttvar="24618" to="130700"/>
+</host>
+<host starttime="1671146348" endtime="1671146455"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.30" addrtype="ipv4"/>
+<hostnames>
+<hostname name="30.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5059"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="sip" extrainfo="SIP end point; Status: 403 Forbidden" servicefp="SF-Port5059-TCP:V=7.80%I=7%D=12/15%Time=639BAB77%P=x86_64-pc-linux-gnu%r(GenericLines,2,&quot;\r\n&quot;)%r(GetRequest,BB,&quot;HTTP/1\.0\x20501\x20Not\x20Implemented\r\nSia:\x20SIP/2\.0/TCP\x20161\.35\.17\.219:42440\r\nContent-Type:\x20text/html\r\nServer:\x20kamailio\x20\(5\.0\.3\x20\(ppc/linux\)\)\r\nContent-Length:\x2034\r\n\r\n&lt;html&gt;&lt;body&gt;XCAP\x20GET&lt;/body&gt;&lt;/html&gt;&quot;)%r(HTTPOptions,BF,&quot;HTTP/1\.0\x20501\x20Not\x20Implemented\r\nSia:\x20SIP/2\.0/TCP\x20161\.35\.17\.219:42450\r\nContent-Type:\x20text/html\r\nServer:\x20kamailio\x20\(5\.0\.3\x20\(ppc/linux\)\)\r\nContent-Length:\x2038\r\n\r\n&lt;html&gt;&lt;body&gt;XCAP\x20OPTIONS&lt;/body&gt;&lt;/html&gt;&quot;)%r(FourOhFourRequest,BB,&quot;HTTP/1\.0\x20501\x20Not\x20Implemented\r\nSia:\x20SIP/2\.0/TCP\x20161\.35\.17\.219:42548\r\nContent-Type:\x20text/html\r\nServer:\x20kamailio\x20\(5\.0\.3\x20\(ppc/linux\)\)\r\nContent-Length:\x2034\r\n\r\n&lt;html&gt;&lt;body&gt;XCAP\x20GET&lt;/body&gt;&lt;/html&gt;&quot;)%r(SIPOptions,E5,&quot;SIP/2\.0\x20403\x20Forbidden\r\nTo:\x20&lt;sip:nm2@nm2&gt;;tag=c67ab209f54e99cb42e82bae2a48b5b2\r\nFrom:\x20&lt;sip:nm@nm&gt;;tag=root\r\nCall-ID:\x2050000\r\nCSeq:\x2042\x20OPTIONS\r\nVia:\x20SIP/2\.0/TCP\x20nm;rport=42578;received=161\.35\.17\.219;branch=foo\r\nContent-Length:\x200\r\n\r\n&quot;);" method="probed" conf="10"/></port>
+</ports>
+<times srtt="31986" rttvar="24340" to="129346"/>
+</host>
+<host starttime="1671146348" endtime="1671146505"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.30" addrtype="ipv4"/>
+<hostnames>
+<hostname name="30.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5059"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="sds" servicefp="SF-Port5059-TCP:V=7.80%I=7%D=12/15%Time=639BAB77%P=x86_64-pc-linux-gnu%r(GenericLines,2,&quot;\r\n&quot;)%r(GetRequest,BB,&quot;HTTP/1\.0\x20501\x20Not\x20Implemented\r\nSia:\x20SIP/2\.0/TCP\x20161\.35\.17\.219:42446\r\nContent-Type:\x20text/html\r\nServer:\x20kamailio\x20\(5\.0\.3\x20\(ppc/linux\)\)\r\nContent-Length:\x2034\r\n\r\n&lt;html&gt;&lt;body&gt;XCAP\x20GET&lt;/body&gt;&lt;/html&gt;&quot;)%r(HTTPOptions,BF,&quot;HTTP/1\.0\x20501\x20Not\x20Implemented\r\nSia:\x20SIP/2\.0/TCP\x20161\.35\.17\.219:42452\r\nContent-Type:\x20text/html\r\nServer:\x20kamailio\x20\(5\.0\.3\x20\(ppc/linux\)\)\r\nContent-Length:\x2038\r\n\r\n&lt;html&gt;&lt;body&gt;XCAP\x20OPTIONS&lt;/body&gt;&lt;/html&gt;&quot;)%r(FourOhFourRequest,BB,&quot;HTTP/1\.0\x20501\x20Not\x20Implemented\r\nSia:\x20SIP/2\.0/TCP\x20161\.35\.17\.219:42550\r\nContent-Type:\x20text/html\r\nServer:\x20kamailio\x20\(5\.0\.3\x20\(ppc/linux\)\)\r\nContent-Length:\x2034\r\n\r\n&lt;html&gt;&lt;body&gt;XCAP\x20GET&lt;/body&gt;&lt;/html&gt;&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="31883" rttvar="24260" to="128923"/>
+</host>
+<host starttime="1671146348" endtime="1671146506"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.30" addrtype="ipv4"/>
+<hostnames>
+<hostname name="30.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5059"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="sds" servicefp="SF-Port5059-TCP:V=7.80%I=7%D=12/15%Time=639BAB77%P=x86_64-pc-linux-gnu%r(GenericLines,2,&quot;\r\n&quot;)%r(GetRequest,BB,&quot;HTTP/1\.0\x20501\x20Not\x20Implemented\r\nSia:\x20SIP/2\.0/TCP\x20161\.35\.17\.219:42442\r\nContent-Type:\x20text/html\r\nServer:\x20kamailio\x20\(5\.0\.3\x20\(ppc/linux\)\)\r\nContent-Length:\x2034\r\n\r\n&lt;html&gt;&lt;body&gt;XCAP\x20GET&lt;/body&gt;&lt;/html&gt;&quot;)%r(HTTPOptions,BF,&quot;HTTP/1\.0\x20501\x20Not\x20Implemented\r\nSia:\x20SIP/2\.0/TCP\x20161\.35\.17\.219:42454\r\nContent-Type:\x20text/html\r\nServer:\x20kamailio\x20\(5\.0\.3\x20\(ppc/linux\)\)\r\nContent-Length:\x2038\r\n\r\n&lt;html&gt;&lt;body&gt;XCAP\x20OPTIONS&lt;/body&gt;&lt;/html&gt;&quot;)%r(FourOhFourRequest,BB,&quot;HTTP/1\.0\x20501\x20Not\x20Implemented\r\nSia:\x20SIP/2\.0/TCP\x20161\.35\.17\.219:42552\r\nContent-Type:\x20text/html\r\nServer:\x20kamailio\x20\(5\.0\.3\x20\(ppc/linux\)\)\r\nContent-Length:\x2034\r\n\r\n&lt;html&gt;&lt;body&gt;XCAP\x20GET&lt;/body&gt;&lt;/html&gt;&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="31874" rttvar="24215" to="128734"/>
+</host>
+<runstats><finished time="1671146506" timestr="Thu Dec 15 23:21:46 2022" elapsed="158.71" summary="Nmap done at Thu Dec 15 23:21:46 2022; 4 IP addresses (4 hosts up) scanned in 158.71 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

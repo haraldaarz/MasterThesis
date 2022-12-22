@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 23:18:54 2022 as: nmap -sV -iL ports/506.txt -p 506 -oX outputs/nmapOutput-506.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/506.txt -p 506 -oX outputs/nmapOutput-506.xml" start="1671146334" startstr="Thu Dec 15 23:18:54 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="506"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671146334" endtime="1671146347"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.143.110" addrtype="ipv4"/>
+<hostnames>
+<hostname name="110.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="506"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ohimsrv" servicefp="SF-Port506-TCP:V=7.80%I=7%D=12/15%Time=639BAB6B%P=x86_64-pc-linux-gnu%r(LDAPSearchReq,9,&quot;0\x84\0\0\0\x03\x02\x81\x02&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="28961" rttvar="21880" to="116481"/>
+</host>
+<host starttime="1671146334" endtime="1671146347"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.143.110" addrtype="ipv4"/>
+<hostnames>
+<hostname name="110.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="506"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ohimsrv" servicefp="SF-Port506-TCP:V=7.80%I=7%D=12/15%Time=639BAB6B%P=x86_64-pc-linux-gnu%r(LDAPSearchReq,9,&quot;0\x84\0\0\0\x03\x02\x81\x02&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="28421" rttvar="21559" to="114657"/>
+</host>
+<host starttime="1671146334" endtime="1671146347"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.143.110" addrtype="ipv4"/>
+<hostnames>
+<hostname name="110.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="506"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ohimsrv" method="table" conf="3"/></port>
+</ports>
+<times srtt="28975" rttvar="21861" to="116419"/>
+</host>
+<host starttime="1671146334" endtime="1671146348"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.143.110" addrtype="ipv4"/>
+<hostnames>
+<hostname name="110.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="506"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ohimsrv" method="table" conf="3"/></port>
+</ports>
+<times srtt="28293" rttvar="21465" to="114153"/>
+</host>
+<runstats><finished time="1671146348" timestr="Thu Dec 15 23:19:08 2022" elapsed="13.59" summary="Nmap done at Thu Dec 15 23:19:08 2022; 4 IP addresses (4 hosts up) scanned in 13.59 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

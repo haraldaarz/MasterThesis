@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Fri Dec 16 00:26:11 2022 as: nmap -sV -iL ports/10000.txt -p 10000 -oX outputs/nmapOutput-10000.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/10000.txt -p 10000 -oX outputs/nmapOutput-10000.xml" start="1671150371" startstr="Fri Dec 16 00:26:11 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="10000"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671150371" endtime="1671150522"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.147.90" addrtype="ipv4"/>
+<hostnames>
+<hostname name="90.212-33-147.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="10000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snet-sensor-mgmt" method="table" conf="3"/></port>
+</ports>
+<times srtt="27961" rttvar="21026" to="112065"/>
+</host>
+<host starttime="1671150371" endtime="1671150522"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.147.90" addrtype="ipv4"/>
+<hostnames>
+<hostname name="90.212-33-147.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="10000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snet-sensor-mgmt" method="table" conf="3"/></port>
+</ports>
+<times srtt="28072" rttvar="21066" to="112336"/>
+</host>
+<host starttime="1671150371" endtime="1671150522"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.147.90" addrtype="ipv4"/>
+<hostnames>
+<hostname name="90.212-33-147.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="10000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snet-sensor-mgmt" method="table" conf="3"/></port>
+</ports>
+<times srtt="28028" rttvar="21058" to="112260"/>
+</host>
+<host starttime="1671150371" endtime="1671150528"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.147.90" addrtype="ipv4"/>
+<hostnames>
+<hostname name="90.212-33-147.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="10000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snet-sensor-mgmt" method="table" conf="3"/></port>
+</ports>
+<times srtt="27988" rttvar="21028" to="112100"/>
+</host>
+<runstats><finished time="1671150528" timestr="Fri Dec 16 00:28:48 2022" elapsed="157.86" summary="Nmap done at Fri Dec 16 00:28:48 2022; 4 IP addresses (4 hosts up) scanned in 157.86 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

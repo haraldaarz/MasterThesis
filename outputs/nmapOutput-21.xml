@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 21:19:24 2022 as: nmap -sV -iL ports/21.txt -p 21 -oX outputs/nmapOutput-21.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/21.txt -p 21 -oX outputs/nmapOutput-21.xml" start="1671139164" startstr="Thu Dec 15 21:19:24 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="21"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671139164" endtime="1671139312"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.116" addrtype="ipv4"/>
+<hostnames>
+<hostname name="116.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="27789" rttvar="20854" to="111205"/>
+</host>
+<host starttime="1671139164" endtime="1671139312"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.117" addrtype="ipv4"/>
+<hostnames>
+<hostname name="117.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="27768" rttvar="20915" to="111428"/>
+</host>
+<host starttime="1671139164" endtime="1671139312"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="27842" rttvar="20943" to="111614"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28128" rttvar="21160" to="112768"/>
+</host>
+<host starttime="1671139164" endtime="1671139177"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Synology DS200-series NAS device ftpd" hostname="DS207" devicetype="storage-misc" method="probed" conf="10"/></port>
+</ports>
+<times srtt="27793" rttvar="20865" to="111253"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.142.90" addrtype="ipv4"/>
+<hostnames>
+<hostname name="90.212-33-142.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="FileZilla ftpd" version="0.9.47 beta" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:filezilla-project:filezilla_server:0.9.47_beta</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28706" rttvar="21552" to="114914"/>
+</host>
+<host starttime="1671139164" endtime="1671139177"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.144.125" addrtype="ipv4"/>
+<hostnames>
+<hostname name="125.212-33-144.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Synology DS200-series NAS device ftpd" hostname="dss-ftp01" devicetype="storage-misc" method="probed" conf="10"/></port>
+</ports>
+<times srtt="27959" rttvar="21042" to="112127"/>
+</host>
+<host starttime="1671139164" endtime="1671139194"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" servicefp="SF-Port21-TCP:V=7.80%I=7%D=12/15%Time=639B8F64%P=x86_64-pc-linux-gnu%r(NULL,25,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n&quot;)%r(GenericLines,63,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n500\x20:\x20command\x20not\x20understood\.\r\n500\x20:\x20command\x20not\x20understood\.\r\n&quot;)%r(Help,286,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n214-\x20The\x20following\x20commands\x20are\x20recognized\x20\(\*\x20=&gt;&apos;s\x20unimplemented\)\.\r\n\x20\x20\x20USER\x20\x20\x20\x20LPRT\x20\x20\x20\x20MODE\x20\x20\x20\x20MSOM\*\x20\x20\x20RNTO\x20\x20\x20\x20SITE\x20\x20\x20\x20RMD\x20\x20\x20\x20\x20SIZE\x20\x20\x20\x20AUTH\x20\r\n\x20\x20\x20PASS\x20\x20\x20\x20EPRT\x20\x20\x20\x20RETR\x20\x20\x20\x20MSAM\*\x20\x20\x20ABOR\x20\x20\x20\x20SYST\x20\x20\x20\x20XRMD\x20\x20\x20\x20MDTM\x20\x20\x20\x20PBSZ\x20\r\n\x20\x20\x20ACCT\*\x20\x20\x20PASV\x20\x20\x20\x20STOR\x20\x20\x20\x20MRSQ\*\x20\x20\x20DELE\x20\x20\x20\x20STAT\x20\x20\x20\x20PWD\x20\x20\x20\x20\x20MLST\x20\x20\x20\x20PROT\x20\r\n\x20\x20\x20SMNT\*\x20\x20\x20LPSV\x20\x20\x20\x20APPE\x20\x20\x20\x20MRCP\*\x20\x20\x20CWD\x20\x20\x20\x20\x20HELP\x20\x20\x20\x20XPWD\x20\x20\x20\x20MLSD\x20\x20\x20\x20CCC\x20\r\n\x20\x20\x20REIN\*\x20\x20\x20EPSV\x20\x20\x20\x20MLFL\*\x20\x20\x20ALLO\x20\x20\x20\x20XCWD\x20\x20\x20\x20NOOP\x20\x20\x20\x20CDUP\x20\x20\x20\x20MFMT\x20\r\n\x20\x20\x20QUIT\x20\x20\x20\x20TYPE\x20\x20\x20\x20MAIL\*\x20\x20\x20REST\x20\x20\x20\x20LIST\x20\x20\x20\x20MKD\x20\x20\x20\x20\x20XCUP\x20\x20\x20\x20FEAT\x20\r\n\x20\x20\x20PORT\x20\x20\x20\x20STRU\x20\x20\x20\x20MSND\*\x20\x20\x20RNFR\x20\x20\x20\x20NLST\x20\x20\x20\x20XMKD\x20\x20\x20\x20STOU\x20\x20\x20\x20OPTS\x20\r\n214\x20Direct\x20comments\x20to\x20ftp-bugs@Bjellandveien\.\r\n&quot;)%r(SSLSessionReq,46,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n500\x20\x16\x03:\x20command\x20not\x20understood\.\r\n&quot;)%r(SMBProgNeg,25,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n&quot;);" method="probed" conf="10"/></port>
+</ports>
+<times srtt="29141" rttvar="21861" to="116585"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="miranda.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Pure-FTPd" method="probed" conf="10"><cpe>cpe:/a:pureftpd:pure-ftpd</cpe></service></port>
+</ports>
+<times srtt="28686" rttvar="21540" to="114846"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.177" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ariel.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Pure-FTPd" method="probed" conf="10"><cpe>cpe:/a:pureftpd:pure-ftpd</cpe></service></port>
+</ports>
+<times srtt="28836" rttvar="21674" to="115532"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.183" addrtype="ipv4"/>
+<hostnames>
+<hostname name="183.77-241-100.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29498" rttvar="22184" to="118234"/>
+</host>
+<host starttime="1671139164" endtime="1671139177"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.187" addrtype="ipv4"/>
+<hostnames>
+<hostname name="europa.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="ProFTPD" method="probed" conf="10"><cpe>cpe:/a:proftpd:proftpd</cpe></service></port>
+</ports>
+<times srtt="29019" rttvar="22074" to="117315"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.115" addrtype="ipv4"/>
+<hostnames>
+<hostname name="115.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="FileZilla ftpd" version="0.9.41 beta" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:filezilla-project:filezilla_server:0.9.41_beta</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28214" rttvar="21189" to="112970"/>
+</host>
+<host starttime="1671139164" endtime="1671139216"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.213" addrtype="ipv4"/>
+<hostnames>
+<hostname name="213.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29862" rttvar="22401" to="119466"/>
+</host>
+<host starttime="1671139164" endtime="1671139216"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.214" addrtype="ipv4"/>
+<hostnames>
+<hostname name="214.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29570" rttvar="22193" to="118342"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.104.70" addrtype="ipv4"/>
+<hostnames>
+<hostname name="70.77-241-104.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="29619" rttvar="22246" to="118603"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.107.122" addrtype="ipv4"/>
+<hostnames>
+<hostname name="122.77-241-107.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="27803" rttvar="20868" to="111275"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.211" addrtype="ipv4"/>
+<hostnames>
+<hostname name="211.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="ProFTPD" version="1.3.5e" ostype="Unix" method="probed" conf="10"><cpe>cpe:/a:proftpd:proftpd:1.3.5e</cpe></service></port>
+</ports>
+<times srtt="30918" rttvar="23358" to="124350"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.218" addrtype="ipv4"/>
+<hostnames>
+<hostname name="218.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="30852" rttvar="23141" to="123416"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.162" addrtype="ipv4"/>
+<hostnames>
+<hostname name="relay.sr-transport.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28545" rttvar="21429" to="114261"/>
+</host>
+<host starttime="1671139164" endtime="1671139312"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.116" addrtype="ipv4"/>
+<hostnames>
+<hostname name="116.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="27759" rttvar="20826" to="111063"/>
+</host>
+<host starttime="1671139164" endtime="1671139312"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.117" addrtype="ipv4"/>
+<hostnames>
+<hostname name="117.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28009" rttvar="21138" to="112561"/>
+</host>
+<host starttime="1671139164" endtime="1671139312"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="27859" rttvar="20948" to="111651"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28172" rttvar="21203" to="112984"/>
+</host>
+<host starttime="1671139164" endtime="1671139177"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Synology DS200-series NAS device ftpd" hostname="DS207" devicetype="storage-misc" method="probed" conf="10"/></port>
+</ports>
+<times srtt="27825" rttvar="20872" to="111313"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.142.90" addrtype="ipv4"/>
+<hostnames>
+<hostname name="90.212-33-142.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="FileZilla ftpd" version="0.9.47 beta" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:filezilla-project:filezilla_server:0.9.47_beta</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28886" rttvar="21686" to="115630"/>
+</host>
+<host starttime="1671139164" endtime="1671139177"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.144.125" addrtype="ipv4"/>
+<hostnames>
+<hostname name="125.212-33-144.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Synology DS200-series NAS device ftpd" hostname="dss-ftp01" devicetype="storage-misc" method="probed" conf="10"/></port>
+</ports>
+<times srtt="28330" rttvar="21277" to="113438"/>
+</host>
+<host starttime="1671139164" endtime="1671139194"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" servicefp="SF-Port21-TCP:V=7.80%I=7%D=12/15%Time=639B8F64%P=x86_64-pc-linux-gnu%r(NULL,25,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n&quot;)%r(GenericLines,63,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n500\x20:\x20command\x20not\x20understood\.\r\n500\x20:\x20command\x20not\x20understood\.\r\n&quot;)%r(Help,286,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n214-\x20The\x20following\x20commands\x20are\x20recognized\x20\(\*\x20=&gt;&apos;s\x20unimplemented\)\.\r\n\x20\x20\x20USER\x20\x20\x20\x20LPRT\x20\x20\x20\x20MODE\x20\x20\x20\x20MSOM\*\x20\x20\x20RNTO\x20\x20\x20\x20SITE\x20\x20\x20\x20RMD\x20\x20\x20\x20\x20SIZE\x20\x20\x20\x20AUTH\x20\r\n\x20\x20\x20PASS\x20\x20\x20\x20EPRT\x20\x20\x20\x20RETR\x20\x20\x20\x20MSAM\*\x20\x20\x20ABOR\x20\x20\x20\x20SYST\x20\x20\x20\x20XRMD\x20\x20\x20\x20MDTM\x20\x20\x20\x20PBSZ\x20\r\n\x20\x20\x20ACCT\*\x20\x20\x20PASV\x20\x20\x20\x20STOR\x20\x20\x20\x20MRSQ\*\x20\x20\x20DELE\x20\x20\x20\x20STAT\x20\x20\x20\x20PWD\x20\x20\x20\x20\x20MLST\x20\x20\x20\x20PROT\x20\r\n\x20\x20\x20SMNT\*\x20\x20\x20LPSV\x20\x20\x20\x20APPE\x20\x20\x20\x20MRCP\*\x20\x20\x20CWD\x20\x20\x20\x20\x20HELP\x20\x20\x20\x20XPWD\x20\x20\x20\x20MLSD\x20\x20\x20\x20CCC\x20\r\n\x20\x20\x20REIN\*\x20\x20\x20EPSV\x20\x20\x20\x20MLFL\*\x20\x20\x20ALLO\x20\x20\x20\x20XCWD\x20\x20\x20\x20NOOP\x20\x20\x20\x20CDUP\x20\x20\x20\x20MFMT\x20\r\n\x20\x20\x20QUIT\x20\x20\x20\x20TYPE\x20\x20\x20\x20MAIL\*\x20\x20\x20REST\x20\x20\x20\x20LIST\x20\x20\x20\x20MKD\x20\x20\x20\x20\x20XCUP\x20\x20\x20\x20FEAT\x20\r\n\x20\x20\x20PORT\x20\x20\x20\x20STRU\x20\x20\x20\x20MSND\*\x20\x20\x20RNFR\x20\x20\x20\x20NLST\x20\x20\x20\x20XMKD\x20\x20\x20\x20STOU\x20\x20\x20\x20OPTS\x20\r\n214\x20Direct\x20comments\x20to\x20ftp-bugs@Bjellandveien\.\r\n&quot;)%r(SSLSessionReq,46,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n500\x20\x16\x03:\x20command\x20not\x20understood\.\r\n&quot;)%r(SMBProgNeg,25,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n&quot;);" method="probed" conf="10"/></port>
+</ports>
+<times srtt="29148" rttvar="21942" to="116916"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="miranda.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Pure-FTPd" method="probed" conf="10"><cpe>cpe:/a:pureftpd:pure-ftpd</cpe></service></port>
+</ports>
+<times srtt="28957" rttvar="21782" to="116085"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.177" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ariel.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Pure-FTPd" method="probed" conf="10"><cpe>cpe:/a:pureftpd:pure-ftpd</cpe></service></port>
+</ports>
+<times srtt="28980" rttvar="21849" to="116376"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.183" addrtype="ipv4"/>
+<hostnames>
+<hostname name="183.77-241-100.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29337" rttvar="22087" to="117685"/>
+</host>
+<host starttime="1671139164" endtime="1671139177"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.187" addrtype="ipv4"/>
+<hostnames>
+<hostname name="europa.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="ProFTPD" method="probed" conf="10"><cpe>cpe:/a:proftpd:proftpd</cpe></service></port>
+</ports>
+<times srtt="28997" rttvar="21914" to="116653"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.115" addrtype="ipv4"/>
+<hostnames>
+<hostname name="115.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="FileZilla ftpd" version="0.9.41 beta" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:filezilla-project:filezilla_server:0.9.41_beta</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28084" rttvar="21064" to="112340"/>
+</host>
+<host starttime="1671139164" endtime="1671139216"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.213" addrtype="ipv4"/>
+<hostnames>
+<hostname name="213.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29839" rttvar="22562" to="120087"/>
+</host>
+<host starttime="1671139164" endtime="1671139216"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.214" addrtype="ipv4"/>
+<hostnames>
+<hostname name="214.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29547" rttvar="22170" to="118227"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.104.70" addrtype="ipv4"/>
+<hostnames>
+<hostname name="70.77-241-104.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="29566" rttvar="22303" to="118778"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.107.122" addrtype="ipv4"/>
+<hostnames>
+<hostname name="122.77-241-107.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="27878" rttvar="20952" to="111686"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.211" addrtype="ipv4"/>
+<hostnames>
+<hostname name="211.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="ProFTPD" version="1.3.5e" ostype="Unix" method="probed" conf="10"><cpe>cpe:/a:proftpd:proftpd:1.3.5e</cpe></service></port>
+</ports>
+<times srtt="30943" rttvar="23236" to="123887"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.218" addrtype="ipv4"/>
+<hostnames>
+<hostname name="218.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="31157" rttvar="23496" to="125141"/>
+</host>
+<host starttime="1671139164" endtime="1671139166"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.162" addrtype="ipv4"/>
+<hostnames>
+<hostname name="relay.sr-transport.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28538" rttvar="21436" to="114282"/>
+</host>
+<host starttime="1671139164" endtime="1671139313"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.116" addrtype="ipv4"/>
+<hostnames>
+<hostname name="116.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="27876" rttvar="20966" to="111740"/>
+</host>
+<host starttime="1671139164" endtime="1671139313"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.117" addrtype="ipv4"/>
+<hostnames>
+<hostname name="117.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="27974" rttvar="21112" to="112422"/>
+</host>
+<host starttime="1671139164" endtime="1671139323"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="27827" rttvar="20929" to="111543"/>
+</host>
+<host starttime="1671139164" endtime="1671139177"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28109" rttvar="21161" to="112753"/>
+</host>
+<host starttime="1671139164" endtime="1671139188"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Synology DS200-series NAS device ftpd" hostname="DS207" devicetype="storage-misc" method="probed" conf="10"/></port>
+</ports>
+<times srtt="27752" rttvar="20816" to="111016"/>
+</host>
+<host starttime="1671139164" endtime="1671139177"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.142.90" addrtype="ipv4"/>
+<hostnames>
+<hostname name="90.212-33-142.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="FileZilla ftpd" version="0.9.47 beta" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:filezilla-project:filezilla_server:0.9.47_beta</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28858" rttvar="21665" to="115518"/>
+</host>
+<host starttime="1671139164" endtime="1671139188"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.144.125" addrtype="ipv4"/>
+<hostnames>
+<hostname name="125.212-33-144.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Synology DS200-series NAS device ftpd" hostname="dss-ftp01" devicetype="storage-misc" method="probed" conf="10"/></port>
+</ports>
+<times srtt="28280" rttvar="21236" to="113224"/>
+</host>
+<host starttime="1671139164" endtime="1671139205"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" servicefp="SF-Port21-TCP:V=7.80%I=7%D=12/15%Time=639B8F6F%P=x86_64-pc-linux-gnu%r(NULL,25,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n&quot;)%r(GenericLines,63,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n500\x20:\x20command\x20not\x20understood\.\r\n500\x20:\x20command\x20not\x20understood\.\r\n&quot;)%r(Help,286,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n214-\x20The\x20following\x20commands\x20are\x20recognized\x20\(\*\x20=&gt;&apos;s\x20unimplemented\)\.\r\n\x20\x20\x20USER\x20\x20\x20\x20LPRT\x20\x20\x20\x20MODE\x20\x20\x20\x20MSOM\*\x20\x20\x20RNTO\x20\x20\x20\x20SITE\x20\x20\x20\x20RMD\x20\x20\x20\x20\x20SIZE\x20\x20\x20\x20AUTH\x20\r\n\x20\x20\x20PASS\x20\x20\x20\x20EPRT\x20\x20\x20\x20RETR\x20\x20\x20\x20MSAM\*\x20\x20\x20ABOR\x20\x20\x20\x20SYST\x20\x20\x20\x20XRMD\x20\x20\x20\x20MDTM\x20\x20\x20\x20PBSZ\x20\r\n\x20\x20\x20ACCT\*\x20\x20\x20PASV\x20\x20\x20\x20STOR\x20\x20\x20\x20MRSQ\*\x20\x20\x20DELE\x20\x20\x20\x20STAT\x20\x20\x20\x20PWD\x20\x20\x20\x20\x20MLST\x20\x20\x20\x20PROT\x20\r\n\x20\x20\x20SMNT\*\x20\x20\x20LPSV\x20\x20\x20\x20APPE\x20\x20\x20\x20MRCP\*\x20\x20\x20CWD\x20\x20\x20\x20\x20HELP\x20\x20\x20\x20XPWD\x20\x20\x20\x20MLSD\x20\x20\x20\x20CCC\x20\r\n\x20\x20\x20REIN\*\x20\x20\x20EPSV\x20\x20\x20\x20MLFL\*\x20\x20\x20ALLO\x20\x20\x20\x20XCWD\x20\x20\x20\x20NOOP\x20\x20\x20\x20CDUP\x20\x20\x20\x20MFMT\x20\r\n\x20\x20\x20QUIT\x20\x20\x20\x20TYPE\x20\x20\x20\x20MAIL\*\x20\x20\x20REST\x20\x20\x20\x20LIST\x20\x20\x20\x20MKD\x20\x20\x20\x20\x20XCUP\x20\x20\x20\x20FEAT\x20\r\n\x20\x20\x20PORT\x20\x20\x20\x20STRU\x20\x20\x20\x20MSND\*\x20\x20\x20RNFR\x20\x20\x20\x20NLST\x20\x20\x20\x20XMKD\x20\x20\x20\x20STOU\x20\x20\x20\x20OPTS\x20\r\n214\x20Direct\x20comments\x20to\x20ftp-bugs@Bjellandveien\.\r\n&quot;)%r(SSLSessionReq,46,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n500\x20\x16\x03:\x20command\x20not\x20understood\.\r\n&quot;)%r(SMBProgNeg,25,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n&quot;);" method="probed" conf="10"/></port>
+</ports>
+<times srtt="29105" rttvar="21912" to="116753"/>
+</host>
+<host starttime="1671139164" endtime="1671139177"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="miranda.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Pure-FTPd" method="probed" conf="10"><cpe>cpe:/a:pureftpd:pure-ftpd</cpe></service></port>
+</ports>
+<times srtt="28708" rttvar="21541" to="114872"/>
+</host>
+<host starttime="1671139164" endtime="1671139177"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.177" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ariel.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Pure-FTPd" method="probed" conf="10"><cpe>cpe:/a:pureftpd:pure-ftpd</cpe></service></port>
+</ports>
+<times srtt="28939" rttvar="21813" to="116191"/>
+</host>
+<host starttime="1671139164" endtime="1671139177"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.183" addrtype="ipv4"/>
+<hostnames>
+<hostname name="183.77-241-100.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29455" rttvar="22137" to="118003"/>
+</host>
+<host starttime="1671139164" endtime="1671139188"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.187" addrtype="ipv4"/>
+<hostnames>
+<hostname name="europa.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="ProFTPD" method="probed" conf="10"><cpe>cpe:/a:proftpd:proftpd</cpe></service></port>
+</ports>
+<times srtt="28869" rttvar="21824" to="116165"/>
+</host>
+<host starttime="1671139164" endtime="1671139177"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.115" addrtype="ipv4"/>
+<hostnames>
+<hostname name="115.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="FileZilla ftpd" version="0.9.41 beta" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:filezilla-project:filezilla_server:0.9.41_beta</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28019" rttvar="21014" to="112075"/>
+</host>
+<host starttime="1671139164" endtime="1671139227"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.213" addrtype="ipv4"/>
+<hostnames>
+<hostname name="213.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28869" rttvar="21689" to="115625"/>
+</host>
+<host starttime="1671139164" endtime="1671139238"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.214" addrtype="ipv4"/>
+<hostnames>
+<hostname name="214.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29520" rttvar="22151" to="118124"/>
+</host>
+<host starttime="1671139164" endtime="1671139188"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.104.70" addrtype="ipv4"/>
+<hostnames>
+<hostname name="70.77-241-104.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="29545" rttvar="22287" to="118693"/>
+</host>
+<host starttime="1671139164" endtime="1671139188"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.107.122" addrtype="ipv4"/>
+<hostnames>
+<hostname name="122.77-241-107.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="27843" rttvar="20922" to="111531"/>
+</host>
+<host starttime="1671139164" endtime="1671139188"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.211" addrtype="ipv4"/>
+<hostnames>
+<hostname name="211.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="ProFTPD" version="1.3.5e" ostype="Unix" method="probed" conf="10"><cpe>cpe:/a:proftpd:proftpd:1.3.5e</cpe></service></port>
+</ports>
+<times srtt="30830" rttvar="23286" to="123974"/>
+</host>
+<host starttime="1671139164" endtime="1671139188"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.218" addrtype="ipv4"/>
+<hostnames>
+<hostname name="218.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="30898" rttvar="23399" to="124494"/>
+</host>
+<host starttime="1671139164" endtime="1671139188"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.162" addrtype="ipv4"/>
+<hostnames>
+<hostname name="relay.sr-transport.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28490" rttvar="21395" to="114070"/>
+</host>
+<host starttime="1671139164" endtime="1671139343"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.116" addrtype="ipv4"/>
+<hostnames>
+<hostname name="116.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="27597" rttvar="20702" to="110405"/>
+</host>
+<host starttime="1671139164" endtime="1671139343"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.117" addrtype="ipv4"/>
+<hostnames>
+<hostname name="117.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="27877" rttvar="20968" to="111749"/>
+</host>
+<host starttime="1671139164" endtime="1671139343"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+</ports>
+<times srtt="27797" rttvar="20908" to="111429"/>
+</host>
+<host starttime="1671139164" endtime="1671139341"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28057" rttvar="21126" to="112561"/>
+</host>
+<host starttime="1671139164" endtime="1671139341"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Synology DS200-series NAS device ftpd" hostname="DS207" devicetype="storage-misc" method="probed" conf="10"/></port>
+</ports>
+<times srtt="27732" rttvar="20801" to="110936"/>
+</host>
+<host starttime="1671139164" endtime="1671139341"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.142.90" addrtype="ipv4"/>
+<hostnames>
+<hostname name="90.212-33-142.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="FileZilla ftpd" version="0.9.47 beta" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:filezilla-project:filezilla_server:0.9.47_beta</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28905" rttvar="21870" to="116385"/>
+</host>
+<host starttime="1671139164" endtime="1671139341"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.144.125" addrtype="ipv4"/>
+<hostnames>
+<hostname name="125.212-33-144.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Synology DS200-series NAS device ftpd" hostname="dss-ftp01" devicetype="storage-misc" method="probed" conf="10"/></port>
+</ports>
+<times srtt="28194" rttvar="21216" to="113058"/>
+</host>
+<host starttime="1671139164" endtime="1671139341"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" servicefp="SF-Port21-TCP:V=7.80%I=7%D=12/15%Time=639B8F8B%P=x86_64-pc-linux-gnu%r(NULL,25,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n&quot;)%r(GenericLines,63,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n500\x20:\x20command\x20not\x20understood\.\r\n500\x20:\x20command\x20not\x20understood\.\r\n&quot;)%r(Help,286,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n214-\x20The\x20following\x20commands\x20are\x20recognized\x20\(\*\x20=&gt;&apos;s\x20unimplemented\)\.\r\n\x20\x20\x20USER\x20\x20\x20\x20LPRT\x20\x20\x20\x20MODE\x20\x20\x20\x20MSOM\*\x20\x20\x20RNTO\x20\x20\x20\x20SITE\x20\x20\x20\x20RMD\x20\x20\x20\x20\x20SIZE\x20\x20\x20\x20AUTH\x20\r\n\x20\x20\x20PASS\x20\x20\x20\x20EPRT\x20\x20\x20\x20RETR\x20\x20\x20\x20MSAM\*\x20\x20\x20ABOR\x20\x20\x20\x20SYST\x20\x20\x20\x20XRMD\x20\x20\x20\x20MDTM\x20\x20\x20\x20PBSZ\x20\r\n\x20\x20\x20ACCT\*\x20\x20\x20PASV\x20\x20\x20\x20STOR\x20\x20\x20\x20MRSQ\*\x20\x20\x20DELE\x20\x20\x20\x20STAT\x20\x20\x20\x20PWD\x20\x20\x20\x20\x20MLST\x20\x20\x20\x20PROT\x20\r\n\x20\x20\x20SMNT\*\x20\x20\x20LPSV\x20\x20\x20\x20APPE\x20\x20\x20\x20MRCP\*\x20\x20\x20CWD\x20\x20\x20\x20\x20HELP\x20\x20\x20\x20XPWD\x20\x20\x20\x20MLSD\x20\x20\x20\x20CCC\x20\r\n\x20\x20\x20REIN\*\x20\x20\x20EPSV\x20\x20\x20\x20MLFL\*\x20\x20\x20ALLO\x20\x20\x20\x20XCWD\x20\x20\x20\x20NOOP\x20\x20\x20\x20CDUP\x20\x20\x20\x20MFMT\x20\r\n\x20\x20\x20QUIT\x20\x20\x20\x20TYPE\x20\x20\x20\x20MAIL\*\x20\x20\x20REST\x20\x20\x20\x20LIST\x20\x20\x20\x20MKD\x20\x20\x20\x20\x20XCUP\x20\x20\x20\x20FEAT\x20\r\n\x20\x20\x20PORT\x20\x20\x20\x20STRU\x20\x20\x20\x20MSND\*\x20\x20\x20RNFR\x20\x20\x20\x20NLST\x20\x20\x20\x20XMKD\x20\x20\x20\x20STOU\x20\x20\x20\x20OPTS\x20\r\n214\x20Direct\x20comments\x20to\x20ftp-bugs@Bjellandveien\.\r\n&quot;)%r(SSLSessionReq,46,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n500\x20\x16\x03:\x20command\x20not\x20understood\.\r\n&quot;)%r(SMBProgNeg,25,&quot;220\x20Bjellandveien\x20FTP\x20server\x20ready\.\r\n&quot;);" method="probed" conf="10"/></port>
+</ports>
+<times srtt="29011" rttvar="21853" to="116423"/>
+</host>
+<host starttime="1671139164" endtime="1671139341"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="miranda.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Pure-FTPd" method="probed" conf="10"><cpe>cpe:/a:pureftpd:pure-ftpd</cpe></service></port>
+</ports>
+<times srtt="28711" rttvar="21538" to="114863"/>
+</host>
+<host starttime="1671139164" endtime="1671139341"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.177" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ariel.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Pure-FTPd" method="probed" conf="10"><cpe>cpe:/a:pureftpd:pure-ftpd</cpe></service></port>
+</ports>
+<times srtt="28902" rttvar="21778" to="116014"/>
+</host>
+<host starttime="1671139164" endtime="1671139341"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.183" addrtype="ipv4"/>
+<hostnames>
+<hostname name="183.77-241-100.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="30373" rttvar="23021" to="122457"/>
+</host>
+<host starttime="1671139164" endtime="1671139341"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.187" addrtype="ipv4"/>
+<hostnames>
+<hostname name="europa.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="ProFTPD" method="probed" conf="10"><cpe>cpe:/a:proftpd:proftpd</cpe></service></port>
+</ports>
+<times srtt="28766" rttvar="21675" to="115466"/>
+</host>
+<host starttime="1671139164" endtime="1671139341"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.115" addrtype="ipv4"/>
+<hostnames>
+<hostname name="115.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="FileZilla ftpd" version="0.9.41 beta" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:filezilla-project:filezilla_server:0.9.41_beta</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="27995" rttvar="21006" to="112019"/>
+</host>
+<host starttime="1671139164" endtime="1671139342"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.213" addrtype="ipv4"/>
+<hostnames>
+<hostname name="213.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29604" rttvar="22223" to="118496"/>
+</host>
+<host starttime="1671139164" endtime="1671139342"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.214" addrtype="ipv4"/>
+<hostnames>
+<hostname name="214.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29484" rttvar="22123" to="117976"/>
+</host>
+<host starttime="1671139164" endtime="1671139341"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.104.70" addrtype="ipv4"/>
+<hostnames>
+<hostname name="70.77-241-104.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" servicefp="SF-Port21-TCP:V=7.80%I=7%D=12/15%Time=639B8F96%P=x86_64-pc-linux-gnu%r(NULL,3F,&quot;220\x20Core\x20FTP\x20Server\x20Version\x202\.0,\x20build\x20645,\x2064-bit\x20Registered\r\n&quot;)%r(GenericLines,91,&quot;220\x20Core\x20FTP\x20Server\x20Version\x202\.0,\x20build\x20645,\x2064-bit\x20Registered\r\n502\x20Command\x20unknown\x20or\x20not\x20supported\.\.\.\r\n502\x20Command\x20unknown\x20or\x20not\x20supported\.\.\.\r\n&quot;)%r(Help,167,&quot;220\x20Core\x20FTP\x20Server\x20Version\x202\.0,\x20build\x20645,\x2064-bit\x20Registered\r\n214-The\x20following\x20commands\x20are\x20implemented\r\n\x20\x20\x20\x20\x20USER\x20\x20PASS\x20\x20ACCT\x20\x20QUIT\x20\x20PORT\x20\x20RETR\r\n\x20\x20\x20\x20\x20STOR\x20\x20DELE\x20\x20RNFR\x20\x20PWD\x20\x20\x20CWD\x20\x20\x20CDUP\r\n\x20\x20\x20\x20\x20MKD\x20\x20\x20RMD\x20\x20\x20NOOP\x20\x20TYPE\x20\x20MODE\x20\x20STRU\r\n\x20\x20\x20\x20\x20LIST\x20\x20HELP\x20\x20FEAT\t\x20UTF8\x20\x20PASV\x20\x20ABORT\r\n\x20\x20\x20\x20\x20MDTM\x20\x20REST\x20\x20PBSZ\x20\x20PROT\x20\x20OPTS\x20\x20CCC\r\n\x20\x20\x20\x20\x20XCRC\x20\x20SIZE\r\n214\x20\x20HELP\x20command\x20successful\r\n&quot;);" method="probed" conf="10"/></port>
+</ports>
+<times srtt="29554" rttvar="22205" to="118374"/>
+</host>
+<host starttime="1671139164" endtime="1671139341"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.107.122" addrtype="ipv4"/>
+<hostnames>
+<hostname name="122.77-241-107.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28009" rttvar="21100" to="112409"/>
+</host>
+<host starttime="1671139164" endtime="1671139341"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.211" addrtype="ipv4"/>
+<hostnames>
+<hostname name="211.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="ProFTPD" version="1.3.5e" ostype="Unix" method="probed" conf="10"><cpe>cpe:/a:proftpd:proftpd:1.3.5e</cpe></service></port>
+</ports>
+<times srtt="30858" rttvar="23144" to="123434"/>
+</host>
+<host starttime="1671139164" endtime="1671139341"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.218" addrtype="ipv4"/>
+<hostnames>
+<hostname name="218.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="30788" rttvar="23101" to="123192"/>
+</host>
+<host starttime="1671139164" endtime="1671139341"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.162" addrtype="ipv4"/>
+<hostnames>
+<hostname name="relay.sr-transport.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" product="Microsoft ftpd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:ftp_service</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28440" rttvar="21411" to="114084"/>
+</host>
+<runstats><finished time="1671139343" timestr="Thu Dec 15 21:22:23 2022" elapsed="178.94" summary="Nmap done at Thu Dec 15 21:22:23 2022; 100 IP addresses (80 hosts up) scanned in 178.94 seconds" exit="success"/><hosts up="80" down="20" total="100"/>
+</runstats>
+</nmaprun>

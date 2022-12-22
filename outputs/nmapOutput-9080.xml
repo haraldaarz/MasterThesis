@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:27:57 2022 as: nmap -sV -iL ports/9080.txt -p 9080 -oX outputs/nmapOutput-9080.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/9080.txt -p 9080 -oX outputs/nmapOutput-9080.xml" start="1671143277" startstr="Thu Dec 15 22:27:57 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="9080"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671143277" endtime="1671143296"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="9080"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ms-wbt-server" product="Microsoft Terminal Services" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29580" rttvar="22335" to="118920"/>
+</host>
+<host starttime="1671143277" endtime="1671143284"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.226" addrtype="ipv4"/>
+<hostnames>
+<hostname name="226.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="9080"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.2.22" extrainfo="(Debian)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.2.22</cpe></service></port>
+</ports>
+<times srtt="30142" rttvar="22728" to="121054"/>
+</host>
+<host starttime="1671143277" endtime="1671143296"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="9080"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ms-wbt-server" product="Microsoft Terminal Services" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29522" rttvar="22295" to="118702"/>
+</host>
+<host starttime="1671143277" endtime="1671143284"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.226" addrtype="ipv4"/>
+<hostnames>
+<hostname name="226.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="9080"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.2.22" extrainfo="(Debian)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.2.22</cpe></service></port>
+</ports>
+<times srtt="29539" rttvar="22380" to="119059"/>
+</host>
+<host starttime="1671143277" endtime="1671143296"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="9080"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ms-wbt-server" product="Microsoft Terminal Services" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29673" rttvar="22403" to="119285"/>
+</host>
+<host starttime="1671143277" endtime="1671143284"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.226" addrtype="ipv4"/>
+<hostnames>
+<hostname name="226.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="9080"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.2.22" extrainfo="(Debian)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.2.22</cpe></service></port>
+</ports>
+<times srtt="29604" rttvar="22587" to="119952"/>
+</host>
+<host starttime="1671143277" endtime="1671143298"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="9080"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ms-wbt-server" product="Microsoft Terminal Services" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29776" rttvar="22561" to="120020"/>
+</host>
+<host starttime="1671143277" endtime="1671143299"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.226" addrtype="ipv4"/>
+<hostnames>
+<hostname name="226.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="9080"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.2.22" extrainfo="(Debian)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.2.22</cpe></service></port>
+</ports>
+<times srtt="30416" rttvar="23048" to="122608"/>
+</host>
+<runstats><finished time="1671143299" timestr="Thu Dec 15 22:28:19 2022" elapsed="22.23" summary="Nmap done at Thu Dec 15 22:28:19 2022; 8 IP addresses (8 hosts up) scanned in 22.23 seconds" exit="success"/><hosts up="8" down="0" total="8"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:11:11 2022 as: nmap -sV -iL ports/8090.txt -p 8090 -oX outputs/nmapOutput-8090.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/8090.txt -p 8090 -oX outputs/nmapOutput-8090.xml" start="1671142271" startstr="Thu Dec 15 22:11:11 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="8090"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671142271" endtime="1671142284"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.139.94" addrtype="ipv4"/>
+<hostnames>
+<hostname name="94.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8090"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28937" rttvar="21974" to="116833"/>
+</host>
+<host starttime="1671142271" endtime="1671142284"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.158.58" addrtype="ipv4"/>
+<hostnames>
+<hostname name="58.212-33-158.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8090"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<times srtt="29106" rttvar="21935" to="116846"/>
+</host>
+<host starttime="1671142271" endtime="1671142284"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.139.94" addrtype="ipv4"/>
+<hostnames>
+<hostname name="94.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8090"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28919" rttvar="21964" to="116775"/>
+</host>
+<host starttime="1671142271" endtime="1671142284"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.158.58" addrtype="ipv4"/>
+<hostnames>
+<hostname name="58.212-33-158.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8090"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<times srtt="29870" rttvar="22692" to="120638"/>
+</host>
+<host starttime="1671142271" endtime="1671142284"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.139.94" addrtype="ipv4"/>
+<hostnames>
+<hostname name="94.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8090"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28900" rttvar="21953" to="116712"/>
+</host>
+<host starttime="1671142271" endtime="1671142284"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.158.58" addrtype="ipv4"/>
+<hostnames>
+<hostname name="58.212-33-158.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8090"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<times srtt="29762" rttvar="22609" to="120198"/>
+</host>
+<host starttime="1671142271" endtime="1671142285"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.139.94" addrtype="ipv4"/>
+<hostnames>
+<hostname name="94.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8090"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28863" rttvar="21923" to="116555"/>
+</host>
+<host starttime="1671142271" endtime="1671142285"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.158.58" addrtype="ipv4"/>
+<hostnames>
+<hostname name="58.212-33-158.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8090"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<times srtt="29738" rttvar="22599" to="120134"/>
+</host>
+<runstats><finished time="1671142285" timestr="Thu Dec 15 22:11:25 2022" elapsed="14.18" summary="Nmap done at Thu Dec 15 22:11:25 2022; 12 IP addresses (8 hosts up) scanned in 14.18 seconds" exit="success"/><hosts up="8" down="4" total="12"/>
+</runstats>
+</nmaprun>

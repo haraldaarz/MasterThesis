@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:08:14 2022 as: nmap -sV -iL ports/993.txt -p 993 -oX outputs/nmapOutput-993.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/993.txt -p 993 -oX outputs/nmapOutput-993.xml" start="1671142094" startstr="Thu Dec 15 22:08:14 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="993"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671142094" endtime="1671142102"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.177" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ariel.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="993"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" product="Dovecot imapd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service></port>
+</ports>
+<times srtt="28744" rttvar="21585" to="115084"/>
+</host>
+<host starttime="1671142094" endtime="1671142102"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.177" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ariel.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="993"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" product="Dovecot imapd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service></port>
+</ports>
+<times srtt="28732" rttvar="21557" to="114960"/>
+</host>
+<host starttime="1671142094" endtime="1671142102"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.177" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ariel.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="993"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" product="Dovecot imapd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service></port>
+</ports>
+<times srtt="28696" rttvar="21529" to="114812"/>
+</host>
+<host starttime="1671142094" endtime="1671142102"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.177" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ariel.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="993"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" product="Dovecot imapd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service></port>
+</ports>
+<times srtt="28669" rttvar="21508" to="114701"/>
+</host>
+<runstats><finished time="1671142102" timestr="Thu Dec 15 22:08:22 2022" elapsed="8.05" summary="Nmap done at Thu Dec 15 22:08:22 2022; 12 IP addresses (4 hosts up) scanned in 8.05 seconds" exit="success"/><hosts up="4" down="8" total="12"/>
+</runstats>
+</nmaprun>

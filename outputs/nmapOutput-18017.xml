@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Fri Dec 16 00:05:53 2022 as: nmap -sV -iL ports/18017.txt -p 18017 -oX outputs/nmapOutput-18017.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/18017.txt -p 18017 -oX outputs/nmapOutput-18017.xml" start="1671149153" startstr="Fri Dec 16 00:05:53 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="18017"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671149153" endtime="1671149159"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.134.46" addrtype="ipv4"/>
+<hostnames>
+<hostname name="46.212-33-134.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="18017"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Asus wanduck WAN monitor httpd" method="probed" conf="10"/></port>
+</ports>
+<times srtt="28175" rttvar="21160" to="112815"/>
+</host>
+<host starttime="1671149153" endtime="1671149159"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.134.46" addrtype="ipv4"/>
+<hostnames>
+<hostname name="46.212-33-134.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="18017"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Asus wanduck WAN monitor httpd" method="probed" conf="10"/></port>
+</ports>
+<times srtt="27989" rttvar="21052" to="112197"/>
+</host>
+<host starttime="1671149153" endtime="1671149159"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.134.46" addrtype="ipv4"/>
+<hostnames>
+<hostname name="46.212-33-134.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="18017"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Asus wanduck WAN monitor httpd" method="probed" conf="10"/></port>
+</ports>
+<times srtt="28215" rttvar="21179" to="112931"/>
+</host>
+<host starttime="1671149153" endtime="1671149161"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.134.46" addrtype="ipv4"/>
+<hostnames>
+<hostname name="46.212-33-134.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="18017"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Asus wanduck WAN monitor httpd" method="probed" conf="10"/></port>
+</ports>
+<times srtt="27913" rttvar="20973" to="111805"/>
+</host>
+<runstats><finished time="1671149161" timestr="Fri Dec 16 00:06:01 2022" elapsed="8.14" summary="Nmap done at Fri Dec 16 00:06:01 2022; 4 IP addresses (4 hosts up) scanned in 8.14 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

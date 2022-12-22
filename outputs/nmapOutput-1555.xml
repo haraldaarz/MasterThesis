@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Fri Dec 16 00:13:23 2022 as: nmap -sV -iL ports/1555.txt -p 1555 -oX outputs/nmapOutput-1555.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/1555.txt -p 1555 -oX outputs/nmapOutput-1555.xml" start="1671149603" startstr="Fri Dec 16 00:13:23 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="1555"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671149603" endtime="1671149625"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.141.198" addrtype="ipv4"/>
+<hostnames>
+<hostname name="198.212-33-141.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1555"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="rtsp" product="Apple AirTunes rtspd" ostype="Mac OS X" method="probed" conf="10"><cpe>cpe:/o:apple:mac_os_x</cpe></service></port>
+</ports>
+<times srtt="30712" rttvar="23093" to="123084"/>
+</host>
+<host starttime="1671149603" endtime="1671149625"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.141.198" addrtype="ipv4"/>
+<hostnames>
+<hostname name="198.212-33-141.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1555"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="rtsp" product="Apple AirTunes rtspd" ostype="Mac OS X" method="probed" conf="10"><cpe>cpe:/o:apple:mac_os_x</cpe></service></port>
+</ports>
+<times srtt="30583" rttvar="23036" to="122727"/>
+</host>
+<host starttime="1671149603" endtime="1671149625"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.141.198" addrtype="ipv4"/>
+<hostnames>
+<hostname name="198.212-33-141.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1555"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="rtsp" product="Apple AirTunes rtspd" ostype="Mac OS X" method="probed" conf="10"><cpe>cpe:/o:apple:mac_os_x</cpe></service></port>
+</ports>
+<times srtt="30477" rttvar="22966" to="122341"/>
+</host>
+<host starttime="1671149603" endtime="1671149625"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.141.198" addrtype="ipv4"/>
+<hostnames>
+<hostname name="198.212-33-141.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1555"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="rtsp" product="Apple AirTunes rtspd" ostype="Mac OS X" method="probed" conf="10"><cpe>cpe:/o:apple:mac_os_x</cpe></service></port>
+</ports>
+<times srtt="30457" rttvar="22950" to="122257"/>
+</host>
+<runstats><finished time="1671149625" timestr="Fri Dec 16 00:13:45 2022" elapsed="21.72" summary="Nmap done at Fri Dec 16 00:13:45 2022; 4 IP addresses (4 hosts up) scanned in 21.72 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

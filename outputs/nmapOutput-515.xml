@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 23:18:44 2022 as: nmap -sV -iL ports/515.txt -p 515 -oX outputs/nmapOutput-515.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/515.txt -p 515 -oX outputs/nmapOutput-515.xml" start="1671146324" startstr="Thu Dec 15 23:18:44 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="515"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671146324" endtime="1671146330"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="printer" method="probed" conf="10"/></port>
+</ports>
+<times srtt="27839" rttvar="20953" to="111651"/>
+</host>
+<host starttime="1671146324" endtime="1671146331"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="printer" method="probed" conf="10"/></port>
+</ports>
+<times srtt="27988" rttvar="21055" to="112208"/>
+</host>
+<host starttime="1671146324" endtime="1671146330"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="printer" method="probed" conf="10"/></port>
+</ports>
+<times srtt="27883" rttvar="20973" to="111775"/>
+</host>
+<host starttime="1671146324" endtime="1671146331"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="515"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="printer" method="probed" conf="10"/></port>
+</ports>
+<times srtt="27858" rttvar="20963" to="111710"/>
+</host>
+<runstats><finished time="1671146331" timestr="Thu Dec 15 23:18:51 2022" elapsed="6.89" summary="Nmap done at Thu Dec 15 23:18:51 2022; 4 IP addresses (4 hosts up) scanned in 6.89 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

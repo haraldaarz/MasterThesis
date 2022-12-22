@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:00:23 2022 as: nmap -sV -iL ports/5985.txt -p 5985 -oX outputs/nmapOutput-5985.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/5985.txt -p 5985 -oX outputs/nmapOutput-5985.xml" start="1671141623" startstr="Thu Dec 15 22:00:23 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="5985"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671141623" endtime="1671141629"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28093" rttvar="21148" to="112685"/>
+</host>
+<host starttime="1671141623" endtime="1671141629"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.68" addrtype="ipv4"/>
+<hostnames>
+<hostname name="68.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28234" rttvar="21198" to="113026"/>
+</host>
+<host starttime="1671141623" endtime="1671141629"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28676" rttvar="21577" to="114984"/>
+</host>
+<host starttime="1671141623" endtime="1671141629"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.162" addrtype="ipv4"/>
+<hostnames>
+<hostname name="relay.sr-transport.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28413" rttvar="21310" to="113653"/>
+</host>
+<host starttime="1671141623" endtime="1671141629"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28064" rttvar="21126" to="112568"/>
+</host>
+<host starttime="1671141623" endtime="1671141629"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.68" addrtype="ipv4"/>
+<hostnames>
+<hostname name="68.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28631" rttvar="21665" to="115291"/>
+</host>
+<host starttime="1671141623" endtime="1671141629"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28990" rttvar="21864" to="116446"/>
+</host>
+<host starttime="1671141623" endtime="1671141629"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.96.162" addrtype="ipv4"/>
+<hostnames>
+<hostname name="relay.sr-transport.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28239" rttvar="21263" to="113291"/>
+</host>
+<host starttime="1671141623" endtime="1671141629"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28038" rttvar="21102" to="112446"/>
+</host>
+<host starttime="1671141623" endtime="1671141629"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.68" addrtype="ipv4"/>
+<hostnames>
+<hostname name="68.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28658" rttvar="21522" to="114746"/>
+</host>
+<host starttime="1671141623" endtime="1671141629"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29203" rttvar="22127" to="117711"/>
+</host>
+<host starttime="1671141623" endtime="1671141629"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.96.162" addrtype="ipv4"/>
+<hostnames>
+<hostname name="relay.sr-transport.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28185" rttvar="21217" to="113053"/>
+</host>
+<host starttime="1671141623" endtime="1671141630"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="27881" rttvar="21021" to="111965"/>
+</host>
+<host starttime="1671141623" endtime="1671141630"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.68" addrtype="ipv4"/>
+<hostnames>
+<hostname name="68.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28619" rttvar="21521" to="114703"/>
+</host>
+<host starttime="1671141623" endtime="1671141630"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29180" rttvar="22109" to="117616"/>
+</host>
+<host starttime="1671141623" endtime="1671141630"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.96.162" addrtype="ipv4"/>
+<hostnames>
+<hostname name="relay.sr-transport.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28213" rttvar="21229" to="113129"/>
+</host>
+<runstats><finished time="1671141630" timestr="Thu Dec 15 22:00:30 2022" elapsed="7.52" summary="Nmap done at Thu Dec 15 22:00:30 2022; 16 IP addresses (16 hosts up) scanned in 7.52 seconds" exit="success"/><hosts up="16" down="0" total="16"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Fri Dec 16 00:22:28 2022 as: nmap -sV -iL ports/10118.txt -p 10118 -oX outputs/nmapOutput-10118.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/10118.txt -p 10118 -oX outputs/nmapOutput-10118.xml" start="1671150148" startstr="Fri Dec 16 00:22:28 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="10118"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<runstats><finished time="1671150151" timestr="Fri Dec 16 00:22:31 2022" elapsed="3.34" summary="Nmap done at Fri Dec 16 00:22:31 2022; 4 IP addresses (0 hosts up) scanned in 3.34 seconds" exit="success"/><hosts up="0" down="4" total="4"/>
+</runstats>
+</nmaprun>

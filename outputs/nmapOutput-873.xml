@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 23:01:28 2022 as: nmap -sV -iL ports/873.txt -p 873 -oX outputs/nmapOutput-873.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/873.txt -p 873 -oX outputs/nmapOutput-873.xml" start="1671145288" startstr="Thu Dec 15 23:01:28 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="873"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671145288" endtime="1671145294"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="873"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="rsync" method="probed" conf="10"/></port>
+</ports>
+<times srtt="28631" rttvar="21830" to="115951"/>
+</host>
+<host starttime="1671145288" endtime="1671145294"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="873"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="rsync" method="probed" conf="10"/></port>
+</ports>
+<times srtt="28778" rttvar="21951" to="116582"/>
+</host>
+<host starttime="1671145288" endtime="1671145294"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="873"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="rsync" method="probed" conf="10"/></port>
+</ports>
+<times srtt="28678" rttvar="21854" to="116094"/>
+</host>
+<host starttime="1671145288" endtime="1671145294"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="873"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="rsync" method="probed" conf="10"/></port>
+</ports>
+<times srtt="28649" rttvar="21840" to="116009"/>
+</host>
+<runstats><finished time="1671145294" timestr="Thu Dec 15 23:01:34 2022" elapsed="6.57" summary="Nmap done at Thu Dec 15 23:01:34 2022; 4 IP addresses (4 hosts up) scanned in 6.57 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

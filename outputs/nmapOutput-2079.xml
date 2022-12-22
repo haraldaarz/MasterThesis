@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Fri Dec 16 00:02:24 2022 as: nmap -sV -iL ports/2079.txt -p 2079 -oX outputs/nmapOutput-2079.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/2079.txt -p 2079 -oX outputs/nmapOutput-2079.xml" start="1671148944" startstr="Fri Dec 16 00:02:24 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="2079"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671148944" endtime="1671149094"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.187" addrtype="ipv4"/>
+<hostnames>
+<hostname name="europa.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2079"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="idware-router" servicefp="SF-Port2079-TCP:V=7.80%I=7%D=12/16%Time=639BB5F3%P=x86_64-pc-linux-gnu%r(SIPOptions,165,&quot;HTTP/1\.1\x20302\x20Moved\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:04:03\x20GMT\r\nServer:\x20cPanel\r\nPersistent-Auth:\x20false\r\nHost:\x20europa\.inbusiness\.no:2079\r\nCache-Control:\x20no-cache,\x20no-store,\x20must-revalidate,\x20private\r\nConnection:\x20close\r\nLocation:\x20https://europa\.inbusiness\.no:2080sip:nm\r\nVary:\x20Accept-Encoding\r\nExpires:\x20Fri,\x2001\x20Jan\x201990\x2000:00:00\x20GMT\r\nX-Redirect-Reason:\x20requiressl\r\n\r\n&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="28832" rttvar="21681" to="115556"/>
+</host>
+<host starttime="1671148944" endtime="1671149094"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.187" addrtype="ipv4"/>
+<hostnames>
+<hostname name="europa.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2079"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="idware-router" servicefp="SF-Port2079-TCP:V=7.80%I=7%D=12/16%Time=639BB5F3%P=x86_64-pc-linux-gnu%r(SIPOptions,165,&quot;HTTP/1\.1\x20302\x20Moved\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:04:03\x20GMT\r\nServer:\x20cPanel\r\nPersistent-Auth:\x20false\r\nHost:\x20europa\.inbusiness\.no:2079\r\nCache-Control:\x20no-cache,\x20no-store,\x20must-revalidate,\x20private\r\nConnection:\x20close\r\nLocation:\x20https://europa\.inbusiness\.no:2080sip:nm\r\nVary:\x20Accept-Encoding\r\nExpires:\x20Fri,\x2001\x20Jan\x201990\x2000:00:00\x20GMT\r\nX-Redirect-Reason:\x20requiressl\r\n\r\n&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="28979" rttvar="21779" to="116095"/>
+</host>
+<host starttime="1671148944" endtime="1671149094"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.187" addrtype="ipv4"/>
+<hostnames>
+<hostname name="europa.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2079"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="idware-router" servicefp="SF-Port2079-TCP:V=7.80%I=7%D=12/16%Time=639BB5F3%P=x86_64-pc-linux-gnu%r(SIPOptions,165,&quot;HTTP/1\.1\x20302\x20Moved\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:04:03\x20GMT\r\nServer:\x20cPanel\r\nPersistent-Auth:\x20false\r\nHost:\x20europa\.inbusiness\.no:2079\r\nCache-Control:\x20no-cache,\x20no-store,\x20must-revalidate,\x20private\r\nConnection:\x20close\r\nLocation:\x20https://europa\.inbusiness\.no:2080sip:nm\r\nVary:\x20Accept-Encoding\r\nExpires:\x20Fri,\x2001\x20Jan\x201990\x2000:00:00\x20GMT\r\nX-Redirect-Reason:\x20requiressl\r\n\r\n&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="28877" rttvar="21698" to="115669"/>
+</host>
+<host starttime="1671148944" endtime="1671149095"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.187" addrtype="ipv4"/>
+<hostnames>
+<hostname name="europa.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2079"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="idware-router" servicefp="SF-Port2079-TCP:V=7.80%I=7%D=12/16%Time=639BB5F3%P=x86_64-pc-linux-gnu%r(SIPOptions,165,&quot;HTTP/1\.1\x20302\x20Moved\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:04:03\x20GMT\r\nServer:\x20cPanel\r\nPersistent-Auth:\x20false\r\nHost:\x20europa\.inbusiness\.no:2079\r\nCache-Control:\x20no-cache,\x20no-store,\x20must-revalidate,\x20private\r\nConnection:\x20close\r\nLocation:\x20https://europa\.inbusiness\.no:2080sip:nm\r\nVary:\x20Accept-Encoding\r\nExpires:\x20Fri,\x2001\x20Jan\x201990\x2000:00:00\x20GMT\r\nX-Redirect-Reason:\x20requiressl\r\n\r\n&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="28851" rttvar="21687" to="115599"/>
+</host>
+<runstats><finished time="1671149095" timestr="Fri Dec 16 00:04:55 2022" elapsed="151.26" summary="Nmap done at Fri Dec 16 00:04:55 2022; 4 IP addresses (4 hosts up) scanned in 151.26 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 21:32:28 2022 as: nmap -sV -iL ports/25.txt -p 25 -oX outputs/nmapOutput-25.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/25.txt -p 25 -oX outputs/nmapOutput-25.xml" start="1671139948" startstr="Thu Dec 15 21:32:28 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="25"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671139949" endtime="1671140105"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.115" addrtype="ipv4"/>
+<hostnames>
+<hostname name="115.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+</ports>
+<times srtt="27919" rttvar="20968" to="111791"/>
+</host>
+<host starttime="1671139949" endtime="1671139950"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.134.146" addrtype="ipv4"/>
+<hostnames>
+<hostname name="146.212-33-134.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="remote.tema-norge.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28823" rttvar="21685" to="115563"/>
+</host>
+<host starttime="1671139949" endtime="1671139950"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.194" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.agendec.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="AGDEXCH01.intern.agendec.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28336" rttvar="21460" to="114176"/>
+</host>
+<host starttime="1671139949" endtime="1671139951"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.143.46" addrtype="ipv4"/>
+<hostnames>
+<hostname name="46.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="remote.nodland-ror.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="34158" rttvar="26046" to="138342"/>
+</host>
+<host starttime="1671139949" endtime="1671139981"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.205" addrtype="ipv4"/>
+<hostnames>
+<hostname name="205.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" servicefp="SF-Port25-TCP:V=7.80%I=7%D=12/15%Time=639B9274%P=x86_64-pc-linux-gnu%r(NULL,23,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n&quot;)%r(Hello,4F,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n501\x20Syntactically\x20invalid\x20EHLO\x20argument\(s\)\r\n&quot;)%r(Help,81,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n214-Commands\x20supported:\r\n214\x20AUTH\x20STARTTLS\x20HELO\x20EHLO\x20MAIL\x20RCPT\x20DATA\x20BDAT\x20NOOP\x20QUIT\x20RSET\x20HELP\r\n&quot;)%r(GenericLines,57,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n500\x20unrecognized\x20command\r\n500\x20unrecognized\x20command\r\n&quot;)%r(GetRequest,57,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n500\x20unrecognized\x20command\r\n500\x20unrecognized\x20command\r\n&quot;);" method="probed" conf="10"/></port>
+</ports>
+<times srtt="37825" rttvar="31250" to="162825"/>
+</host>
+<host starttime="1671139949" endtime="1671139950"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="test.inlead.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="DC1.test.inlead.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28142" rttvar="21178" to="112854"/>
+</host>
+<host starttime="1671139949" endtime="1671139981"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.80" addrtype="ipv4"/>
+<hostnames>
+<hostname name="80.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" servicefp="SF-Port25-TCP:V=7.80%I=7%D=12/15%Time=639B9274%P=x86_64-pc-linux-gnu%r(NULL,23,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n&quot;)%r(Hello,4F,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n501\x20Syntactically\x20invalid\x20EHLO\x20argument\(s\)\r\n&quot;)%r(Help,81,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n214-Commands\x20supported:\r\n214\x20AUTH\x20STARTTLS\x20HELO\x20EHLO\x20MAIL\x20RCPT\x20DATA\x20BDAT\x20NOOP\x20QUIT\x20RSET\x20HELP\r\n&quot;)%r(GenericLines,57,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n500\x20unrecognized\x20command\r\n500\x20unrecognized\x20command\r\n&quot;)%r(GetRequest,57,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n500\x20unrecognized\x20command\r\n500\x20unrecognized\x20command\r\n&quot;);" method="probed" conf="10"/></port>
+</ports>
+<times srtt="30706" rttvar="23104" to="123122"/>
+</host>
+<host starttime="1671139949" endtime="1671139981"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.148.82" addrtype="ipv4"/>
+<hostnames>
+<hostname name="82.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" servicefp="SF-Port25-TCP:V=7.80%I=7%D=12/15%Time=639B9274%P=x86_64-pc-linux-gnu%r(NULL,23,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n&quot;)%r(Hello,4F,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n501\x20Syntactically\x20invalid\x20EHLO\x20argument\(s\)\r\n&quot;)%r(Help,81,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n214-Commands\x20supported:\r\n214\x20AUTH\x20STARTTLS\x20HELO\x20EHLO\x20MAIL\x20RCPT\x20DATA\x20BDAT\x20NOOP\x20QUIT\x20RSET\x20HELP\r\n&quot;)%r(GenericLines,57,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n500\x20unrecognized\x20command\r\n500\x20unrecognized\x20command\r\n&quot;)%r(GetRequest,57,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n500\x20unrecognized\x20command\r\n500\x20unrecognized\x20command\r\n&quot;);" method="probed" conf="10"/></port>
+</ports>
+<times srtt="30492" rttvar="22958" to="122324"/>
+</host>
+<host starttime="1671139949" endtime="1671140115"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="miranda.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28866" rttvar="21733" to="115798"/>
+</host>
+<host starttime="1671139949" endtime="1671140115"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.177" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ariel.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28635" rttvar="21500" to="114635"/>
+</host>
+<host starttime="1671139949" endtime="1671140115"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.187" addrtype="ipv4"/>
+<hostnames>
+<hostname name="europa.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28957" rttvar="21838" to="116309"/>
+</host>
+<host starttime="1671139949" endtime="1671139981"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" servicefp="SF-Port25-TCP:V=7.80%I=7%D=12/15%Time=639B9274%P=x86_64-pc-linux-gnu%r(NULL,2F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n&quot;)%r(Hello,4F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n&quot;)%r(Help,4F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n&quot;)%r(GenericLines,6F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n&quot;)%r(GetRequest,6F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n&quot;);" method="probed" conf="10"/></port>
+</ports>
+<times srtt="28812" rttvar="21668" to="115484"/>
+</host>
+<host starttime="1671139949" endtime="1671139950"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.103.254" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.bergen-plastics.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="mail.bergen-plastics.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="32362" rttvar="24433" to="130094"/>
+</host>
+<host starttime="1671139949" endtime="1671139950"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.120" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.itasp.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange 2010 smtpd" extrainfo="not available" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server:2010</cpe></service></port>
+</ports>
+<times srtt="28506" rttvar="21447" to="114294"/>
+</host>
+<host starttime="1671139949" endtime="1671139950"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.165" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.sr-transport.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="SRGMail.SR-Transport.local" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28897" rttvar="21735" to="115837"/>
+</host>
+<host starttime="1671139949" endtime="1671140105"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.115" addrtype="ipv4"/>
+<hostnames>
+<hostname name="115.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+</ports>
+<times srtt="27909" rttvar="20967" to="111777"/>
+</host>
+<host starttime="1671139949" endtime="1671139950"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.134.146" addrtype="ipv4"/>
+<hostnames>
+<hostname name="146.212-33-134.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="remote.tema-norge.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28973" rttvar="21814" to="116229"/>
+</host>
+<host starttime="1671139949" endtime="1671139950"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.194" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.agendec.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="AGDEXCH01.intern.agendec.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28276" rttvar="21271" to="113360"/>
+</host>
+<host starttime="1671139949" endtime="1671139951"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.143.46" addrtype="ipv4"/>
+<hostnames>
+<hostname name="46.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="remote.nodland-ror.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="34051" rttvar="25613" to="136503"/>
+</host>
+<host starttime="1671139949" endtime="1671139981"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.205" addrtype="ipv4"/>
+<hostnames>
+<hostname name="205.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" servicefp="SF-Port25-TCP:V=7.80%I=7%D=12/15%Time=639B9274%P=x86_64-pc-linux-gnu%r(NULL,23,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n&quot;)%r(Hello,4F,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n501\x20Syntactically\x20invalid\x20EHLO\x20argument\(s\)\r\n&quot;)%r(Help,81,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n214-Commands\x20supported:\r\n214\x20AUTH\x20STARTTLS\x20HELO\x20EHLO\x20MAIL\x20RCPT\x20DATA\x20BDAT\x20NOOP\x20QUIT\x20RSET\x20HELP\r\n&quot;)%r(GenericLines,57,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n500\x20unrecognized\x20command\r\n500\x20unrecognized\x20command\r\n&quot;)%r(GetRequest,57,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n500\x20unrecognized\x20command\r\n500\x20unrecognized\x20command\r\n&quot;);" method="probed" conf="10"/></port>
+</ports>
+<times srtt="37796" rttvar="31228" to="162708"/>
+</host>
+<host starttime="1671139949" endtime="1671139950"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="test.inlead.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="DC1.test.inlead.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28782" rttvar="21690" to="115542"/>
+</host>
+<host starttime="1671139949" endtime="1671139981"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.80" addrtype="ipv4"/>
+<hostnames>
+<hostname name="80.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" servicefp="SF-Port25-TCP:V=7.80%I=7%D=12/15%Time=639B9274%P=x86_64-pc-linux-gnu%r(NULL,23,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n&quot;)%r(Hello,4F,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n501\x20Syntactically\x20invalid\x20EHLO\x20argument\(s\)\r\n&quot;)%r(Help,81,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n214-Commands\x20supported:\r\n214\x20AUTH\x20STARTTLS\x20HELO\x20EHLO\x20MAIL\x20RCPT\x20DATA\x20BDAT\x20NOOP\x20QUIT\x20RSET\x20HELP\r\n&quot;)%r(GenericLines,57,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n500\x20unrecognized\x20command\r\n500\x20unrecognized\x20command\r\n&quot;)%r(GetRequest,57,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n500\x20unrecognized\x20command\r\n500\x20unrecognized\x20command\r\n&quot;);" method="probed" conf="10"/></port>
+</ports>
+<times srtt="30642" rttvar="23154" to="123258"/>
+</host>
+<host starttime="1671139949" endtime="1671139952"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.148.82" addrtype="ipv4"/>
+<hostnames>
+<hostname name="82.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" servicefp="SF-Port25-TCP:V=7.80%I=7%D=12/15%Time=639B926E%P=x86_64-pc-linux-gnu%r(NULL,58,&quot;421\x20Too\x20many\x20concurrent\x20SMTP\x20connections\x20from\x20this\x20IP\x20address;\x20please\x20try\x20again\x20later\.\r\n&quot;)%r(WMSRequest,58,&quot;421\x20Too\x20many\x20concurrent\x20SMTP\x20connections\x20from\x20this\x20IP\x20address;\x20please\x20try\x20again\x20later\.\r\n&quot;)%r(afp,58,&quot;421\x20Too\x20many\x20concurrent\x20SMTP\x20connections\x20from\x20this\x20IP\x20address;\x20please\x20try\x20again\x20later\.\r\n&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="30727" rttvar="23088" to="123079"/>
+</host>
+<host starttime="1671139949" endtime="1671140115"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="miranda.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28819" rttvar="21751" to="115823"/>
+</host>
+<host starttime="1671139949" endtime="1671140115"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.177" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ariel.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28602" rttvar="21475" to="114502"/>
+</host>
+<host starttime="1671139949" endtime="1671140116"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.187" addrtype="ipv4"/>
+<hostnames>
+<hostname name="europa.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+</ports>
+<times srtt="29719" rttvar="22720" to="120599"/>
+</host>
+<host starttime="1671139949" endtime="1671139981"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" servicefp="SF-Port25-TCP:V=7.80%I=7%D=12/15%Time=639B9274%P=x86_64-pc-linux-gnu%r(NULL,2F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n&quot;)%r(Hello,4F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n&quot;)%r(Help,4F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n&quot;)%r(GenericLines,6F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n&quot;)%r(GetRequest,6F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n&quot;);" method="probed" conf="10"/></port>
+</ports>
+<times srtt="28783" rttvar="21647" to="115371"/>
+</host>
+<host starttime="1671139949" endtime="1671139950"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.103.254" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.bergen-plastics.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="mail.bergen-plastics.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="32465" rttvar="24686" to="131209"/>
+</host>
+<host starttime="1671139949" endtime="1671139950"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.120" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.itasp.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange 2010 smtpd" extrainfo="not available" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server:2010</cpe></service></port>
+</ports>
+<times srtt="28368" rttvar="21301" to="113572"/>
+</host>
+<host starttime="1671139949" endtime="1671139950"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.165" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.sr-transport.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="SRGMail.SR-Transport.local" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28802" rttvar="21623" to="115294"/>
+</host>
+<host starttime="1671139949" endtime="1671140105"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.115" addrtype="ipv4"/>
+<hostnames>
+<hostname name="115.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+</ports>
+<times srtt="27873" rttvar="20939" to="111629"/>
+</host>
+<host starttime="1671139949" endtime="1671139950"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.134.146" addrtype="ipv4"/>
+<hostnames>
+<hostname name="146.212-33-134.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="remote.tema-norge.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28946" rttvar="21800" to="116146"/>
+</host>
+<host starttime="1671139949" endtime="1671139950"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.194" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.agendec.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="AGDEXCH01.intern.agendec.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28455" rttvar="21395" to="114035"/>
+</host>
+<host starttime="1671139949" endtime="1671139951"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.143.46" addrtype="ipv4"/>
+<hostnames>
+<hostname name="46.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="remote.nodland-ror.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="34021" rttvar="25710" to="136861"/>
+</host>
+<host starttime="1671139949" endtime="1671139953"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.205" addrtype="ipv4"/>
+<hostnames>
+<hostname name="205.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" servicefp="SF-Port25-TCP:V=7.80%I=7%D=12/15%Time=639B926F%P=x86_64-pc-linux-gnu%r(NULL,58,&quot;421\x20Too\x20many\x20concurrent\x20SMTP\x20connections\x20from\x20this\x20IP\x20address;\x20please\x20try\x20again\x20later\.\r\n&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="37435" rttvar="30938" to="161187"/>
+</host>
+<host starttime="1671139949" endtime="1671139951"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="test.inlead.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="DC1.test.inlead.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28241" rttvar="21223" to="113133"/>
+</host>
+<host starttime="1671139949" endtime="1671139953"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.80" addrtype="ipv4"/>
+<hostnames>
+<hostname name="80.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" servicefp="SF-Port25-TCP:V=7.80%I=7%D=12/15%Time=639B926F%P=x86_64-pc-linux-gnu%r(NULL,58,&quot;421\x20Too\x20many\x20concurrent\x20SMTP\x20connections\x20from\x20this\x20IP\x20address;\x20please\x20try\x20again\x20later\.\r\n&quot;)%r(GenericLines,58,&quot;421\x20Too\x20many\x20concurrent\x20SMTP\x20connections\x20from\x20this\x20IP\x20address;\x20please\x20try\x20again\x20later\.\r\n&quot;)%r(SSLSessionReq,58,&quot;421\x20Too\x20many\x20concurrent\x20SMTP\x20connections\x20from\x20this\x20IP\x20address;\x20please\x20try\x20again\x20later\.\r\n&quot;)%r(Kerberos,58,&quot;421\x20Too\x20many\x20concurrent\x20SMTP\x20connections\x20from\x20this\x20IP\x20address;\x20please\x20try\x20again\x20later\.\r\n&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="30413" rttvar="22922" to="122101"/>
+</host>
+<host starttime="1671139949" endtime="1671139953"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.148.82" addrtype="ipv4"/>
+<hostnames>
+<hostname name="82.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" servicefp="SF-Port25-TCP:V=7.80%I=7%D=12/15%Time=639B926F%P=x86_64-pc-linux-gnu%r(NULL,58,&quot;421\x20Too\x20many\x20concurrent\x20SMTP\x20connections\x20from\x20this\x20IP\x20address;\x20please\x20try\x20again\x20later\.\r\n&quot;)%r(Help,58,&quot;421\x20Too\x20many\x20concurrent\x20SMTP\x20connections\x20from\x20this\x20IP\x20address;\x20please\x20try\x20again\x20later\.\r\n&quot;)%r(GenericLines,58,&quot;421\x20Too\x20many\x20concurrent\x20SMTP\x20connections\x20from\x20this\x20IP\x20address;\x20please\x20try\x20again\x20later\.\r\n&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="29950" rttvar="22490" to="119910"/>
+</host>
+<host starttime="1671139949" endtime="1671140117"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="miranda.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28646" rttvar="21560" to="114886"/>
+</host>
+<host starttime="1671139949" endtime="1671140118"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.177" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ariel.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28576" rttvar="21455" to="114396"/>
+</host>
+<host starttime="1671139949" endtime="1671140118"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.187" addrtype="ipv4"/>
+<hostnames>
+<hostname name="europa.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28970" rttvar="21732" to="115898"/>
+</host>
+<host starttime="1671139949" endtime="1671139984"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" servicefp="SF-Port25-TCP:V=7.80%I=7%D=12/15%Time=639B9277%P=x86_64-pc-linux-gnu%r(NULL,2F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n&quot;)%r(Hello,4F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n&quot;)%r(Help,4F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n&quot;)%r(GenericLines,6F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n&quot;)%r(GetRequest,6F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n&quot;);" method="probed" conf="10"/></port>
+</ports>
+<times srtt="28753" rttvar="21624" to="115249"/>
+</host>
+<host starttime="1671139949" endtime="1671139981"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.103.254" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.bergen-plastics.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="mail.bergen-plastics.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="32311" rttvar="24591" to="130675"/>
+</host>
+<host starttime="1671139949" endtime="1671139981"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.120" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.itasp.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange 2010 smtpd" extrainfo="not available" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server:2010</cpe></service></port>
+</ports>
+<times srtt="28296" rttvar="21229" to="113212"/>
+</host>
+<host starttime="1671139949" endtime="1671139981"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.165" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.sr-transport.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="SRGMail.SR-Transport.local" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28757" rttvar="21586" to="115101"/>
+</host>
+<host starttime="1671139949" endtime="1671140147"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.115" addrtype="ipv4"/>
+<hostnames>
+<hostname name="115.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+</ports>
+<times srtt="27896" rttvar="20971" to="111780"/>
+</host>
+<host starttime="1671139949" endtime="1671140146"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.134.146" addrtype="ipv4"/>
+<hostnames>
+<hostname name="146.212-33-134.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="remote.tema-norge.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28541" rttvar="21438" to="114293"/>
+</host>
+<host starttime="1671139949" endtime="1671140146"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.194" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.agendec.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="AGDEXCH01.intern.agendec.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28013" rttvar="21111" to="112457"/>
+</host>
+<host starttime="1671139949" endtime="1671140146"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.143.46" addrtype="ipv4"/>
+<hostnames>
+<hostname name="46.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="remote.nodland-ror.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="34110" rttvar="25628" to="136622"/>
+</host>
+<host starttime="1671139949" endtime="1671140146"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.205" addrtype="ipv4"/>
+<hostnames>
+<hostname name="205.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" servicefp="SF-Port25-TCP:V=7.80%I=7%D=12/15%Time=639B9293%P=x86_64-pc-linux-gnu%r(NULL,23,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n&quot;)%r(Hello,4F,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n501\x20Syntactically\x20invalid\x20EHLO\x20argument\(s\)\r\n&quot;)%r(Help,81,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n214-Commands\x20supported:\r\n214\x20AUTH\x20STARTTLS\x20HELO\x20EHLO\x20MAIL\x20RCPT\x20DATA\x20BDAT\x20NOOP\x20QUIT\x20RSET\x20HELP\r\n&quot;)%r(GenericLines,57,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n500\x20unrecognized\x20command\r\n500\x20unrecognized\x20command\r\n&quot;)%r(GetRequest,57,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n500\x20unrecognized\x20command\r\n500\x20unrecognized\x20command\r\n&quot;);" method="probed" conf="10"/></port>
+</ports>
+<times srtt="37327" rttvar="30689" to="160083"/>
+</host>
+<host starttime="1671139949" endtime="1671140146"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="test.inlead.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="DC1.test.inlead.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28737" rttvar="21791" to="115901"/>
+</host>
+<host starttime="1671139949" endtime="1671140146"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.80" addrtype="ipv4"/>
+<hostnames>
+<hostname name="80.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" servicefp="SF-Port25-TCP:V=7.80%I=7%D=12/15%Time=639B9293%P=x86_64-pc-linux-gnu%r(NULL,23,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n&quot;)%r(Hello,4F,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n501\x20Syntactically\x20invalid\x20EHLO\x20argument\(s\)\r\n&quot;)%r(Help,81,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n214-Commands\x20supported:\r\n214\x20AUTH\x20STARTTLS\x20HELO\x20EHLO\x20MAIL\x20RCPT\x20DATA\x20BDAT\x20NOOP\x20QUIT\x20RSET\x20HELP\r\n&quot;)%r(GenericLines,57,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n500\x20unrecognized\x20command\r\n500\x20unrecognized\x20command\r\n&quot;)%r(GetRequest,57,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n500\x20unrecognized\x20command\r\n500\x20unrecognized\x20command\r\n&quot;);" method="probed" conf="10"/></port>
+</ports>
+<times srtt="30192" rttvar="22697" to="120980"/>
+</host>
+<host starttime="1671139949" endtime="1671140146"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.148.82" addrtype="ipv4"/>
+<hostnames>
+<hostname name="82.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" servicefp="SF-Port25-TCP:V=7.80%I=7%D=12/15%Time=639B9293%P=x86_64-pc-linux-gnu%r(NULL,23,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n&quot;)%r(Hello,4F,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n501\x20Syntactically\x20invalid\x20EHLO\x20argument\(s\)\r\n&quot;)%r(Help,81,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n214-Commands\x20supported:\r\n214\x20AUTH\x20STARTTLS\x20HELO\x20EHLO\x20MAIL\x20RCPT\x20DATA\x20BDAT\x20NOOP\x20QUIT\x20RSET\x20HELP\r\n&quot;)%r(GenericLines,57,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n500\x20unrecognized\x20command\r\n500\x20unrecognized\x20command\r\n&quot;)%r(GetRequest,57,&quot;220\x20bffw02\.ssl\.local\x20ESMTP\x20ready\.\r\n500\x20unrecognized\x20command\r\n500\x20unrecognized\x20command\r\n&quot;);" method="probed" conf="10"/></port>
+</ports>
+<times srtt="30859" rttvar="23167" to="123527"/>
+</host>
+<host starttime="1671139949" endtime="1671140147"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="miranda.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28660" rttvar="21525" to="114760"/>
+</host>
+<host starttime="1671139949" endtime="1671140147"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.177" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ariel.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28549" rttvar="21435" to="114289"/>
+</host>
+<host starttime="1671139949" endtime="1671140147"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.187" addrtype="ipv4"/>
+<hostnames>
+<hostname name="europa.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28899" rttvar="21686" to="115643"/>
+</host>
+<host starttime="1671139949" endtime="1671140146"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" servicefp="SF-Port25-TCP:V=7.80%I=7%D=12/15%Time=639B9296%P=x86_64-pc-linux-gnu%r(NULL,2F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n&quot;)%r(Hello,4F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n&quot;)%r(Help,4F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n&quot;)%r(GenericLines,6F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n&quot;)%r(GetRequest,6F,&quot;220\x20mail\.nettdrift\.no\x20ESMTP\x20mail\.nettdrift\.no\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n500\x205\.5\.2\x20unrecognized\x20command\r\n&quot;);" method="probed" conf="10"/></port>
+</ports>
+<times srtt="28607" rttvar="21468" to="114479"/>
+</host>
+<host starttime="1671139949" endtime="1671140146"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.103.254" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.bergen-plastics.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="mail.bergen-plastics.no" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="32555" rttvar="24725" to="131455"/>
+</host>
+<host starttime="1671139949" endtime="1671140146"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.120" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.itasp.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange 2010 smtpd" extrainfo="not available" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server:2010</cpe></service></port>
+</ports>
+<times srtt="28445" rttvar="21340" to="113805"/>
+</host>
+<host starttime="1671139949" endtime="1671140146"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.165" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.sr-transport.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" product="Microsoft Exchange smtpd" hostname="SRGMail.SR-Transport.local" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28720" rttvar="21559" to="114956"/>
+</host>
+<runstats><finished time="1671140147" timestr="Thu Dec 15 21:35:47 2022" elapsed="198.87" summary="Nmap done at Thu Dec 15 21:35:47 2022; 68 IP addresses (60 hosts up) scanned in 198.87 seconds" exit="success"/><hosts up="60" down="8" total="68"/>
+</runstats>
+</nmaprun>

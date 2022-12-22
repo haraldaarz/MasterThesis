@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:53:00 2022 as: nmap -sV -iL ports/18192.txt -p 18192 -oX outputs/nmapOutput-18192.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/18192.txt -p 18192 -oX outputs/nmapOutput-18192.xml" start="1671144780" startstr="Thu Dec 15 22:53:00 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="18192"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671144780" endtime="1671144786"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.130.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="169.212-33-130.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="18192"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="fw1-topology" product="Check Point FireWall-1 Topology" devicetype="firewall" method="probed" conf="10"><cpe>cpe:/a:checkpoint:firewall-1</cpe></service></port>
+</ports>
+<times srtt="28861" rttvar="21811" to="116105"/>
+</host>
+<host starttime="1671144780" endtime="1671144786"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.142" addrtype="ipv4"/>
+<hostnames>
+<hostname name="142.77-241-96.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="18192"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="fw1-topology" product="Check Point FireWall-1 Topology" devicetype="firewall" method="probed" conf="10"><cpe>cpe:/a:checkpoint:firewall-1</cpe></service></port>
+</ports>
+<times srtt="27917" rttvar="20966" to="111781"/>
+</host>
+<host starttime="1671144780" endtime="1671144786"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.130.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="169.212-33-130.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="18192"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="fw1-topology" product="Check Point FireWall-1 Topology" devicetype="firewall" method="probed" conf="10"><cpe>cpe:/a:checkpoint:firewall-1</cpe></service></port>
+</ports>
+<times srtt="28839" rttvar="21794" to="116015"/>
+</host>
+<host starttime="1671144780" endtime="1671144786"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.142" addrtype="ipv4"/>
+<hostnames>
+<hostname name="142.77-241-96.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="18192"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="fw1-topology" product="Check Point FireWall-1 Topology" devicetype="firewall" method="probed" conf="10"><cpe>cpe:/a:checkpoint:firewall-1</cpe></service></port>
+</ports>
+<times srtt="28011" rttvar="21038" to="112163"/>
+</host>
+<host starttime="1671144780" endtime="1671144786"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.130.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="169.212-33-130.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="18192"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="fw1-topology" product="Check Point FireWall-1 Topology" devicetype="firewall" method="probed" conf="10"><cpe>cpe:/a:checkpoint:firewall-1</cpe></service></port>
+</ports>
+<times srtt="28644" rttvar="21614" to="115100"/>
+</host>
+<host starttime="1671144780" endtime="1671144786"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.142" addrtype="ipv4"/>
+<hostnames>
+<hostname name="142.77-241-96.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="18192"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="fw1-topology" product="Check Point FireWall-1 Topology" devicetype="firewall" method="probed" conf="10"><cpe>cpe:/a:checkpoint:firewall-1</cpe></service></port>
+</ports>
+<times srtt="27977" rttvar="21005" to="111997"/>
+</host>
+<host starttime="1671144780" endtime="1671144786"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.130.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="169.212-33-130.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="18192"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="fw1-topology" product="Check Point FireWall-1 Topology" devicetype="firewall" method="probed" conf="10"><cpe>cpe:/a:checkpoint:firewall-1</cpe></service></port>
+</ports>
+<times srtt="28793" rttvar="21746" to="115777"/>
+</host>
+<host starttime="1671144780" endtime="1671144786"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.142" addrtype="ipv4"/>
+<hostnames>
+<hostname name="142.77-241-96.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="18192"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="fw1-topology" product="Check Point FireWall-1 Topology" devicetype="firewall" method="probed" conf="10"><cpe>cpe:/a:checkpoint:firewall-1</cpe></service></port>
+</ports>
+<times srtt="27924" rttvar="20971" to="111808"/>
+</host>
+<runstats><finished time="1671144786" timestr="Thu Dec 15 22:53:06 2022" elapsed="6.68" summary="Nmap done at Thu Dec 15 22:53:06 2022; 8 IP addresses (8 hosts up) scanned in 6.68 seconds" exit="success"/><hosts up="8" down="0" total="8"/>
+</runstats>
+</nmaprun>

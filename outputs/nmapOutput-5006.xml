@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:35:40 2022 as: nmap -sV -iL ports/5006.txt -p 5006 -oX outputs/nmapOutput-5006.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/5006.txt -p 5006 -oX outputs/nmapOutput-5006.xml" start="1671143740" startstr="Thu Dec 15 22:35:40 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="5006"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671143741" endtime="1671143763"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.10" addrtype="ipv4"/>
+<hostnames>
+<hostname name="10.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5006"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server</cpe></service></port>
+</ports>
+<times srtt="30964" rttvar="23318" to="124236"/>
+</host>
+<host starttime="1671143741" endtime="1671143762"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.157.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-157.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5006"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server</cpe></service></port>
+</ports>
+<times srtt="28439" rttvar="21380" to="113959"/>
+</host>
+<host starttime="1671143741" endtime="1671143763"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.10" addrtype="ipv4"/>
+<hostnames>
+<hostname name="10.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5006"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server</cpe></service></port>
+</ports>
+<times srtt="31033" rttvar="23405" to="124653"/>
+</host>
+<host starttime="1671143741" endtime="1671143762"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.157.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-157.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5006"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server</cpe></service></port>
+</ports>
+<times srtt="28418" rttvar="21362" to="113866"/>
+</host>
+<host starttime="1671143741" endtime="1671143763"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.10" addrtype="ipv4"/>
+<hostnames>
+<hostname name="10.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5006"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server</cpe></service></port>
+</ports>
+<times srtt="30860" rttvar="23198" to="123652"/>
+</host>
+<host starttime="1671143741" endtime="1671143762"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.157.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-157.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5006"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server</cpe></service></port>
+</ports>
+<times srtt="28402" rttvar="21347" to="113790"/>
+</host>
+<host starttime="1671143741" endtime="1671143764"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.10" addrtype="ipv4"/>
+<hostnames>
+<hostname name="10.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5006"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server</cpe></service></port>
+</ports>
+<times srtt="30923" rttvar="23271" to="124007"/>
+</host>
+<host starttime="1671143741" endtime="1671143764"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.157.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-157.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5006"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server</cpe></service></port>
+</ports>
+<times srtt="28383" rttvar="21331" to="113707"/>
+</host>
+<runstats><finished time="1671143764" timestr="Thu Dec 15 22:36:04 2022" elapsed="24.09" summary="Nmap done at Thu Dec 15 22:36:04 2022; 8 IP addresses (8 hosts up) scanned in 24.09 seconds" exit="success"/><hosts up="8" down="0" total="8"/>
+</runstats>
+</nmaprun>

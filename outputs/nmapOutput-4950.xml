@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:44:19 2022 as: nmap -sV -iL ports/4950.txt -p 4950 -oX outputs/nmapOutput-4950.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/4950.txt -p 4950 -oX outputs/nmapOutput-4950.xml" start="1671144259" startstr="Thu Dec 15 22:44:19 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="4950"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671144259" endtime="1671144417"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.103.2" addrtype="ipv4"/>
+<hostnames>
+<hostname name="2.77-241-103.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4950"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="sybasesrvmon" method="table" conf="3"/></port>
+</ports>
+<times srtt="30025" rttvar="22717" to="120893"/>
+</host>
+<host starttime="1671144259" endtime="1671144417"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.99.98" addrtype="ipv4"/>
+<hostnames>
+<hostname name="98.77-241-99.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4950"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="sybasesrvmon" method="table" conf="3"/></port>
+</ports>
+<times srtt="36361" rttvar="34188" to="173113"/>
+</host>
+<host starttime="1671144259" endtime="1671144417"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.103.2" addrtype="ipv4"/>
+<hostnames>
+<hostname name="2.77-241-103.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4950"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="sybasesrvmon" method="table" conf="3"/></port>
+</ports>
+<times srtt="30176" rttvar="22706" to="121000"/>
+</host>
+<host starttime="1671144259" endtime="1671144417"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.99.98" addrtype="ipv4"/>
+<hostnames>
+<hostname name="98.77-241-99.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4950"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="sybasesrvmon" method="table" conf="3"/></port>
+</ports>
+<times srtt="30757" rttvar="23216" to="123621"/>
+</host>
+<host starttime="1671144259" endtime="1671144417"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.103.2" addrtype="ipv4"/>
+<hostnames>
+<hostname name="2.77-241-103.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4950"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="sybasesrvmon" method="table" conf="3"/></port>
+</ports>
+<times srtt="30007" rttvar="22518" to="120079"/>
+</host>
+<host starttime="1671144259" endtime="1671144417"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.99.98" addrtype="ipv4"/>
+<hostnames>
+<hostname name="98.77-241-99.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4950"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="sybasesrvmon" method="table" conf="3"/></port>
+</ports>
+<times srtt="41985" rttvar="46336" to="227329"/>
+</host>
+<host starttime="1671144259" endtime="1671144418"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.103.2" addrtype="ipv4"/>
+<hostnames>
+<hostname name="2.77-241-103.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4950"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="sybasesrvmon" method="table" conf="3"/></port>
+</ports>
+<times srtt="29916" rttvar="22598" to="120308"/>
+</host>
+<host starttime="1671144259" endtime="1671144418"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.99.98" addrtype="ipv4"/>
+<hostnames>
+<hostname name="98.77-241-99.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4950"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="sybasesrvmon" method="table" conf="3"/></port>
+</ports>
+<times srtt="30166" rttvar="22724" to="121062"/>
+</host>
+<runstats><finished time="1671144418" timestr="Thu Dec 15 22:46:58 2022" elapsed="158.90" summary="Nmap done at Thu Dec 15 22:46:58 2022; 8 IP addresses (8 hosts up) scanned in 158.90 seconds" exit="success"/><hosts up="8" down="0" total="8"/>
+</runstats>
+</nmaprun>

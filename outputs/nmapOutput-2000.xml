@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:17:14 2022 as: nmap -sV -iL ports/2000.txt -p 2000 -oX outputs/nmapOutput-2000.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/2000.txt -p 2000 -oX outputs/nmapOutput-2000.xml" start="1671142634" startstr="Thu Dec 15 22:17:14 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="2000"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671142634" endtime="1671142787"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.115" addrtype="ipv4"/>
+<hostnames>
+<hostname name="115.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="cisco-sccp" method="table" conf="3"/></port>
+</ports>
+<times srtt="27833" rttvar="20915" to="111493"/>
+</host>
+<host starttime="1671142634" endtime="1671142787"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.116" addrtype="ipv4"/>
+<hostnames>
+<hostname name="116.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="cisco-sccp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28668" rttvar="21797" to="115856"/>
+</host>
+<host starttime="1671142634" endtime="1671142787"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="cisco-sccp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28585" rttvar="21771" to="115669"/>
+</host>
+<host starttime="1671142634" endtime="1671142787"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.115" addrtype="ipv4"/>
+<hostnames>
+<hostname name="115.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="cisco-sccp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28823" rttvar="21924" to="116519"/>
+</host>
+<host starttime="1671142634" endtime="1671142787"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.116" addrtype="ipv4"/>
+<hostnames>
+<hostname name="116.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="cisco-sccp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28648" rttvar="21788" to="115800"/>
+</host>
+<host starttime="1671142634" endtime="1671142787"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="cisco-sccp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28567" rttvar="21762" to="115615"/>
+</host>
+<host starttime="1671142634" endtime="1671142787"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.115" addrtype="ipv4"/>
+<hostnames>
+<hostname name="115.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="cisco-sccp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28712" rttvar="21819" to="115988"/>
+</host>
+<host starttime="1671142634" endtime="1671142787"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.116" addrtype="ipv4"/>
+<hostnames>
+<hostname name="116.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="cisco-sccp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28622" rttvar="21788" to="115774"/>
+</host>
+<host starttime="1671142634" endtime="1671142787"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="cisco-sccp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28549" rttvar="21752" to="115557"/>
+</host>
+<host starttime="1671142634" endtime="1671142788"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.115" addrtype="ipv4"/>
+<hostnames>
+<hostname name="115.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="cisco-sccp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28686" rttvar="21805" to="115906"/>
+</host>
+<host starttime="1671142634" endtime="1671142788"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.116" addrtype="ipv4"/>
+<hostnames>
+<hostname name="116.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="cisco-sccp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28603" rttvar="21780" to="115723"/>
+</host>
+<host starttime="1671142634" endtime="1671142788"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="cisco-sccp" method="table" conf="3"/></port>
+</ports>
+<times srtt="27897" rttvar="20965" to="111757"/>
+</host>
+<runstats><finished time="1671142788" timestr="Thu Dec 15 22:19:48 2022" elapsed="154.35" summary="Nmap done at Thu Dec 15 22:19:48 2022; 12 IP addresses (12 hosts up) scanned in 154.35 seconds" exit="success"/><hosts up="12" down="0" total="12"/>
+</runstats>
+</nmaprun>

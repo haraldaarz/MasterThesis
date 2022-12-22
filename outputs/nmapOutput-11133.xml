@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Fri Dec 16 00:21:36 2022 as: nmap -sV -iL ports/11133.txt -p 11133 -oX outputs/nmapOutput-11133.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/11133.txt -p 11133 -oX outputs/nmapOutput-11133.xml" start="1671150096" startstr="Fri Dec 16 00:21:36 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="11133"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671150097" endtime="1671150116"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.109.122" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.itservice.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="11133"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="unknown" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="28742" rttvar="21718" to="115614"/>
+</host>
+<host starttime="1671150097" endtime="1671150116"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.109.122" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.itservice.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="11133"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="unknown" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="28884" rttvar="21837" to="116232"/>
+</host>
+<host starttime="1671150097" endtime="1671150116"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.109.122" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.itservice.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="11133"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="unknown" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="28780" rttvar="21747" to="115768"/>
+</host>
+<host starttime="1671150097" endtime="1671150117"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.109.122" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.itservice.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="11133"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="unknown" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="28758" rttvar="21730" to="115678"/>
+</host>
+<runstats><finished time="1671150117" timestr="Fri Dec 16 00:21:57 2022" elapsed="20.16" summary="Nmap done at Fri Dec 16 00:21:57 2022; 4 IP addresses (4 hosts up) scanned in 20.16 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

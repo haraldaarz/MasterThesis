@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:53:06 2022 as: nmap -sV -iL ports/1611.txt -p 1611 -oX outputs/nmapOutput-1611.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/1611.txt -p 1611 -oX outputs/nmapOutput-1611.xml" start="1671144786" startstr="Thu Dec 15 22:53:06 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="1611"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671144787" endtime="1671144845"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="66.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1611"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssl" tunnel="ssl" method="probed" conf="10"/></port>
+</ports>
+<times srtt="29009" rttvar="21775" to="116109"/>
+</host>
+<host starttime="1671144787" endtime="1671144948"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.73" addrtype="ipv4"/>
+<hostnames>
+<hostname name="73.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1611"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ill" servicefp="SF-Port1611-TCP:V=7.80%T=SSL%I=7%D=12/15%Time=639BA57B%P=x86_64-pc-linux-gnu%r(GenericLines,1C9,&quot;HTTP/1\.1\x20401\x20Unauthorized\r\nDate:Thu,\x2015\x20Dec\x202022\x2022:53:21\x20GMT\r\nServer:BMC\x20Client\x20Management\r\nConnection:Close\r\nStrict-Transport-Security:max-age=31536000;\x20preload\r\nX-Frame-Options:SAMEORIGIN\r\nX-XSS-Protection:1;\x20mode=block\r\nX-Content-Type-Options:nosniff\r\nContent-Security-Policy:connect-src\x20\*;\x20worker-src\x20\*;\x20default-src\x20&apos;self&apos;;\x20img-src\x20&apos;self&apos;\x20data:;\x20style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20data:;\x20object-src\x20&apos;none&apos;;\r\nContent-Length:25\r\n\r\n&lt;h1&gt;401\x20Unauthorized&lt;/h1&gt;&quot;)%r(GetRequest,20C,&quot;HTTP/1\.1\x20307\x20Temporary\x20Redirect\r\nLocation:/ui/login\?referer=\r\nSet-Cookie:bmc\.webapp\.src=/\?\?;\x20Path=/;\x20HttpOnly;\x20Secure;\r\nDate:Thu,\x2015\x20Dec\x202022\x2022:53:21\x20GMT\r\nServer:BMC\x20Client\x20Management\r\nConnection:Close\r\nStrict-Transport-Security:max-age=31536000;\x20preload\r\nX-Frame-Options:SAMEORIGIN\r\nX-XSS-Protection:1;\x20mode=block\r\nX-Content-Type-Options:nosniff\r\nContent-Security-Policy:connect-src\x20\*;\x20worker-src\x20\*;\x20default-src\x20&apos;self&apos;;\x20img-src\x20&apos;self&apos;\x20data:;\x20style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20data:;\x20object-src\x20&apos;none&apos;;\r\nContent-Length:0\r\n\r\n&quot;)%r(HTTPOptions,1C9,&quot;HTTP/1\.1\x20401\x20Unauthorized\r\nDate:Thu,\x2015\x20Dec\x202022\x2022:53:21\x20GMT\r\nServer:BMC\x20Client\x20Management\r\nConnection:Close\r\nStrict-Transport-Security:max-age=31536000;\x20preload\r\nX-Frame-Options:SAMEORIGIN\r\nX-XSS-Protection:1;\x20mode=block\r\nX-Content-Type-Options:nosniff\r\nContent-Security-Policy:connect-src\x20\*;\x20worker-src\x20\*;\x20default-src\x20&apos;self&apos;;\x20img-src\x20&apos;self&apos;\x20data:;\x20style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20data:;\x20object-src\x20&apos;none&apos;;\r\nContent-Length:25\r\n\r\n&lt;h1&gt;401\x20Unauthorized&lt;/h1&gt;&quot;)%r(RTSPRequest,1E5,&quot;HTTP/1\.1\x20505\x20HTTP\x20Version\x20Not\x20Supported\r\nDate:Thu,\x2015\x20Dec\x202022\x2022:53:21\x20GMT\r\nServer:BMC\x20Client\x20Management\r\nConnection:Close\r\nStrict-Transport-Security:max-age=31536000;\x20preload\r\nX-Frame-Options:SAMEORIGIN\r\nX-XSS-Protection:1;\x20mode=block\r\nX-Content-Type-Options:nosniff\r\nContent-Security-Policy:connect-src\x20\*;\x20worker-src\x20\*;\x20default-src\x20&apos;self&apos;;\x20img-src\x20&apos;self&apos;\x20data:;\x20style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20data:;\x20object-src\x20&apos;none&apos;;\r\nContent-Length:39\r\n\r\n&lt;h1&gt;505\x20HTTP\x20Version\x20Not\x20Supported&lt;/h1&gt;&quot;);" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="28738" rttvar="21559" to="114974"/>
+</host>
+<host starttime="1671144787" endtime="1671144845"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="66.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1611"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssl" tunnel="ssl" method="probed" conf="10"/></port>
+</ports>
+<times srtt="29289" rttvar="22114" to="117745"/>
+</host>
+<host starttime="1671144787" endtime="1671144948"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.73" addrtype="ipv4"/>
+<hostnames>
+<hostname name="73.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1611"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ill" servicefp="SF-Port1611-TCP:V=7.80%T=SSL%I=7%D=12/15%Time=639BA57B%P=x86_64-pc-linux-gnu%r(GenericLines,1C9,&quot;HTTP/1\.1\x20401\x20Unauthorized\r\nDate:Thu,\x2015\x20Dec\x202022\x2022:53:21\x20GMT\r\nServer:BMC\x20Client\x20Management\r\nConnection:Close\r\nStrict-Transport-Security:max-age=31536000;\x20preload\r\nX-Frame-Options:SAMEORIGIN\r\nX-XSS-Protection:1;\x20mode=block\r\nX-Content-Type-Options:nosniff\r\nContent-Security-Policy:connect-src\x20\*;\x20worker-src\x20\*;\x20default-src\x20&apos;self&apos;;\x20img-src\x20&apos;self&apos;\x20data:;\x20style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20data:;\x20object-src\x20&apos;none&apos;;\r\nContent-Length:25\r\n\r\n&lt;h1&gt;401\x20Unauthorized&lt;/h1&gt;&quot;)%r(GetRequest,20C,&quot;HTTP/1\.1\x20307\x20Temporary\x20Redirect\r\nLocation:/ui/login\?referer=\r\nSet-Cookie:bmc\.webapp\.src=/\?\?;\x20Path=/;\x20HttpOnly;\x20Secure;\r\nDate:Thu,\x2015\x20Dec\x202022\x2022:53:21\x20GMT\r\nServer:BMC\x20Client\x20Management\r\nConnection:Close\r\nStrict-Transport-Security:max-age=31536000;\x20preload\r\nX-Frame-Options:SAMEORIGIN\r\nX-XSS-Protection:1;\x20mode=block\r\nX-Content-Type-Options:nosniff\r\nContent-Security-Policy:connect-src\x20\*;\x20worker-src\x20\*;\x20default-src\x20&apos;self&apos;;\x20img-src\x20&apos;self&apos;\x20data:;\x20style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20data:;\x20object-src\x20&apos;none&apos;;\r\nContent-Length:0\r\n\r\n&quot;)%r(HTTPOptions,1C9,&quot;HTTP/1\.1\x20401\x20Unauthorized\r\nDate:Thu,\x2015\x20Dec\x202022\x2022:53:21\x20GMT\r\nServer:BMC\x20Client\x20Management\r\nConnection:Close\r\nStrict-Transport-Security:max-age=31536000;\x20preload\r\nX-Frame-Options:SAMEORIGIN\r\nX-XSS-Protection:1;\x20mode=block\r\nX-Content-Type-Options:nosniff\r\nContent-Security-Policy:connect-src\x20\*;\x20worker-src\x20\*;\x20default-src\x20&apos;self&apos;;\x20img-src\x20&apos;self&apos;\x20data:;\x20style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20data:;\x20object-src\x20&apos;none&apos;;\r\nContent-Length:25\r\n\r\n&lt;h1&gt;401\x20Unauthorized&lt;/h1&gt;&quot;)%r(RTSPRequest,1E5,&quot;HTTP/1\.1\x20505\x20HTTP\x20Version\x20Not\x20Supported\r\nDate:Thu,\x2015\x20Dec\x202022\x2022:53:21\x20GMT\r\nServer:BMC\x20Client\x20Management\r\nConnection:Close\r\nStrict-Transport-Security:max-age=31536000;\x20preload\r\nX-Frame-Options:SAMEORIGIN\r\nX-XSS-Protection:1;\x20mode=block\r\nX-Content-Type-Options:nosniff\r\nContent-Security-Policy:connect-src\x20\*;\x20worker-src\x20\*;\x20default-src\x20&apos;self&apos;;\x20img-src\x20&apos;self&apos;\x20data:;\x20style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20data:;\x20object-src\x20&apos;none&apos;;\r\nContent-Length:39\r\n\r\n&lt;h1&gt;505\x20HTTP\x20Version\x20Not\x20Supported&lt;/h1&gt;&quot;);" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="28717" rttvar="21540" to="114877"/>
+</host>
+<host starttime="1671144787" endtime="1671144845"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="66.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1611"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssl" tunnel="ssl" method="probed" conf="10"/></port>
+</ports>
+<times srtt="29162" rttvar="22004" to="117178"/>
+</host>
+<host starttime="1671144787" endtime="1671144948"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.73" addrtype="ipv4"/>
+<hostnames>
+<hostname name="73.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1611"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ill" servicefp="SF-Port1611-TCP:V=7.80%T=SSL%I=7%D=12/15%Time=639BA57B%P=x86_64-pc-linux-gnu%r(GenericLines,1C9,&quot;HTTP/1\.1\x20401\x20Unauthorized\r\nDate:Thu,\x2015\x20Dec\x202022\x2022:53:21\x20GMT\r\nServer:BMC\x20Client\x20Management\r\nConnection:Close\r\nStrict-Transport-Security:max-age=31536000;\x20preload\r\nX-Frame-Options:SAMEORIGIN\r\nX-XSS-Protection:1;\x20mode=block\r\nX-Content-Type-Options:nosniff\r\nContent-Security-Policy:connect-src\x20\*;\x20worker-src\x20\*;\x20default-src\x20&apos;self&apos;;\x20img-src\x20&apos;self&apos;\x20data:;\x20style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20data:;\x20object-src\x20&apos;none&apos;;\r\nContent-Length:25\r\n\r\n&lt;h1&gt;401\x20Unauthorized&lt;/h1&gt;&quot;)%r(GetRequest,20C,&quot;HTTP/1\.1\x20307\x20Temporary\x20Redirect\r\nLocation:/ui/login\?referer=\r\nSet-Cookie:bmc\.webapp\.src=/\?\?;\x20Path=/;\x20HttpOnly;\x20Secure;\r\nDate:Thu,\x2015\x20Dec\x202022\x2022:53:21\x20GMT\r\nServer:BMC\x20Client\x20Management\r\nConnection:Close\r\nStrict-Transport-Security:max-age=31536000;\x20preload\r\nX-Frame-Options:SAMEORIGIN\r\nX-XSS-Protection:1;\x20mode=block\r\nX-Content-Type-Options:nosniff\r\nContent-Security-Policy:connect-src\x20\*;\x20worker-src\x20\*;\x20default-src\x20&apos;self&apos;;\x20img-src\x20&apos;self&apos;\x20data:;\x20style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20data:;\x20object-src\x20&apos;none&apos;;\r\nContent-Length:0\r\n\r\n&quot;)%r(HTTPOptions,1C9,&quot;HTTP/1\.1\x20401\x20Unauthorized\r\nDate:Thu,\x2015\x20Dec\x202022\x2022:53:21\x20GMT\r\nServer:BMC\x20Client\x20Management\r\nConnection:Close\r\nStrict-Transport-Security:max-age=31536000;\x20preload\r\nX-Frame-Options:SAMEORIGIN\r\nX-XSS-Protection:1;\x20mode=block\r\nX-Content-Type-Options:nosniff\r\nContent-Security-Policy:connect-src\x20\*;\x20worker-src\x20\*;\x20default-src\x20&apos;self&apos;;\x20img-src\x20&apos;self&apos;\x20data:;\x20style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20data:;\x20object-src\x20&apos;none&apos;;\r\nContent-Length:25\r\n\r\n&lt;h1&gt;401\x20Unauthorized&lt;/h1&gt;&quot;)%r(RTSPRequest,1E5,&quot;HTTP/1\.1\x20505\x20HTTP\x20Version\x20Not\x20Supported\r\nDate:Thu,\x2015\x20Dec\x202022\x2022:53:21\x20GMT\r\nServer:BMC\x20Client\x20Management\r\nConnection:Close\r\nStrict-Transport-Security:max-age=31536000;\x20preload\r\nX-Frame-Options:SAMEORIGIN\r\nX-XSS-Protection:1;\x20mode=block\r\nX-Content-Type-Options:nosniff\r\nContent-Security-Policy:connect-src\x20\*;\x20worker-src\x20\*;\x20default-src\x20&apos;self&apos;;\x20img-src\x20&apos;self&apos;\x20data:;\x20style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20data:;\x20object-src\x20&apos;none&apos;;\r\nContent-Length:39\r\n\r\n&lt;h1&gt;505\x20HTTP\x20Version\x20Not\x20Supported&lt;/h1&gt;&quot;);" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="28674" rttvar="21510" to="114714"/>
+</host>
+<host starttime="1671144787" endtime="1671144948"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="66.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1611"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssl" tunnel="ssl" method="probed" conf="10"/></port>
+</ports>
+<times srtt="29171" rttvar="21894" to="116747"/>
+</host>
+<host starttime="1671144787" endtime="1671144949"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.73" addrtype="ipv4"/>
+<hostnames>
+<hostname name="73.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1611"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ill" servicefp="SF-Port1611-TCP:V=7.80%T=SSL%I=7%D=12/15%Time=639BA57B%P=x86_64-pc-linux-gnu%r(GenericLines,1C9,&quot;HTTP/1\.1\x20401\x20Unauthorized\r\nDate:Thu,\x2015\x20Dec\x202022\x2022:53:21\x20GMT\r\nServer:BMC\x20Client\x20Management\r\nConnection:Close\r\nStrict-Transport-Security:max-age=31536000;\x20preload\r\nX-Frame-Options:SAMEORIGIN\r\nX-XSS-Protection:1;\x20mode=block\r\nX-Content-Type-Options:nosniff\r\nContent-Security-Policy:connect-src\x20\*;\x20worker-src\x20\*;\x20default-src\x20&apos;self&apos;;\x20img-src\x20&apos;self&apos;\x20data:;\x20style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20data:;\x20object-src\x20&apos;none&apos;;\r\nContent-Length:25\r\n\r\n&lt;h1&gt;401\x20Unauthorized&lt;/h1&gt;&quot;)%r(GetRequest,20C,&quot;HTTP/1\.1\x20307\x20Temporary\x20Redirect\r\nLocation:/ui/login\?referer=\r\nSet-Cookie:bmc\.webapp\.src=/\?\?;\x20Path=/;\x20HttpOnly;\x20Secure;\r\nDate:Thu,\x2015\x20Dec\x202022\x2022:53:21\x20GMT\r\nServer:BMC\x20Client\x20Management\r\nConnection:Close\r\nStrict-Transport-Security:max-age=31536000;\x20preload\r\nX-Frame-Options:SAMEORIGIN\r\nX-XSS-Protection:1;\x20mode=block\r\nX-Content-Type-Options:nosniff\r\nContent-Security-Policy:connect-src\x20\*;\x20worker-src\x20\*;\x20default-src\x20&apos;self&apos;;\x20img-src\x20&apos;self&apos;\x20data:;\x20style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20data:;\x20object-src\x20&apos;none&apos;;\r\nContent-Length:0\r\n\r\n&quot;)%r(HTTPOptions,1C9,&quot;HTTP/1\.1\x20401\x20Unauthorized\r\nDate:Thu,\x2015\x20Dec\x202022\x2022:53:21\x20GMT\r\nServer:BMC\x20Client\x20Management\r\nConnection:Close\r\nStrict-Transport-Security:max-age=31536000;\x20preload\r\nX-Frame-Options:SAMEORIGIN\r\nX-XSS-Protection:1;\x20mode=block\r\nX-Content-Type-Options:nosniff\r\nContent-Security-Policy:connect-src\x20\*;\x20worker-src\x20\*;\x20default-src\x20&apos;self&apos;;\x20img-src\x20&apos;self&apos;\x20data:;\x20style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20data:;\x20object-src\x20&apos;none&apos;;\r\nContent-Length:25\r\n\r\n&lt;h1&gt;401\x20Unauthorized&lt;/h1&gt;&quot;)%r(RTSPRequest,1E5,&quot;HTTP/1\.1\x20505\x20HTTP\x20Version\x20Not\x20Supported\r\nDate:Thu,\x2015\x20Dec\x202022\x2022:53:21\x20GMT\r\nServer:BMC\x20Client\x20Management\r\nConnection:Close\r\nStrict-Transport-Security:max-age=31536000;\x20preload\r\nX-Frame-Options:SAMEORIGIN\r\nX-XSS-Protection:1;\x20mode=block\r\nX-Content-Type-Options:nosniff\r\nContent-Security-Policy:connect-src\x20\*;\x20worker-src\x20\*;\x20default-src\x20&apos;self&apos;;\x20img-src\x20&apos;self&apos;\x20data:;\x20style-src\x20&apos;self&apos;\x20&apos;unsafe-inline&apos;\x20data:;\x20object-src\x20&apos;none&apos;;\r\nContent-Length:39\r\n\r\n&lt;h1&gt;505\x20HTTP\x20Version\x20Not\x20Supported&lt;/h1&gt;&quot;);" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="28655" rttvar="21494" to="114631"/>
+</host>
+<runstats><finished time="1671144949" timestr="Thu Dec 15 22:55:49 2022" elapsed="162.34" summary="Nmap done at Thu Dec 15 22:55:49 2022; 8 IP addresses (8 hosts up) scanned in 162.34 seconds" exit="success"/><hosts up="8" down="0" total="8"/>
+</runstats>
+</nmaprun>

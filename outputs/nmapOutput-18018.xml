@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Fri Dec 16 00:05:40 2022 as: nmap -sV -iL ports/18018.txt -p 18018 -oX outputs/nmapOutput-18018.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/18018.txt -p 18018 -oX outputs/nmapOutput-18018.xml" start="1671149140" startstr="Fri Dec 16 00:05:40 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="18018"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671149140" endtime="1671149152"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="18018"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="unknown" servicefp="SF-Port18018-TCP:V=7.80%I=7%D=12/16%Time=639BB65F%P=x86_64-pc-linux-gnu%r(GetRequest,74,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Length:\x2015\r\nServer:\x20Crow/0\.1\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:05:51\x20GMT\r\n\r\n404\x20Not\x20Found\r\n&quot;)%r(HTTPOptions,74,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Length:\x2015\r\nServer:\x20Crow/0\.1\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:05:51\x20GMT\r\n\r\n404\x20Not\x20Found\r\n&quot;)%r(FourOhFourRequest,74,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Length:\x2015\r\nServer:\x20Crow/0\.1\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:05:51\x20GMT\r\n\r\n404\x20Not\x20Found\r\n&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="28601" rttvar="21678" to="115313"/>
+</host>
+<host starttime="1671149140" endtime="1671149152"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="18018"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="unknown" servicefp="SF-Port18018-TCP:V=7.80%I=7%D=12/16%Time=639BB65F%P=x86_64-pc-linux-gnu%r(GetRequest,74,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Length:\x2015\r\nServer:\x20Crow/0\.1\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:05:51\x20GMT\r\n\r\n404\x20Not\x20Found\r\n&quot;)%r(HTTPOptions,74,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Length:\x2015\r\nServer:\x20Crow/0\.1\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:05:51\x20GMT\r\n\r\n404\x20Not\x20Found\r\n&quot;)%r(FourOhFourRequest,74,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Length:\x2015\r\nServer:\x20Crow/0\.1\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:05:51\x20GMT\r\n\r\n404\x20Not\x20Found\r\n&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="28813" rttvar="21878" to="116325"/>
+</host>
+<host starttime="1671149140" endtime="1671149152"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="18018"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="unknown" servicefp="SF-Port18018-TCP:V=7.80%I=7%D=12/16%Time=639BB65F%P=x86_64-pc-linux-gnu%r(GetRequest,74,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Length:\x2015\r\nServer:\x20Crow/0\.1\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:05:51\x20GMT\r\n\r\n404\x20Not\x20Found\r\n&quot;)%r(HTTPOptions,74,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Length:\x2015\r\nServer:\x20Crow/0\.1\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:05:51\x20GMT\r\n\r\n404\x20Not\x20Found\r\n&quot;)%r(FourOhFourRequest,74,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Length:\x2015\r\nServer:\x20Crow/0\.1\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:05:51\x20GMT\r\n\r\n404\x20Not\x20Found\r\n&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="28707" rttvar="21776" to="115811"/>
+</host>
+<host starttime="1671149140" endtime="1671149153"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="18018"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="unknown" servicefp="SF-Port18018-TCP:V=7.80%I=7%D=12/16%Time=639BB65F%P=x86_64-pc-linux-gnu%r(GetRequest,74,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Length:\x2015\r\nServer:\x20Crow/0\.1\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:05:51\x20GMT\r\n\r\n404\x20Not\x20Found\r\n&quot;)%r(HTTPOptions,74,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Length:\x2015\r\nServer:\x20Crow/0\.1\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:05:51\x20GMT\r\n\r\n404\x20Not\x20Found\r\n&quot;)%r(FourOhFourRequest,74,&quot;HTTP/1\.1\x20404\x20Not\x20Found\r\nContent-Length:\x2015\r\nServer:\x20Crow/0\.1\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:05:51\x20GMT\r\n\r\n404\x20Not\x20Found\r\n&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="28653" rttvar="21722" to="115541"/>
+</host>
+<runstats><finished time="1671149153" timestr="Fri Dec 16 00:05:53 2022" elapsed="12.60" summary="Nmap done at Fri Dec 16 00:05:53 2022; 4 IP addresses (4 hosts up) scanned in 12.60 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

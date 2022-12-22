@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 21:40:54 2022 as: nmap -sV -iL ports/444.txt -p 444 -oX outputs/nmapOutput-444.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/444.txt -p 444 -oX outputs/nmapOutput-444.xml" start="1671140454" startstr="Thu Dec 15 21:40:54 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="444"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671140455" endtime="1671140469"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.131.190" addrtype="ipv4"/>
+<hostnames>
+<hostname name="190.212-33-131.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="SonicWALL firewall http config" devicetype="firewall" tunnel="ssl" method="probed" conf="10"/></port>
+</ports>
+<times srtt="35700" rttvar="27192" to="144468"/>
+</host>
+<host starttime="1671140455" endtime="1671140474"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.137.134" addrtype="ipv4"/>
+<hostnames>
+<hostname name="134.212-33-137.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snpp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28164" rttvar="21297" to="113352"/>
+</host>
+<host starttime="1671140455" endtime="1671140506"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.137.246" addrtype="ipv4"/>
+<hostnames>
+<hostname name="246.212-33-137.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssl" product="Apache httpd" extrainfo="SSL-only mode" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server</cpe></service></port>
+</ports>
+<times srtt="30474" rttvar="22949" to="122270"/>
+</host>
+<host starttime="1671140455" endtime="1671140474"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.210" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.aerogulf.aero" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Embedthis-Appweb" extrainfo="extension: php" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:mbedthis:appweb</cpe></service></port>
+</ports>
+<times srtt="29194" rttvar="22128" to="117706"/>
+</host>
+<host starttime="1671140455" endtime="1671140474"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.103.254" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.bergen-plastics.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="32130" rttvar="24196" to="128914"/>
+</host>
+<host starttime="1671140455" endtime="1671140556"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.106.75" addrtype="ipv4"/>
+<hostnames>
+<hostname name="75.77-241-106.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snpp" servicefp="SF-Port444-TCP:V=7.80%T=SSL%I=7%D=12/15%Time=639B9479%P=x86_64-pc-linux-gnu%r(GetRequest,220,&quot;HTTP/1\.1\x20302\x20Found\r\nDate:\x20Thu,\x2015\x20Dec\x202022\x2021:41:13\x20GMT\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Security-Policy:\x20frame-ancestors\x20&apos;self&apos;\r\nX-XSS-Protection:\x201;\x20mode=block\r\nStrict-Transport-Security:\x20max-age=15552000\r\nLocation:\x20https://Fortigate:444/ng\r\nContent-Length:\x20208\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n&lt;!DOCTYPE\x20HTML\x20PUBLIC\x20\&quot;-//IETF//DTD\x20HTML\x202\.0//EN\&quot;&gt;\n&lt;html&gt;&lt;head&gt;\n&lt;title&gt;302\x20Found&lt;/title&gt;\n&lt;/head&gt;&lt;body&gt;\n&lt;h1&gt;Found&lt;/h1&gt;\n&lt;p&gt;The\x20document\x20has\x20moved\x20&lt;a\x20href=\&quot;https://Fortigate:444/ng\&quot;&gt;here&lt;/a&gt;\.&lt;/p&gt;\n&lt;/body&gt;&lt;/html&gt;\n&quot;)%r(HTTPOptions,220,&quot;HTTP/1\.1\x20302\x20Found\r\nDate:\x20Thu,\x2015\x20Dec\x202022\x2021:41:13\x20GMT\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Security-Policy:\x20frame-ancestors\x20&apos;self&apos;\r\nX-XSS-Protection:\x201;\x20mode=block\r\nStrict-Transport-Security:\x20max-age=15552000\r\nLocation:\x20https://Fortigate:444/ng\r\nContent-Length:\x20208\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n&lt;!DOCTYPE\x20HTML\x20PUBLIC\x20\&quot;-//IETF//DTD\x20HTML\x202\.0//EN\&quot;&gt;\n&lt;html&gt;&lt;head&gt;\n&lt;title&gt;302\x20Found&lt;/title&gt;\n&lt;/head&gt;&lt;body&gt;\n&lt;h1&gt;Found&lt;/h1&gt;\n&lt;p&gt;The\x20document\x20has\x20moved\x20&lt;a\x20href=\&quot;https://Fortigate:444/ng\&quot;&gt;here&lt;/a&gt;\.&lt;/p&gt;\n&lt;/body&gt;&lt;/html&gt;\n&quot;)%r(RTSPRequest,214,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Thu,\x2015\x20Dec\x202022\x2021:41:13\x20GMT\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Security-Policy:\x20frame-ancestors\x20&apos;self&apos;\r\nX-XSS-Protection:\x201;\x20mode=block\r\nStrict-Transport-Security:\x20max-age=15552000\r\nContent-Length:\x20226\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n&lt;!DOCTYPE\x20HTML\x20PUBLIC\x20\&quot;-//IETF//DTD\x20HTML\x202\.0//EN\&quot;&gt;\n&lt;html&gt;&lt;head&gt;\n&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;\n&lt;/head&gt;&lt;body&gt;\n&lt;h1&gt;Bad\x20Request&lt;/h1&gt;\n&lt;p&gt;Your\x20browser\x20sent\x20a\x20request\x20that\x20this\x20server\x20could\x20not\x20understand\.&lt;br\x20/&gt;\n&lt;/p&gt;\n&lt;/body&gt;&lt;/html&gt;\n&quot;);" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="27500" rttvar="20660" to="110140"/>
+</host>
+<host starttime="1671140455" endtime="1671140469"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.120" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.itasp.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="SonicWALL firewall http config" devicetype="firewall" tunnel="ssl" method="probed" conf="10"/></port>
+</ports>
+<times srtt="28445" rttvar="21461" to="114289"/>
+</host>
+<host starttime="1671140455" endtime="1671140469"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.131.190" addrtype="ipv4"/>
+<hostnames>
+<hostname name="190.212-33-131.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="SonicWALL firewall http config" devicetype="firewall" tunnel="ssl" method="probed" conf="10"/></port>
+</ports>
+<times srtt="35573" rttvar="27293" to="144745"/>
+</host>
+<host starttime="1671140455" endtime="1671140479"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.137.134" addrtype="ipv4"/>
+<hostnames>
+<hostname name="134.212-33-137.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snpp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28119" rttvar="21266" to="113183"/>
+</host>
+<host starttime="1671140455" endtime="1671140506"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.137.246" addrtype="ipv4"/>
+<hostnames>
+<hostname name="246.212-33-137.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssl" product="Apache httpd" extrainfo="SSL-only mode" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server</cpe></service></port>
+</ports>
+<times srtt="30484" rttvar="22880" to="122004"/>
+</host>
+<host starttime="1671140455" endtime="1671140474"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.210" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.aerogulf.aero" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Embedthis-Appweb" extrainfo="extension: php" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:mbedthis:appweb</cpe></service></port>
+</ports>
+<times srtt="28887" rttvar="21788" to="116039"/>
+</host>
+<host starttime="1671140455" endtime="1671140474"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.103.254" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.bergen-plastics.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="32100" rttvar="24174" to="128796"/>
+</host>
+<host starttime="1671140455" endtime="1671140557"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.106.75" addrtype="ipv4"/>
+<hostnames>
+<hostname name="75.77-241-106.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snpp" servicefp="SF-Port444-TCP:V=7.80%T=SSL%I=7%D=12/15%Time=639B947A%P=x86_64-pc-linux-gnu%r(GetRequest,220,&quot;HTTP/1\.1\x20302\x20Found\r\nDate:\x20Thu,\x2015\x20Dec\x202022\x2021:41:14\x20GMT\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Security-Policy:\x20frame-ancestors\x20&apos;self&apos;\r\nX-XSS-Protection:\x201;\x20mode=block\r\nStrict-Transport-Security:\x20max-age=15552000\r\nLocation:\x20https://Fortigate:444/ng\r\nContent-Length:\x20208\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n&lt;!DOCTYPE\x20HTML\x20PUBLIC\x20\&quot;-//IETF//DTD\x20HTML\x202\.0//EN\&quot;&gt;\n&lt;html&gt;&lt;head&gt;\n&lt;title&gt;302\x20Found&lt;/title&gt;\n&lt;/head&gt;&lt;body&gt;\n&lt;h1&gt;Found&lt;/h1&gt;\n&lt;p&gt;The\x20document\x20has\x20moved\x20&lt;a\x20href=\&quot;https://Fortigate:444/ng\&quot;&gt;here&lt;/a&gt;\.&lt;/p&gt;\n&lt;/body&gt;&lt;/html&gt;\n&quot;)%r(HTTPOptions,220,&quot;HTTP/1\.1\x20302\x20Found\r\nDate:\x20Thu,\x2015\x20Dec\x202022\x2021:41:14\x20GMT\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Security-Policy:\x20frame-ancestors\x20&apos;self&apos;\r\nX-XSS-Protection:\x201;\x20mode=block\r\nStrict-Transport-Security:\x20max-age=15552000\r\nLocation:\x20https://Fortigate:444/ng\r\nContent-Length:\x20208\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n&lt;!DOCTYPE\x20HTML\x20PUBLIC\x20\&quot;-//IETF//DTD\x20HTML\x202\.0//EN\&quot;&gt;\n&lt;html&gt;&lt;head&gt;\n&lt;title&gt;302\x20Found&lt;/title&gt;\n&lt;/head&gt;&lt;body&gt;\n&lt;h1&gt;Found&lt;/h1&gt;\n&lt;p&gt;The\x20document\x20has\x20moved\x20&lt;a\x20href=\&quot;https://Fortigate:444/ng\&quot;&gt;here&lt;/a&gt;\.&lt;/p&gt;\n&lt;/body&gt;&lt;/html&gt;\n&quot;)%r(RTSPRequest,214,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Thu,\x2015\x20Dec\x202022\x2021:41:14\x20GMT\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Security-Policy:\x20frame-ancestors\x20&apos;self&apos;\r\nX-XSS-Protection:\x201;\x20mode=block\r\nStrict-Transport-Security:\x20max-age=15552000\r\nContent-Length:\x20226\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n&lt;!DOCTYPE\x20HTML\x20PUBLIC\x20\&quot;-//IETF//DTD\x20HTML\x202\.0//EN\&quot;&gt;\n&lt;html&gt;&lt;head&gt;\n&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;\n&lt;/head&gt;&lt;body&gt;\n&lt;h1&gt;Bad\x20Request&lt;/h1&gt;\n&lt;p&gt;Your\x20browser\x20sent\x20a\x20request\x20that\x20this\x20server\x20could\x20not\x20understand\.&lt;br\x20/&gt;\n&lt;/p&gt;\n&lt;/body&gt;&lt;/html&gt;\n&quot;);" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="27582" rttvar="20702" to="110390"/>
+</host>
+<host starttime="1671140455" endtime="1671140469"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.120" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.itasp.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="SonicWALL firewall http config" devicetype="firewall" tunnel="ssl" method="probed" conf="10"/></port>
+</ports>
+<times srtt="28430" rttvar="21415" to="114090"/>
+</host>
+<host starttime="1671140455" endtime="1671140469"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.131.190" addrtype="ipv4"/>
+<hostnames>
+<hostname name="190.212-33-131.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="SonicWALL firewall http config" devicetype="firewall" tunnel="ssl" method="probed" conf="10"/></port>
+</ports>
+<times srtt="35512" rttvar="27245" to="144492"/>
+</host>
+<host starttime="1671140455" endtime="1671140474"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.137.134" addrtype="ipv4"/>
+<hostnames>
+<hostname name="134.212-33-137.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snpp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28381" rttvar="21411" to="114025"/>
+</host>
+<host starttime="1671140455" endtime="1671140506"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.137.246" addrtype="ipv4"/>
+<hostnames>
+<hostname name="246.212-33-137.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssl" product="Apache httpd" extrainfo="SSL-only mode" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server</cpe></service></port>
+</ports>
+<times srtt="30453" rttvar="22852" to="121861"/>
+</host>
+<host starttime="1671140455" endtime="1671140474"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.210" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.aerogulf.aero" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Embedthis-Appweb" extrainfo="extension: php" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:mbedthis:appweb</cpe></service></port>
+</ports>
+<times srtt="28982" rttvar="21918" to="116654"/>
+</host>
+<host starttime="1671140455" endtime="1671140474"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.103.254" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.bergen-plastics.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="32000" rttvar="24111" to="128444"/>
+</host>
+<host starttime="1671140455" endtime="1671140558"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.106.75" addrtype="ipv4"/>
+<hostnames>
+<hostname name="75.77-241-106.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snpp" servicefp="SF-Port444-TCP:V=7.80%T=SSL%I=7%D=12/15%Time=639B947B%P=x86_64-pc-linux-gnu%r(GetRequest,220,&quot;HTTP/1\.1\x20302\x20Found\r\nDate:\x20Thu,\x2015\x20Dec\x202022\x2021:41:15\x20GMT\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Security-Policy:\x20frame-ancestors\x20&apos;self&apos;\r\nX-XSS-Protection:\x201;\x20mode=block\r\nStrict-Transport-Security:\x20max-age=15552000\r\nLocation:\x20https://Fortigate:444/ng\r\nContent-Length:\x20208\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n&lt;!DOCTYPE\x20HTML\x20PUBLIC\x20\&quot;-//IETF//DTD\x20HTML\x202\.0//EN\&quot;&gt;\n&lt;html&gt;&lt;head&gt;\n&lt;title&gt;302\x20Found&lt;/title&gt;\n&lt;/head&gt;&lt;body&gt;\n&lt;h1&gt;Found&lt;/h1&gt;\n&lt;p&gt;The\x20document\x20has\x20moved\x20&lt;a\x20href=\&quot;https://Fortigate:444/ng\&quot;&gt;here&lt;/a&gt;\.&lt;/p&gt;\n&lt;/body&gt;&lt;/html&gt;\n&quot;)%r(HTTPOptions,220,&quot;HTTP/1\.1\x20302\x20Found\r\nDate:\x20Thu,\x2015\x20Dec\x202022\x2021:41:15\x20GMT\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Security-Policy:\x20frame-ancestors\x20&apos;self&apos;\r\nX-XSS-Protection:\x201;\x20mode=block\r\nStrict-Transport-Security:\x20max-age=15552000\r\nLocation:\x20https://Fortigate:444/ng\r\nContent-Length:\x20208\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n&lt;!DOCTYPE\x20HTML\x20PUBLIC\x20\&quot;-//IETF//DTD\x20HTML\x202\.0//EN\&quot;&gt;\n&lt;html&gt;&lt;head&gt;\n&lt;title&gt;302\x20Found&lt;/title&gt;\n&lt;/head&gt;&lt;body&gt;\n&lt;h1&gt;Found&lt;/h1&gt;\n&lt;p&gt;The\x20document\x20has\x20moved\x20&lt;a\x20href=\&quot;https://Fortigate:444/ng\&quot;&gt;here&lt;/a&gt;\.&lt;/p&gt;\n&lt;/body&gt;&lt;/html&gt;\n&quot;)%r(RTSPRequest,214,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Thu,\x2015\x20Dec\x202022\x2021:41:15\x20GMT\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Security-Policy:\x20frame-ancestors\x20&apos;self&apos;\r\nX-XSS-Protection:\x201;\x20mode=block\r\nStrict-Transport-Security:\x20max-age=15552000\r\nContent-Length:\x20226\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n&lt;!DOCTYPE\x20HTML\x20PUBLIC\x20\&quot;-//IETF//DTD\x20HTML\x202\.0//EN\&quot;&gt;\n&lt;html&gt;&lt;head&gt;\n&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;\n&lt;/head&gt;&lt;body&gt;\n&lt;h1&gt;Bad\x20Request&lt;/h1&gt;\n&lt;p&gt;Your\x20browser\x20sent\x20a\x20request\x20that\x20this\x20server\x20could\x20not\x20understand\.&lt;br\x20/&gt;\n&lt;/p&gt;\n&lt;/body&gt;&lt;/html&gt;\n&quot;);" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="27546" rttvar="20668" to="110218"/>
+</host>
+<host starttime="1671140455" endtime="1671140481"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.120" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.itasp.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="SonicWALL firewall http config" devicetype="firewall" tunnel="ssl" method="probed" conf="10"/></port>
+</ports>
+<times srtt="28451" rttvar="21345" to="113831"/>
+</host>
+<host starttime="1671140455" endtime="1671140577"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.131.190" addrtype="ipv4"/>
+<hostnames>
+<hostname name="190.212-33-131.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="SonicWALL firewall http config" devicetype="firewall" tunnel="ssl" method="probed" conf="10"/></port>
+</ports>
+<times srtt="35489" rttvar="27224" to="144385"/>
+</host>
+<host starttime="1671140455" endtime="1671140576"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.137.134" addrtype="ipv4"/>
+<hostnames>
+<hostname name="134.212-33-137.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snpp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28021" rttvar="21265" to="113081"/>
+</host>
+<host starttime="1671140455" endtime="1671140576"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.137.246" addrtype="ipv4"/>
+<hostnames>
+<hostname name="246.212-33-137.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssl" product="Apache httpd" extrainfo="SSL-only mode" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:apache:http_server</cpe></service></port>
+</ports>
+<times srtt="30484" rttvar="22864" to="121940"/>
+</host>
+<host starttime="1671140455" endtime="1671140576"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.210" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.aerogulf.aero" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Embedthis-Appweb" extrainfo="extension: php" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:mbedthis:appweb</cpe></service></port>
+</ports>
+<times srtt="28914" rttvar="21882" to="116442"/>
+</host>
+<host starttime="1671140455" endtime="1671140577"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.103.254" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.bergen-plastics.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="31977" rttvar="24058" to="128209"/>
+</host>
+<host starttime="1671140455" endtime="1671140576"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.106.75" addrtype="ipv4"/>
+<hostnames>
+<hostname name="75.77-241-106.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snpp" servicefp="SF-Port444-TCP:V=7.80%T=SSL%I=7%D=12/15%Time=639B948A%P=x86_64-pc-linux-gnu%r(GetRequest,220,&quot;HTTP/1\.1\x20302\x20Found\r\nDate:\x20Thu,\x2015\x20Dec\x202022\x2021:41:30\x20GMT\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Security-Policy:\x20frame-ancestors\x20&apos;self&apos;\r\nX-XSS-Protection:\x201;\x20mode=block\r\nStrict-Transport-Security:\x20max-age=15552000\r\nLocation:\x20https://Fortigate:444/ng\r\nContent-Length:\x20208\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n&lt;!DOCTYPE\x20HTML\x20PUBLIC\x20\&quot;-//IETF//DTD\x20HTML\x202\.0//EN\&quot;&gt;\n&lt;html&gt;&lt;head&gt;\n&lt;title&gt;302\x20Found&lt;/title&gt;\n&lt;/head&gt;&lt;body&gt;\n&lt;h1&gt;Found&lt;/h1&gt;\n&lt;p&gt;The\x20document\x20has\x20moved\x20&lt;a\x20href=\&quot;https://Fortigate:444/ng\&quot;&gt;here&lt;/a&gt;\.&lt;/p&gt;\n&lt;/body&gt;&lt;/html&gt;\n&quot;)%r(HTTPOptions,220,&quot;HTTP/1\.1\x20302\x20Found\r\nDate:\x20Thu,\x2015\x20Dec\x202022\x2021:41:30\x20GMT\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Security-Policy:\x20frame-ancestors\x20&apos;self&apos;\r\nX-XSS-Protection:\x201;\x20mode=block\r\nStrict-Transport-Security:\x20max-age=15552000\r\nLocation:\x20https://Fortigate:444/ng\r\nContent-Length:\x20208\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n&lt;!DOCTYPE\x20HTML\x20PUBLIC\x20\&quot;-//IETF//DTD\x20HTML\x202\.0//EN\&quot;&gt;\n&lt;html&gt;&lt;head&gt;\n&lt;title&gt;302\x20Found&lt;/title&gt;\n&lt;/head&gt;&lt;body&gt;\n&lt;h1&gt;Found&lt;/h1&gt;\n&lt;p&gt;The\x20document\x20has\x20moved\x20&lt;a\x20href=\&quot;https://Fortigate:444/ng\&quot;&gt;here&lt;/a&gt;\.&lt;/p&gt;\n&lt;/body&gt;&lt;/html&gt;\n&quot;)%r(RTSPRequest,214,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Thu,\x2015\x20Dec\x202022\x2021:41:31\x20GMT\r\nX-Frame-Options:\x20SAMEORIGIN\r\nContent-Security-Policy:\x20frame-ancestors\x20&apos;self&apos;\r\nX-XSS-Protection:\x201;\x20mode=block\r\nStrict-Transport-Security:\x20max-age=15552000\r\nContent-Length:\x20226\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n&lt;!DOCTYPE\x20HTML\x20PUBLIC\x20\&quot;-//IETF//DTD\x20HTML\x202\.0//EN\&quot;&gt;\n&lt;html&gt;&lt;head&gt;\n&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;\n&lt;/head&gt;&lt;body&gt;\n&lt;h1&gt;Bad\x20Request&lt;/h1&gt;\n&lt;p&gt;Your\x20browser\x20sent\x20a\x20request\x20that\x20this\x20server\x20could\x20not\x20understand\.&lt;br\x20/&gt;\n&lt;/p&gt;\n&lt;/body&gt;&lt;/html&gt;\n&quot;);" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="27511" rttvar="20643" to="110083"/>
+</host>
+<host starttime="1671140455" endtime="1671140577"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.120" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.itasp.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="SonicWALL firewall http config" devicetype="firewall" tunnel="ssl" method="probed" conf="10"/></port>
+</ports>
+<times srtt="28781" rttvar="21844" to="116157"/>
+</host>
+<runstats><finished time="1671140577" timestr="Thu Dec 15 21:42:57 2022" elapsed="122.55" summary="Nmap done at Thu Dec 15 21:42:57 2022; 32 IP addresses (28 hosts up) scanned in 122.55 seconds" exit="success"/><hosts up="28" down="4" total="32"/>
+</runstats>
+</nmaprun>

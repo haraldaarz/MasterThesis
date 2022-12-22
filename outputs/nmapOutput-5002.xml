@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 23:24:59 2022 as: nmap -sV -iL ports/5002.txt -p 5002 -oX outputs/nmapOutput-5002.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/5002.txt -p 5002 -oX outputs/nmapOutput-5002.xml" start="1671146699" startstr="Thu Dec 15 23:24:59 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="5002"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671146699" endtime="1671146753"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5002"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28861" rttvar="21650" to="115461"/>
+</host>
+<host starttime="1671146699" endtime="1671146753"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5002"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29035" rttvar="21780" to="116155"/>
+</host>
+<host starttime="1671146699" endtime="1671146753"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5002"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28928" rttvar="21705" to="115748"/>
+</host>
+<host starttime="1671146699" endtime="1671146753"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5002"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28903" rttvar="21681" to="115627"/>
+</host>
+<runstats><finished time="1671146753" timestr="Thu Dec 15 23:25:53 2022" elapsed="54.66" summary="Nmap done at Thu Dec 15 23:25:53 2022; 4 IP addresses (4 hosts up) scanned in 54.66 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

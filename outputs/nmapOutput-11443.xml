@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:21:43 2022 as: nmap -sV -iL ports/11443.txt -p 11443 -oX outputs/nmapOutput-11443.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/11443.txt -p 11443 -oX outputs/nmapOutput-11443.xml" start="1671142903" startstr="Thu Dec 15 22:21:43 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="11443"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671142903" endtime="1671143051"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.170" addrtype="ipv4"/>
+<hostnames>
+<hostname name="170.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="11443"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+</ports>
+<times srtt="32709" rttvar="24910" to="132349"/>
+</host>
+<host starttime="1671142903" endtime="1671142928"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.30" addrtype="ipv4"/>
+<hostnames>
+<hostname name="30.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="11443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="lighttpd" version="1.4.55" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:lighttpd:lighttpd:1.4.55</cpe></service></port>
+</ports>
+<times srtt="31107" rttvar="23335" to="124447"/>
+</host>
+<host starttime="1671142903" endtime="1671143051"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.170" addrtype="ipv4"/>
+<hostnames>
+<hostname name="170.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="11443"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+</ports>
+<times srtt="32688" rttvar="24898" to="132280"/>
+</host>
+<host starttime="1671142903" endtime="1671142928"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.30" addrtype="ipv4"/>
+<hostnames>
+<hostname name="30.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="11443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="lighttpd" version="1.4.55" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:lighttpd:lighttpd:1.4.55</cpe></service></port>
+</ports>
+<times srtt="31532" rttvar="23783" to="126664"/>
+</host>
+<host starttime="1671142903" endtime="1671143051"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.170" addrtype="ipv4"/>
+<hostnames>
+<hostname name="170.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="11443"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+</ports>
+<times srtt="32678" rttvar="24850" to="132078"/>
+</host>
+<host starttime="1671142903" endtime="1671142928"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.30" addrtype="ipv4"/>
+<hostnames>
+<hostname name="30.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="11443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="lighttpd" version="1.4.55" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:lighttpd:lighttpd:1.4.55</cpe></service></port>
+</ports>
+<times srtt="31424" rttvar="23686" to="126168"/>
+</host>
+<host starttime="1671142903" endtime="1671143060"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.102.170" addrtype="ipv4"/>
+<hostnames>
+<hostname name="170.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="11443"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+</ports>
+<times srtt="31148" rttvar="23469" to="125024"/>
+</host>
+<host starttime="1671142903" endtime="1671143060"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.30" addrtype="ipv4"/>
+<hostnames>
+<hostname name="30.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="11443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="lighttpd" version="1.4.55" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:lighttpd:lighttpd:1.4.55</cpe></service></port>
+</ports>
+<times srtt="31472" rttvar="23756" to="126496"/>
+</host>
+<runstats><finished time="1671143060" timestr="Thu Dec 15 22:24:20 2022" elapsed="156.72" summary="Nmap done at Thu Dec 15 22:24:20 2022; 12 IP addresses (8 hosts up) scanned in 156.72 seconds" exit="success"/><hosts up="8" down="4" total="12"/>
+</runstats>
+</nmaprun>

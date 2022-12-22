@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 23:09:36 2022 as: nmap -sV -iL ports/6941.txt -p 6941 -oX outputs/nmapOutput-6941.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/6941.txt -p 6941 -oX outputs/nmapOutput-6941.xml" start="1671145776" startstr="Thu Dec 15 23:09:36 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="6941"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671145776" endtime="1671145777"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.102.18" addrtype="ipv4"/>
+<hostnames>
+<hostname name="18.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="6941"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="28081" rttvar="21340" to="113441"/>
+</host>
+<host starttime="1671145776" endtime="1671145829"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.102.18" addrtype="ipv4"/>
+<hostnames>
+<hostname name="18.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="6941"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+</ports>
+<times srtt="28276" rttvar="21476" to="114180"/>
+</host>
+<host starttime="1671145776" endtime="1671145777"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.102.18" addrtype="ipv4"/>
+<hostnames>
+<hostname name="18.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="6941"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="28165" rttvar="21404" to="113781"/>
+</host>
+<host starttime="1671145776" endtime="1671145829"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.102.18" addrtype="ipv4"/>
+<hostnames>
+<hostname name="18.77-241-102.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="6941"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="28132" rttvar="21382" to="113660"/>
+</host>
+<runstats><finished time="1671145829" timestr="Thu Dec 15 23:10:29 2022" elapsed="53.15" summary="Nmap done at Thu Dec 15 23:10:29 2022; 4 IP addresses (4 hosts up) scanned in 53.15 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:41:40 2022 as: nmap -sV -iL ports/4951.txt -p 4951 -oX outputs/nmapOutput-4951.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/4951.txt -p 4951 -oX outputs/nmapOutput-4951.xml" start="1671144100" startstr="Thu Dec 15 22:41:40 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="4951"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671144100" endtime="1671144258"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.103.130" addrtype="ipv4"/>
+<hostnames>
+<hostname name="130.77-241-103.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4951"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="pwgwims" method="table" conf="3"/></port>
+</ports>
+<times srtt="33529" rttvar="25401" to="135133"/>
+</host>
+<host starttime="1671144100" endtime="1671144258"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.99.98" addrtype="ipv4"/>
+<hostnames>
+<hostname name="98.77-241-99.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4951"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="pwgwims" method="table" conf="3"/></port>
+</ports>
+<times srtt="32093" rttvar="24602" to="130501"/>
+</host>
+<host starttime="1671144100" endtime="1671144258"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.103.130" addrtype="ipv4"/>
+<hostnames>
+<hostname name="130.77-241-103.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4951"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="pwgwims" method="table" conf="3"/></port>
+</ports>
+<times srtt="34207" rttvar="25706" to="137031"/>
+</host>
+<host starttime="1671144100" endtime="1671144258"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.99.98" addrtype="ipv4"/>
+<hostnames>
+<hostname name="98.77-241-99.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4951"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="pwgwims" method="table" conf="3"/></port>
+</ports>
+<times srtt="35133" rttvar="32016" to="163197"/>
+</host>
+<host starttime="1671144100" endtime="1671144258"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.103.130" addrtype="ipv4"/>
+<hostnames>
+<hostname name="130.77-241-103.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4951"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="pwgwims" method="table" conf="3"/></port>
+</ports>
+<times srtt="31962" rttvar="24755" to="130982"/>
+</host>
+<host starttime="1671144100" endtime="1671144258"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.99.98" addrtype="ipv4"/>
+<hostnames>
+<hostname name="98.77-241-99.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4951"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="pwgwims" method="table" conf="3"/></port>
+</ports>
+<times srtt="41748" rttvar="44698" to="220540"/>
+</host>
+<host starttime="1671144100" endtime="1671144259"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.103.130" addrtype="ipv4"/>
+<hostnames>
+<hostname name="130.77-241-103.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4951"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="pwgwims" method="table" conf="3"/></port>
+</ports>
+<times srtt="33631" rttvar="25990" to="137591"/>
+</host>
+<host starttime="1671144100" endtime="1671144259"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.99.98" addrtype="ipv4"/>
+<hostnames>
+<hostname name="98.77-241-99.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4951"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="pwgwims" method="table" conf="3"/></port>
+</ports>
+<times srtt="31611" rttvar="23927" to="127319"/>
+</host>
+<runstats><finished time="1671144259" timestr="Thu Dec 15 22:44:19 2022" elapsed="159.06" summary="Nmap done at Thu Dec 15 22:44:19 2022; 8 IP addresses (8 hosts up) scanned in 159.06 seconds" exit="success"/><hosts up="8" down="0" total="8"/>
+</runstats>
+</nmaprun>

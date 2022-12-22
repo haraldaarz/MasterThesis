@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Fri Dec 16 00:14:30 2022 as: nmap -sV -iL ports/15041.txt -p 15041 -oX outputs/nmapOutput-15041.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/15041.txt -p 15041 -oX outputs/nmapOutput-15041.xml" start="1671149670" startstr="Fri Dec 16 00:14:30 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="15041"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671149670" endtime="1671149670"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.156.38" addrtype="ipv4"/>
+<hostnames>
+<hostname name="38.212-33-156.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="15041"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="vnc" product="VNC" extrainfo="protocol 3.8" method="probed" conf="10"/></port>
+</ports>
+<times srtt="35769" rttvar="34653" to="174381"/>
+</host>
+<host starttime="1671149670" endtime="1671149670"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.156.38" addrtype="ipv4"/>
+<hostnames>
+<hostname name="38.212-33-156.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="15041"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="vnc" product="VNC" extrainfo="protocol 3.8" method="probed" conf="10"/></port>
+</ports>
+<times srtt="35406" rttvar="34307" to="172634"/>
+</host>
+<host starttime="1671149670" endtime="1671149670"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.156.38" addrtype="ipv4"/>
+<hostnames>
+<hostname name="38.212-33-156.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="15041"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="vnc" product="VNC" extrainfo="protocol 3.8" method="probed" conf="10"/></port>
+</ports>
+<times srtt="35049" rttvar="34185" to="171789"/>
+</host>
+<host starttime="1671149670" endtime="1671149670"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.156.38" addrtype="ipv4"/>
+<hostnames>
+<hostname name="38.212-33-156.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="15041"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="vnc" product="VNC" extrainfo="protocol 3.8" method="probed" conf="10"/></port>
+</ports>
+<times srtt="35394" rttvar="34444" to="173170"/>
+</host>
+<runstats><finished time="1671149670" timestr="Fri Dec 16 00:14:30 2022" elapsed="0.63" summary="Nmap done at Fri Dec 16 00:14:30 2022; 4 IP addresses (4 hosts up) scanned in 0.63 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

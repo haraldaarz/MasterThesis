@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 23:39:44 2022 as: nmap -sV -iL ports/47001.txt -p 47001 -oX outputs/nmapOutput-47001.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/47001.txt -p 47001 -oX outputs/nmapOutput-47001.xml" start="1671147584" startstr="Thu Dec 15 23:39:44 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="47001"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671147584" endtime="1671147596"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="47001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29216" rttvar="22338" to="118568"/>
+</host>
+<host starttime="1671147584" endtime="1671147596"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="47001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29359" rttvar="22446" to="119143"/>
+</host>
+<host starttime="1671147584" endtime="1671147596"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="47001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29257" rttvar="22356" to="118681"/>
+</host>
+<host starttime="1671147584" endtime="1671147596"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="47001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29234" rttvar="22346" to="118618"/>
+</host>
+<runstats><finished time="1671147596" timestr="Thu Dec 15 23:39:56 2022" elapsed="11.96" summary="Nmap done at Thu Dec 15 23:39:56 2022; 4 IP addresses (4 hosts up) scanned in 11.96 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

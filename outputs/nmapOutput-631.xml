@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 23:15:51 2022 as: nmap -sV -iL ports/631.txt -p 631 -oX outputs/nmapOutput-631.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/631.txt -p 631 -oX outputs/nmapOutput-631.xml" start="1671146151" startstr="Thu Dec 15 23:15:51 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="631"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671146151" endtime="1671146157"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="631"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ipp" product="CUPS" version="1.4" method="probed" conf="10"><cpe>cpe:/a:apple:cups:1.4</cpe></service></port>
+</ports>
+<times srtt="27794" rttvar="20907" to="111422"/>
+</host>
+<host starttime="1671146151" endtime="1671146157"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="631"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ipp" product="CUPS" version="1.4" method="probed" conf="10"><cpe>cpe:/a:apple:cups:1.4</cpe></service></port>
+</ports>
+<times srtt="27942" rttvar="21011" to="111986"/>
+</host>
+<host starttime="1671146151" endtime="1671146157"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="631"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ipp" product="CUPS" version="1.4" method="probed" conf="10"><cpe>cpe:/a:apple:cups:1.4</cpe></service></port>
+</ports>
+<times srtt="27841" rttvar="20915" to="111501"/>
+</host>
+<host starttime="1671146151" endtime="1671146159"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="631"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ipp" product="CUPS" version="1.4" method="probed" conf="10"><cpe>cpe:/a:apple:cups:1.4</cpe></service></port>
+</ports>
+<times srtt="27813" rttvar="20913" to="111465"/>
+</host>
+<runstats><finished time="1671146159" timestr="Thu Dec 15 23:15:59 2022" elapsed="7.66" summary="Nmap done at Thu Dec 15 23:15:59 2022; 4 IP addresses (4 hosts up) scanned in 7.66 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

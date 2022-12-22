@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:29:08 2022 as: nmap -sV -iL ports/514.txt -p 514 -oX outputs/nmapOutput-514.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/514.txt -p 514 -oX outputs/nmapOutput-514.xml" start="1671143348" startstr="Thu Dec 15 22:29:08 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="514"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671143348" endtime="1671143506"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.218" addrtype="ipv4"/>
+<hostnames>
+<hostname name="218.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="514"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="shell" method="table" conf="3"/></port>
+</ports>
+<times srtt="32343" rttvar="24663" to="130995"/>
+</host>
+<host starttime="1671143348" endtime="1671143506"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.219" addrtype="ipv4"/>
+<hostnames>
+<hostname name="219.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="514"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="shell" method="table" conf="3"/></port>
+</ports>
+<times srtt="32102" rttvar="24458" to="129934"/>
+</host>
+<host starttime="1671143348" endtime="1671143506"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.218" addrtype="ipv4"/>
+<hostnames>
+<hostname name="218.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="514"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="shell" method="table" conf="3"/></port>
+</ports>
+<times srtt="32253" rttvar="24563" to="130505"/>
+</host>
+<host starttime="1671143348" endtime="1671143506"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.219" addrtype="ipv4"/>
+<hostnames>
+<hostname name="219.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="514"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="shell" method="table" conf="3"/></port>
+</ports>
+<times srtt="31766" rttvar="23852" to="127174"/>
+</host>
+<host starttime="1671143348" endtime="1671143506"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.218" addrtype="ipv4"/>
+<hostnames>
+<hostname name="218.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="514"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="shell" method="table" conf="3"/></port>
+</ports>
+<times srtt="32036" rttvar="24222" to="128924"/>
+</host>
+<host starttime="1671143348" endtime="1671143506"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.219" addrtype="ipv4"/>
+<hostnames>
+<hostname name="219.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="514"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="shell" method="table" conf="3"/></port>
+</ports>
+<times srtt="32253" rttvar="24595" to="130633"/>
+</host>
+<host starttime="1671143348" endtime="1671143507"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.218" addrtype="ipv4"/>
+<hostnames>
+<hostname name="218.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="514"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="shell" method="table" conf="3"/></port>
+</ports>
+<times srtt="31744" rttvar="23915" to="127404"/>
+</host>
+<host starttime="1671143348" endtime="1671143507"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.219" addrtype="ipv4"/>
+<hostnames>
+<hostname name="219.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="514"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="shell" method="table" conf="3"/></port>
+</ports>
+<times srtt="31762" rttvar="23992" to="127730"/>
+</host>
+<runstats><finished time="1671143507" timestr="Thu Dec 15 22:31:47 2022" elapsed="158.78" summary="Nmap done at Thu Dec 15 22:31:47 2022; 8 IP addresses (8 hosts up) scanned in 158.78 seconds" exit="success"/><hosts up="8" down="0" total="8"/>
+</runstats>
+</nmaprun>

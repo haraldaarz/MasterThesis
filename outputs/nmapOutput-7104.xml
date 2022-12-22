@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 23:04:15 2022 as: nmap -sV -iL ports/7104.txt -p 7104 -oX outputs/nmapOutput-7104.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/7104.txt -p 7104 -oX outputs/nmapOutput-7104.xml" start="1671145455" startstr="Thu Dec 15 23:04:15 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="7104"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671145455" endtime="1671145488"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.217" addrtype="ipv4"/>
+<hostnames>
+<hostname name="217.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="7104"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="unknown" method="table" conf="3"/></port>
+</ports>
+<times srtt="31498" rttvar="23978" to="127410"/>
+</host>
+<host starttime="1671145455" endtime="1671145488"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.217" addrtype="ipv4"/>
+<hostnames>
+<hostname name="217.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="7104"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="unknown" method="table" conf="3"/></port>
+</ports>
+<times srtt="31483" rttvar="23771" to="126567"/>
+</host>
+<host starttime="1671145455" endtime="1671145488"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.217" addrtype="ipv4"/>
+<hostnames>
+<hostname name="217.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="7104"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="unknown" method="table" conf="3"/></port>
+</ports>
+<times srtt="31454" rttvar="23821" to="126738"/>
+</host>
+<host starttime="1671145455" endtime="1671145488"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.217" addrtype="ipv4"/>
+<hostnames>
+<hostname name="217.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="7104"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="unknown" method="table" conf="3"/></port>
+</ports>
+<times srtt="31404" rttvar="23573" to="125696"/>
+</host>
+<runstats><finished time="1671145488" timestr="Thu Dec 15 23:04:48 2022" elapsed="33.60" summary="Nmap done at Thu Dec 15 23:04:48 2022; 4 IP addresses (4 hosts up) scanned in 33.60 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

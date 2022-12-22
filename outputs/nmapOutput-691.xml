@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 23:13:08 2022 as: nmap -sV -iL ports/691.txt -p 691 -oX outputs/nmapOutput-691.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/691.txt -p 691 -oX outputs/nmapOutput-691.xml" start="1671145988" startstr="Thu Dec 15 23:13:08 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="691"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671145988" endtime="1671146146"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.107.250" addrtype="ipv4"/>
+<hostnames>
+<hostname name="250.77-241-107.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="691"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="resvc" method="table" conf="3"/></port>
+</ports>
+<times srtt="28055" rttvar="21093" to="112427"/>
+</host>
+<host starttime="1671145988" endtime="1671146146"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.107.250" addrtype="ipv4"/>
+<hostnames>
+<hostname name="250.77-241-107.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="691"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="resvc" method="table" conf="3"/></port>
+</ports>
+<times srtt="28120" rttvar="21091" to="112484"/>
+</host>
+<host starttime="1671145988" endtime="1671146146"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.107.250" addrtype="ipv4"/>
+<hostnames>
+<hostname name="250.77-241-107.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="691"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="resvc" method="table" conf="3"/></port>
+</ports>
+<times srtt="28093" rttvar="21102" to="112501"/>
+</host>
+<host starttime="1671145988" endtime="1671146147"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.107.250" addrtype="ipv4"/>
+<hostnames>
+<hostname name="250.77-241-107.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="691"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="resvc" method="table" conf="3"/></port>
+</ports>
+<times srtt="28076" rttvar="21096" to="112460"/>
+</host>
+<runstats><finished time="1671146147" timestr="Thu Dec 15 23:15:47 2022" elapsed="158.74" summary="Nmap done at Thu Dec 15 23:15:47 2022; 4 IP addresses (4 hosts up) scanned in 158.74 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

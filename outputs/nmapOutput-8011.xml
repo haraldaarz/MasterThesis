@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 23:02:03 2022 as: nmap -sV -iL ports/8011.txt -p 8011 -oX outputs/nmapOutput-8011.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/8011.txt -p 8011 -oX outputs/nmapOutput-8011.xml" start="1671145323" startstr="Thu Dec 15 23:02:03 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="8011"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671145323" endtime="1671145335"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.139.94" addrtype="ipv4"/>
+<hostnames>
+<hostname name="94.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8011"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="32369" rttvar="25709" to="135205"/>
+</host>
+<host starttime="1671145323" endtime="1671145335"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.139.94" addrtype="ipv4"/>
+<hostnames>
+<hostname name="94.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8011"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="32611" rttvar="25904" to="136227"/>
+</host>
+<host starttime="1671145323" endtime="1671145335"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.139.94" addrtype="ipv4"/>
+<hostnames>
+<hostname name="94.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8011"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="32477" rttvar="25790" to="135637"/>
+</host>
+<host starttime="1671145323" endtime="1671145336"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.139.94" addrtype="ipv4"/>
+<hostnames>
+<hostname name="94.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8011"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="10.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:10.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="32415" rttvar="25748" to="135407"/>
+</host>
+<runstats><finished time="1671145336" timestr="Thu Dec 15 23:02:16 2022" elapsed="12.77" summary="Nmap done at Thu Dec 15 23:02:16 2022; 4 IP addresses (4 hosts up) scanned in 12.77 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:00:30 2022 as: nmap -sV -iL ports/5060.txt -p 5060 -oX outputs/nmapOutput-5060.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/5060.txt -p 5060 -oX outputs/nmapOutput-5060.xml" start="1671141630" startstr="Thu Dec 15 22:00:30 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="5060"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671141631" endtime="1671141789"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.30" addrtype="ipv4"/>
+<hostnames>
+<hostname name="30.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5060"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="sip" method="table" conf="3"/></port>
+</ports>
+<times srtt="31273" rttvar="23522" to="125361"/>
+</host>
+<host starttime="1671141630" endtime="1671141655"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.30" addrtype="ipv4"/>
+<hostnames>
+<hostname name="30.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5060"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="sip" product="OXO050/031.002 GW_050/031.002" extrainfo="Status: 403 Forbidden" servicefp="SF-Port5060-TCP:V=7.80%I=7%D=12/15%Time=639B9912%P=x86_64-pc-linux-gnu%r(SIPOptions,177,&quot;SIP/2\.0\x20403\x20Forbidden\r\nAllow:\x20INVITE,\x20ACK,\x20CANCEL,\x20BYE,\x20OPTIONS,\x20NOTIFY\r\nUser-Agent:\x20OXO050/031\.002\x20GW_050/031\.002\r\nReason:\x20Q\.850;text=\&quot;\x20Incoming\x20calls\x20barred\x20within\x20CUG\&quot;;cause=55\r\nTo:\x20&lt;sip:nm2@nm2&gt;;tag=351f96d2be43a49fa14e46e95e06378c\r\nFrom:\x20&lt;sip:nm@nm&gt;;tag=root\r\nCall-ID:\x2050000\r\nCSeq:\x2042\x20OPTIONS\r\nVia:\x20SIP/2\.0/TCP\x20nm;received=161\.35\.17\.219;branch=foo\r\nContent-Length:\x200\r\n\r\n&quot;);" method="probed" conf="10"/></port>
+</ports>
+<times srtt="31166" rttvar="23395" to="124746"/>
+</host>
+<host starttime="1671141630" endtime="1671141789"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.30" addrtype="ipv4"/>
+<hostnames>
+<hostname name="30.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5060"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="sip" method="table" conf="3"/></port>
+</ports>
+<times srtt="31107" rttvar="23345" to="124487"/>
+</host>
+<host starttime="1671141630" endtime="1671141790"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.30" addrtype="ipv4"/>
+<hostnames>
+<hostname name="30.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5060"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="sip" method="table" conf="3"/></port>
+</ports>
+<times srtt="31080" rttvar="23320" to="124360"/>
+</host>
+<runstats><finished time="1671141790" timestr="Thu Dec 15 22:03:10 2022" elapsed="160.04" summary="Nmap done at Thu Dec 15 22:03:10 2022; 16 IP addresses (4 hosts up) scanned in 160.04 seconds" exit="success"/><hosts up="4" down="12" total="16"/>
+</runstats>
+</nmaprun>

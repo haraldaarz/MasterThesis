@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 23:40:59 2022 as: nmap -sV -iL ports/4444.txt -p 4444 -oX outputs/nmapOutput-4444.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/4444.txt -p 4444 -oX outputs/nmapOutput-4444.xml" start="1671147659" startstr="Thu Dec 15 23:40:59 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="4444"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671147660" endtime="1671147674"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.149" addrtype="ipv4"/>
+<hostnames>
+<hostname name="149.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="krb524" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="29137" rttvar="21879" to="116653"/>
+</host>
+<host starttime="1671147660" endtime="1671147674"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.149" addrtype="ipv4"/>
+<hostnames>
+<hostname name="149.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="krb524" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="29099" rttvar="21859" to="116535"/>
+</host>
+<host starttime="1671147660" endtime="1671147674"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.149" addrtype="ipv4"/>
+<hostnames>
+<hostname name="149.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="krb524" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="28989" rttvar="21771" to="116073"/>
+</host>
+<host starttime="1671147660" endtime="1671147674"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.149" addrtype="ipv4"/>
+<hostnames>
+<hostname name="149.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4444"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="krb524" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="28978" rttvar="21738" to="115930"/>
+</host>
+<runstats><finished time="1671147674" timestr="Thu Dec 15 23:41:14 2022" elapsed="14.74" summary="Nmap done at Thu Dec 15 23:41:14 2022; 4 IP addresses (4 hosts up) scanned in 14.74 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

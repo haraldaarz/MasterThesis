@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 21:09:56 2022 as: nmap -sV -iL ports/263.txt -p 263 -oX outputs/nmapOutput-263.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/263.txt -p 263 -oX outputs/nmapOutput-263.xml" start="1671138596" startstr="Thu Dec 15 21:09:56 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="263"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<runstats><finished time="1671138654" timestr="Thu Dec 15 21:10:54 2022" elapsed="57.51" summary="Nmap done at Thu Dec 15 21:10:54 2022; 140 IP addresses (0 hosts up) scanned in 57.51 seconds" exit="success"/><hosts up="0" down="140" total="140"/>
+</runstats>
+</nmaprun>

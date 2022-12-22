@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:28:49 2022 as: nmap -sV -iL ports/5432.txt -p 5432 -oX outputs/nmapOutput-5432.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/5432.txt -p 5432 -oX outputs/nmapOutput-5432.xml" start="1671143329" startstr="Thu Dec 15 22:28:49 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="5432"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671143329" endtime="1671143336"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5432"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="postgresql" product="PostgreSQL DB" version="8.3.8 - 8.3.13" method="probed" conf="10"><cpe>cpe:/a:postgresql:postgresql:8.3</cpe></service></port>
+</ports>
+<times srtt="27762" rttvar="20880" to="111282"/>
+</host>
+<host starttime="1671143329" endtime="1671143336"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.170" addrtype="ipv4"/>
+<hostnames>
+<hostname name="170.77-241-96.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5432"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="postgresql" product="PostgreSQL DB" version="8.2.5 - 8.2.19" method="probed" conf="10"><cpe>cpe:/a:postgresql:postgresql:8.2</cpe></service></port>
+</ports>
+<times srtt="28322" rttvar="21247" to="113310"/>
+</host>
+<host starttime="1671143329" endtime="1671143336"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5432"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="postgresql" product="PostgreSQL DB" version="8.3.8 - 8.3.13" method="probed" conf="10"><cpe>cpe:/a:postgresql:postgresql:8.3</cpe></service></port>
+</ports>
+<times srtt="28054" rttvar="21122" to="112542"/>
+</host>
+<host starttime="1671143329" endtime="1671143336"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.170" addrtype="ipv4"/>
+<hostnames>
+<hostname name="170.77-241-96.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5432"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="postgresql" product="PostgreSQL DB" version="8.2.5 - 8.2.19" method="probed" conf="10"><cpe>cpe:/a:postgresql:postgresql:8.2</cpe></service></port>
+</ports>
+<times srtt="28346" rttvar="21269" to="113422"/>
+</host>
+<host starttime="1671143329" endtime="1671143336"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5432"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="postgresql" product="PostgreSQL DB" version="8.3.8 - 8.3.13" method="probed" conf="10"><cpe>cpe:/a:postgresql:postgresql:8.3</cpe></service></port>
+</ports>
+<times srtt="27951" rttvar="21023" to="112043"/>
+</host>
+<host starttime="1671143329" endtime="1671143336"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.170" addrtype="ipv4"/>
+<hostnames>
+<hostname name="170.77-241-96.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5432"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="postgresql" product="PostgreSQL DB" version="8.2.5 - 8.2.19" method="probed" conf="10"><cpe>cpe:/a:postgresql:postgresql:8.2</cpe></service></port>
+</ports>
+<times srtt="28363" rttvar="21279" to="113479"/>
+</host>
+<host starttime="1671143329" endtime="1671143336"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5432"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="postgresql" product="PostgreSQL DB" version="8.3.8 - 8.3.13" method="probed" conf="10"><cpe>cpe:/a:postgresql:postgresql:8.3</cpe></service></port>
+</ports>
+<times srtt="27926" rttvar="21014" to="111982"/>
+</host>
+<host starttime="1671143329" endtime="1671143336"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.170" addrtype="ipv4"/>
+<hostnames>
+<hostname name="170.77-241-96.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5432"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="postgresql" product="PostgreSQL DB" version="8.2.5 - 8.2.19" method="probed" conf="10"><cpe>cpe:/a:postgresql:postgresql:8.2</cpe></service></port>
+</ports>
+<times srtt="28391" rttvar="21298" to="113583"/>
+</host>
+<runstats><finished time="1671143336" timestr="Thu Dec 15 22:28:56 2022" elapsed="6.73" summary="Nmap done at Thu Dec 15 22:28:56 2022; 8 IP addresses (8 hosts up) scanned in 6.73 seconds" exit="success"/><hosts up="8" down="0" total="8"/>
+</runstats>
+</nmaprun>

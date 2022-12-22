@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:03:10 2022 as: nmap -sV -iL ports/5000.txt -p 5000 -oX outputs/nmapOutput-5000.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/5000.txt -p 5000 -oX outputs/nmapOutput-5000.xml" start="1671141790" startstr="Thu Dec 15 22:03:10 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="5000"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671141790" endtime="1671141954"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="upnp" servicefp="SF-Port5000-TCP:V=7.80%I=7%D=12/15%Time=639B99AB%P=x86_64-pc-linux-gnu%r(GenericLines,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(GetRequest,F4,&quot;HTTP/1\.1\x20302\x20Moved\x20Temporarily\r\nCache-Control:\x20no-cache\r\nContent-Length:\x20108\r\nContent-Type:\x20text/html\r\nLocation:\x20/access-denied\.html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Moved\x20Temporarily&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;302\x20Moved\x20Temporarily&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(RTSPRequest,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(DNSVersionBindReqTCP,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(SMBProgNeg,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(ZendJavaBridge,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(HTTPOptions,DA,&quot;HTTP/1\.1\x20500\x20Internal\x20Server\x20Error\r\nContent-Length:\x20134\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Internal\x20Server\x20Error&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;500\x20Internal\x20Server\x20Error&lt;/h1&gt;&lt;p&gt;Unsupported\x20method&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(RPCCheck,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(DNSStatusRequestTCP,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="28249" rttvar="21209" to="113085"/>
+</host>
+<host starttime="1671141790" endtime="1671141805"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<times srtt="30983" rttvar="24027" to="127091"/>
+</host>
+<host starttime="1671141790" endtime="1671141802"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.157.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-157.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<times srtt="28613" rttvar="21479" to="114529"/>
+</host>
+<host starttime="1671141790" endtime="1671141954"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="upnp" servicefp="SF-Port5000-TCP:V=7.80%I=7%D=12/15%Time=639B99AB%P=x86_64-pc-linux-gnu%r(GenericLines,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(GetRequest,F4,&quot;HTTP/1\.1\x20302\x20Moved\x20Temporarily\r\nCache-Control:\x20no-cache\r\nContent-Length:\x20108\r\nContent-Type:\x20text/html\r\nLocation:\x20/access-denied\.html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Moved\x20Temporarily&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;302\x20Moved\x20Temporarily&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(RTSPRequest,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(DNSVersionBindReqTCP,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(SMBProgNeg,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(ZendJavaBridge,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(HTTPOptions,DA,&quot;HTTP/1\.1\x20500\x20Internal\x20Server\x20Error\r\nContent-Length:\x20134\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Internal\x20Server\x20Error&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;500\x20Internal\x20Server\x20Error&lt;/h1&gt;&lt;p&gt;Unsupported\x20method&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(RPCCheck,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(DNSStatusRequestTCP,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="28215" rttvar="21183" to="112947"/>
+</host>
+<host starttime="1671141790" endtime="1671141805"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<times srtt="31401" rttvar="24491" to="129365"/>
+</host>
+<host starttime="1671141790" endtime="1671141802"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.157.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-157.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<times srtt="28850" rttvar="21697" to="115638"/>
+</host>
+<host starttime="1671141790" endtime="1671141954"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="upnp" servicefp="SF-Port5000-TCP:V=7.80%I=7%D=12/15%Time=639B99AB%P=x86_64-pc-linux-gnu%r(GenericLines,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(GetRequest,F4,&quot;HTTP/1\.1\x20302\x20Moved\x20Temporarily\r\nCache-Control:\x20no-cache\r\nContent-Length:\x20108\r\nContent-Type:\x20text/html\r\nLocation:\x20/access-denied\.html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Moved\x20Temporarily&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;302\x20Moved\x20Temporarily&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(RTSPRequest,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(DNSVersionBindReqTCP,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(SMBProgNeg,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(ZendJavaBridge,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(HTTPOptions,DA,&quot;HTTP/1\.1\x20500\x20Internal\x20Server\x20Error\r\nContent-Length:\x20134\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Internal\x20Server\x20Error&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;500\x20Internal\x20Server\x20Error&lt;/h1&gt;&lt;p&gt;Unsupported\x20method&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(RPCCheck,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(DNSStatusRequestTCP,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="28188" rttvar="21165" to="112848"/>
+</host>
+<host starttime="1671141790" endtime="1671141805"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<times srtt="31126" rttvar="24154" to="127742"/>
+</host>
+<host starttime="1671141790" endtime="1671141802"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.157.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-157.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<times srtt="28742" rttvar="21605" to="115162"/>
+</host>
+<host starttime="1671141790" endtime="1671141956"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.147" addrtype="ipv4"/>
+<hostnames>
+<hostname name="147.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="upnp" servicefp="SF-Port5000-TCP:V=7.80%I=7%D=12/15%Time=639B99AB%P=x86_64-pc-linux-gnu%r(GenericLines,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(GetRequest,F4,&quot;HTTP/1\.1\x20302\x20Moved\x20Temporarily\r\nCache-Control:\x20no-cache\r\nContent-Length:\x20108\r\nContent-Type:\x20text/html\r\nLocation:\x20/access-denied\.html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Moved\x20Temporarily&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;302\x20Moved\x20Temporarily&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(RTSPRequest,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(DNSVersionBindReqTCP,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(SMBProgNeg,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(ZendJavaBridge,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(HTTPOptions,DA,&quot;HTTP/1\.1\x20500\x20Internal\x20Server\x20Error\r\nContent-Length:\x20134\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Internal\x20Server\x20Error&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;500\x20Internal\x20Server\x20Error&lt;/h1&gt;&lt;p&gt;Unsupported\x20method&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(RPCCheck,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;)%r(DNSStatusRequestTCP,A9,&quot;HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2096\r\nContent-Type:\x20text/html\r\n\r\n&lt;html&gt;&lt;head&gt;&lt;title&gt;Bad\x20Request&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="28558" rttvar="21526" to="114662"/>
+</host>
+<host starttime="1671141790" endtime="1671141956"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<times srtt="31106" rttvar="24115" to="127566"/>
+</host>
+<host starttime="1671141790" endtime="1671141955"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.157.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-157.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="5000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx</cpe></service></port>
+</ports>
+<times srtt="28721" rttvar="21590" to="115081"/>
+</host>
+<runstats><finished time="1671141956" timestr="Thu Dec 15 22:05:56 2022" elapsed="165.60" summary="Nmap done at Thu Dec 15 22:05:56 2022; 16 IP addresses (12 hosts up) scanned in 165.60 seconds" exit="success"/><hosts up="12" down="4" total="16"/>
+</runstats>
+</nmaprun>

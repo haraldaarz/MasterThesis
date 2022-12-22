@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:47:03 2022 as: nmap -sV -iL ports/4001.txt -p 4001 -oX outputs/nmapOutput-4001.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/4001.txt -p 4001 -oX outputs/nmapOutput-4001.xml" start="1671144423" startstr="Thu Dec 15 22:47:03 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="4001"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671144424" endtime="1671144435"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.108.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.77-241-108.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="newoak" servicefp="SF-Port4001-TCP:V=7.80%I=7%D=12/15%Time=639BA3EE%P=x86_64-pc-linux-gnu%r(NULL,43D,&quot;CC\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20W\x20A\x20R\x20N\x20I\x20N\x20G\x20!!!!!!!\r\n\r\nThis\x20is\x20a\x20private\x20computer\x20system\x20to\x20be\x20accessed\x20and\x20used\x20for\r\ncompany\x20business\x20purposes\.\x20\x20All\x20access\x20to\x20it\x20must\x20be\x20specifically\r\nauthorized\.\x20Unauthorized\x20access\x20or\x20use\x20of\x20this\x20system\x20is\x20prohibited\r\nand\x20may\x20expose\x20you\x20to\x20liability\x20under\x20criminal\x20and/or\x20civil\x20law\.\r\n\r\nUnless\x20provided\x20for\x20by\x20a\x20separate\x20written\x20agreement\x20signed\x20by\x20the\r\ncompany,\x20all\x20information\x20placed\x20on\x20this\x20computer\x20system\x20is\x20the\r\nproperty\x20of\x20the\x20company\.\x20The\x20company\x20reserves\x20the\x20right\x20to\x20monitor,\r\naccess,\x20intercept,\x20record,\x20read,\x20copy,\x20capture\x20and\x20disclose\x20all\r\ninformation\x20received,\x20sent\x20through\x20or\x20stored\x20in\x20this\x20computer\r\nsystem,\x20without\x20notice,\x20for\x20any\x20purpose\x20and\x20at\x20anytime\.\r\n\r\nBy\x20accessing,\x20using\x20and\x20continuing\x20to\x20use\x20this\x20system,\x20you\x20agree\x20to\r\nthese\x20terms\x20of\x20use,\x20as\x20the\x20company\x20may\x20modify\x20from\x20time\x20to\x20time;\x20you\r\nagree\x20to\x20waive\x20any\x20right\x20or\x20expectation\x20of\x20privacy\x20reg&quot;)%r(GenericLines,463,&quot;CC\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20W\x20A\x20R\x20N\x20I\x20N\x20G\x20!!!!!!!\r\n\r\nThis\x20is\x20a\x20private\x20computer\x20system\x20to\x20be\x20accessed\x20and\x20used\x20for\r\ncompany\x20business\x20purposes\.\x20\x20All\x20access\x20to\x20it\x20must\x20be\x20specifically\r\nauthorized\.\x20Unauthorized\x20access\x20or\x20use\x20of\x20this\x20system\x20is\x20prohibited\r\nand\x20may\x20expose\x20you\x20to\x20liability\x20under\x20criminal\x20and/or\x20civil\x20law\.\r\n\r\nUnless\x20provided\x20for\x20by\x20a\x20separate\x20written\x20agreement\x20signed\x20by\x20the\r\ncompany,\x20all\x20information\x20placed\x20on\x20this\x20computer\x20system\x20is\x20the\r\nproperty\x20of\x20the\x20company\.\x20The\x20company\x20reserves\x20the\x20right\x20to\x20monitor,\r\naccess,\x20intercept,\x20record,\x20read,\x20copy,\x20capture\x20and\x20disclose\x20all\r\ninformation\x20received,\x20sent\x20through\x20or\x20stored\x20in\x20this\x20computer\r\nsystem,\x20without\x20notice,\x20for\x20any\x20purpose\x20and\x20at\x20anytime\.\r\n\r\nBy\x20accessing,\x20using\x20and\x20continuing\x20to\x20use\x20this\x20system,\x20you\x20agree\x20to\r\nthese\x20terms\x20of\x20use,\x20as\x20the\x20company\x20may\x20modify\x20from\x20time\x20to\x20time;\x20you\r\nagree\x20to\x20waive\x20any\x20right\x20or\x20expectation\x20of\x20privacy\x20reg&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="28418" rttvar="21331" to="113742"/>
+</host>
+<host starttime="1671144424" endtime="1671144456"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.218" addrtype="ipv4"/>
+<hostnames>
+<hostname name="218.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="newoak" method="table" conf="3"/></port>
+</ports>
+<times srtt="30495" rttvar="22913" to="122147"/>
+</host>
+<host starttime="1671144424" endtime="1671144424"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.108.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.77-241-108.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="28345" rttvar="21274" to="113441"/>
+</host>
+<host starttime="1671144424" endtime="1671144456"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.218" addrtype="ipv4"/>
+<hostnames>
+<hostname name="218.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="newoak" method="table" conf="3"/></port>
+</ports>
+<times srtt="30848" rttvar="23197" to="123636"/>
+</host>
+<host starttime="1671144424" endtime="1671144424"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.108.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.77-241-108.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="28240" rttvar="21183" to="112972"/>
+</host>
+<host starttime="1671144424" endtime="1671144457"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.218" addrtype="ipv4"/>
+<hostnames>
+<hostname name="218.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="newoak" method="table" conf="3"/></port>
+</ports>
+<times srtt="30826" rttvar="23197" to="123614"/>
+</host>
+<host starttime="1671144424" endtime="1671144457"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.108.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.77-241-108.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="28305" rttvar="21253" to="113317"/>
+</host>
+<host starttime="1671144424" endtime="1671144457"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.109.218" addrtype="ipv4"/>
+<hostnames>
+<hostname name="218.77-241-109.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="4001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="newoak" method="table" conf="3"/></port>
+</ports>
+<times srtt="30854" rttvar="23180" to="123574"/>
+</host>
+<runstats><finished time="1671144457" timestr="Thu Dec 15 22:47:37 2022" elapsed="33.72" summary="Nmap done at Thu Dec 15 22:47:37 2022; 8 IP addresses (8 hosts up) scanned in 33.72 seconds" exit="success"/><hosts up="8" down="0" total="8"/>
+</runstats>
+</nmaprun>

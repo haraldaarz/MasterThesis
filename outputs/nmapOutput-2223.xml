@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 23:58:49 2022 as: nmap -sV -iL ports/2223.txt -p 2223 -oX outputs/nmapOutput-2223.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/2223.txt -p 2223 -oX outputs/nmapOutput-2223.xml" start="1671148729" startstr="Thu Dec 15 23:58:49 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="2223"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671148729" endtime="1671148757"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.149.162" addrtype="ipv4"/>
+<hostnames>
+<hostname name="162.212-33-149.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2223"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="rockwell-csp2" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="32340" rttvar="24882" to="131868"/>
+</host>
+<host starttime="1671148729" endtime="1671148757"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.149.162" addrtype="ipv4"/>
+<hostnames>
+<hostname name="162.212-33-149.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2223"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="rockwell-csp2" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="32119" rttvar="24662" to="130767"/>
+</host>
+<host starttime="1671148729" endtime="1671148757"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.149.162" addrtype="ipv4"/>
+<hostnames>
+<hostname name="162.212-33-149.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2223"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="rockwell-csp2" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="32386" rttvar="24896" to="131970"/>
+</host>
+<host starttime="1671148729" endtime="1671148757"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.149.162" addrtype="ipv4"/>
+<hostnames>
+<hostname name="162.212-33-149.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2223"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="rockwell-csp2" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="32368" rttvar="24872" to="131856"/>
+</host>
+<runstats><finished time="1671148757" timestr="Thu Dec 15 23:59:17 2022" elapsed="28.66" summary="Nmap done at Thu Dec 15 23:59:17 2022; 4 IP addresses (4 hosts up) scanned in 28.66 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:07:33 2022 as: nmap -sV -iL ports/1333.txt -p 1333 -oX outputs/nmapOutput-1333.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/1333.txt -p 1333 -oX outputs/nmapOutput-1333.xml" start="1671142053" startstr="Thu Dec 15 22:07:33 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="1333"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671142053" endtime="1671142055"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.226" addrtype="ipv4"/>
+<hostnames>
+<hostname name="226.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1333"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="telnet" product="BusyBox telnetd" version="1.4.2 (2020-02-05 15:14:04 CST)" method="probed" conf="10"><cpe>cpe:/a:busybox:busybox:1.4.2_%282020-02-05_15%3A14%3A04_cst%29</cpe></service></port>
+</ports>
+<times srtt="28794" rttvar="21775" to="115894"/>
+</host>
+<host starttime="1671142053" endtime="1671142058"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.227" addrtype="ipv4"/>
+<hostnames>
+<hostname name="227.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1333"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="telnet" product="BusyBox telnetd" version="1.4.2 (2020-02-05 15:14:04 CST)" method="probed" conf="10"><cpe>cpe:/a:busybox:busybox:1.4.2_%282020-02-05_15%3A14%3A04_cst%29</cpe></service></port>
+</ports>
+<times srtt="31211" rttvar="23777" to="126319"/>
+</host>
+<host starttime="1671142053" endtime="1671142055"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.229" addrtype="ipv4"/>
+<hostnames>
+<hostname name="229.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1333"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="telnet" product="BusyBox telnetd" version="1.4.2 (2020-02-05 15:14:04 CST)" method="probed" conf="10"><cpe>cpe:/a:busybox:busybox:1.4.2_%282020-02-05_15%3A14%3A04_cst%29</cpe></service></port>
+</ports>
+<times srtt="34572" rttvar="26472" to="140460"/>
+</host>
+<host starttime="1671142053" endtime="1671142058"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.226" addrtype="ipv4"/>
+<hostnames>
+<hostname name="226.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1333"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="telnet" product="BusyBox telnetd" version="1.4.2 (2020-02-05 15:14:04 CST)" method="probed" conf="10"><cpe>cpe:/a:busybox:busybox:1.4.2_%282020-02-05_15%3A14%3A04_cst%29</cpe></service></port>
+</ports>
+<times srtt="31642" rttvar="24930" to="131362"/>
+</host>
+<host starttime="1671142053" endtime="1671142058"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.227" addrtype="ipv4"/>
+<hostnames>
+<hostname name="227.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1333"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="telnet" product="BusyBox telnetd" version="1.4.2 (2020-02-05 15:14:04 CST)" method="probed" conf="10"><cpe>cpe:/a:busybox:busybox:1.4.2_%282020-02-05_15%3A14%3A04_cst%29</cpe></service></port>
+</ports>
+<times srtt="39150" rttvar="32472" to="169038"/>
+</host>
+<host starttime="1671142053" endtime="1671142058"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.229" addrtype="ipv4"/>
+<hostnames>
+<hostname name="229.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1333"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="telnet" product="BusyBox telnetd" version="1.4.2 (2020-02-05 15:14:04 CST)" method="probed" conf="10"><cpe>cpe:/a:busybox:busybox:1.4.2_%282020-02-05_15%3A14%3A04_cst%29</cpe></service></port>
+</ports>
+<times srtt="33644" rttvar="25783" to="136776"/>
+</host>
+<host starttime="1671142053" endtime="1671142055"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.226" addrtype="ipv4"/>
+<hostnames>
+<hostname name="226.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1333"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="telnet" product="BusyBox telnetd" version="1.4.2 (2020-02-05 15:14:04 CST)" method="probed" conf="10"><cpe>cpe:/a:busybox:busybox:1.4.2_%282020-02-05_15%3A14%3A04_cst%29</cpe></service></port>
+</ports>
+<times srtt="32546" rttvar="25644" to="135122"/>
+</host>
+<host starttime="1671142053" endtime="1671142059"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.227" addrtype="ipv4"/>
+<hostnames>
+<hostname name="227.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1333"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="telnet" product="BusyBox telnetd" version="1.4.2 (2020-02-05 15:14:04 CST)" method="probed" conf="10"><cpe>cpe:/a:busybox:busybox:1.4.2_%282020-02-05_15%3A14%3A04_cst%29</cpe></service></port>
+</ports>
+<times srtt="39112" rttvar="32440" to="168872"/>
+</host>
+<host starttime="1671142053" endtime="1671142059"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.229" addrtype="ipv4"/>
+<hostnames>
+<hostname name="229.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1333"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="telnet" product="BusyBox telnetd" version="1.4.2 (2020-02-05 15:14:04 CST)" method="probed" conf="10"><cpe>cpe:/a:busybox:busybox:1.4.2_%282020-02-05_15%3A14%3A04_cst%29</cpe></service></port>
+</ports>
+<times srtt="33697" rttvar="25493" to="135669"/>
+</host>
+<host starttime="1671142053" endtime="1671142059"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.226" addrtype="ipv4"/>
+<hostnames>
+<hostname name="226.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1333"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="telnet" product="BusyBox telnetd" version="1.4.2 (2020-02-05 15:14:04 CST)" method="probed" conf="10"><cpe>cpe:/a:busybox:busybox:1.4.2_%282020-02-05_15%3A14%3A04_cst%29</cpe></service></port>
+</ports>
+<times srtt="31832" rttvar="24836" to="131176"/>
+</host>
+<host starttime="1671142053" endtime="1671142059"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.227" addrtype="ipv4"/>
+<hostnames>
+<hostname name="227.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1333"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="telnet" product="BusyBox telnetd" version="1.4.2 (2020-02-05 15:14:04 CST)" method="probed" conf="10"><cpe>cpe:/a:busybox:busybox:1.4.2_%282020-02-05_15%3A14%3A04_cst%29</cpe></service></port>
+</ports>
+<times srtt="39967" rttvar="32988" to="171919"/>
+</host>
+<host starttime="1671142053" endtime="1671142059"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.98.229" addrtype="ipv4"/>
+<hostnames>
+<hostname name="229.77-241-98.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1333"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="telnet" product="BusyBox telnetd" version="1.4.2 (2020-02-05 15:14:04 CST)" method="probed" conf="10"><cpe>cpe:/a:busybox:busybox:1.4.2_%282020-02-05_15%3A14%3A04_cst%29</cpe></service></port>
+</ports>
+<times srtt="33269" rttvar="26279" to="138385"/>
+</host>
+<runstats><finished time="1671142059" timestr="Thu Dec 15 22:07:39 2022" elapsed="6.52" summary="Nmap done at Thu Dec 15 22:07:39 2022; 16 IP addresses (12 hosts up) scanned in 6.52 seconds" exit="success"/><hosts up="12" down="4" total="16"/>
+</runstats>
+</nmaprun>

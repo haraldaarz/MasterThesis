@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Fri Dec 16 00:15:14 2022 as: nmap -sV -iL ports/15030.txt -p 15030 -oX outputs/nmapOutput-15030.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/15030.txt -p 15030 -oX outputs/nmapOutput-15030.xml" start="1671149714" startstr="Fri Dec 16 00:15:14 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="15030"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671149715" endtime="1671149757"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.156.38" addrtype="ipv4"/>
+<hostnames>
+<hostname name="38.212-33-156.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="15030"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="unknown" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="34026" rttvar="31202" to="158834"/>
+</host>
+<host starttime="1671149715" endtime="1671149757"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.156.38" addrtype="ipv4"/>
+<hostnames>
+<hostname name="38.212-33-156.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="15030"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="unknown" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="33413" rttvar="30805" to="156633"/>
+</host>
+<host starttime="1671149715" endtime="1671149757"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.156.38" addrtype="ipv4"/>
+<hostnames>
+<hostname name="38.212-33-156.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="15030"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="unknown" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="33674" rttvar="31009" to="157710"/>
+</host>
+<host starttime="1671149715" endtime="1671149758"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.156.38" addrtype="ipv4"/>
+<hostnames>
+<hostname name="38.212-33-156.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="15030"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="unknown" tunnel="ssl" method="table" conf="3"/></port>
+</ports>
+<times srtt="34044" rttvar="31217" to="158912"/>
+</host>
+<runstats><finished time="1671149758" timestr="Fri Dec 16 00:15:58 2022" elapsed="43.98" summary="Nmap done at Fri Dec 16 00:15:58 2022; 4 IP addresses (4 hosts up) scanned in 43.98 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

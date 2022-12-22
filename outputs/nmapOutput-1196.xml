@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Fri Dec 16 00:18:32 2022 as: nmap -sV -iL ports/1196.txt -p 1196 -oX outputs/nmapOutput-1196.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/1196.txt -p 1196 -oX outputs/nmapOutput-1196.xml" start="1671149912" startstr="Fri Dec 16 00:18:32 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="1196"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671149912" endtime="1671149945"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.143.106" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mur.timeanddate.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1196"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="netmagic" method="table" conf="3"/></port>
+</ports>
+<times srtt="28605" rttvar="21692" to="115373"/>
+</host>
+<host starttime="1671149912" endtime="1671149945"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.143.106" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mur.timeanddate.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1196"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="netmagic" method="table" conf="3"/></port>
+</ports>
+<times srtt="28659" rttvar="21717" to="115527"/>
+</host>
+<host starttime="1671149912" endtime="1671149945"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.143.106" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mur.timeanddate.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1196"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="netmagic" method="table" conf="3"/></port>
+</ports>
+<times srtt="28637" rttvar="21715" to="115497"/>
+</host>
+<host starttime="1671149912" endtime="1671149945"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.143.106" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mur.timeanddate.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1196"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="netmagic" method="table" conf="3"/></port>
+</ports>
+<times srtt="28621" rttvar="21704" to="115437"/>
+</host>
+<runstats><finished time="1671149945" timestr="Fri Dec 16 00:19:05 2022" elapsed="33.12" summary="Nmap done at Fri Dec 16 00:19:05 2022; 4 IP addresses (4 hosts up) scanned in 33.12 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

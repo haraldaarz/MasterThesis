@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 21:47:50 2022 as: nmap -sV -iL ports/143.txt -p 143 -oX outputs/nmapOutput-143.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/143.txt -p 143 -oX outputs/nmapOutput-143.xml" start="1671140870" startstr="Thu Dec 15 21:47:50 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="143"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671140870" endtime="1671141019"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.116" addrtype="ipv4"/>
+<hostnames>
+<hostname name="116.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" method="table" conf="3"/></port>
+</ports>
+<times srtt="27859" rttvar="20916" to="111523"/>
+</host>
+<host starttime="1671140870" endtime="1671141019"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" method="table" conf="3"/></port>
+</ports>
+<times srtt="27752" rttvar="20833" to="111084"/>
+</host>
+<host starttime="1671140870" endtime="1671140872"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="miranda.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" product="Dovecot imapd" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service></port>
+</ports>
+<times srtt="28586" rttvar="21465" to="114446"/>
+</host>
+<host starttime="1671140870" endtime="1671140872"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.177" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ariel.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" product="Dovecot imapd" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service></port>
+</ports>
+<times srtt="28662" rttvar="21564" to="114918"/>
+</host>
+<host starttime="1671140870" endtime="1671140872"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.103.254" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.bergen-plastics.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" product="Microsoft Exchange 2007-2010 imapd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="32080" rttvar="24077" to="128388"/>
+</host>
+<host starttime="1671140870" endtime="1671141019"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.116" addrtype="ipv4"/>
+<hostnames>
+<hostname name="116.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" method="table" conf="3"/></port>
+</ports>
+<times srtt="27848" rttvar="20921" to="111532"/>
+</host>
+<host starttime="1671140870" endtime="1671141019"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" method="table" conf="3"/></port>
+</ports>
+<times srtt="27724" rttvar="20812" to="110972"/>
+</host>
+<host starttime="1671140870" endtime="1671140872"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="miranda.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" product="Dovecot imapd" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service></port>
+</ports>
+<times srtt="28770" rttvar="21658" to="115402"/>
+</host>
+<host starttime="1671140870" endtime="1671140872"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.177" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ariel.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" product="Dovecot imapd" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service></port>
+</ports>
+<times srtt="28653" rttvar="21510" to="114693"/>
+</host>
+<host starttime="1671140870" endtime="1671140872"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.103.254" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.bergen-plastics.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" product="Microsoft Exchange 2007-2010 imapd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="32054" rttvar="24057" to="128282"/>
+</host>
+<host starttime="1671140870" endtime="1671141019"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.116" addrtype="ipv4"/>
+<hostnames>
+<hostname name="116.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" method="table" conf="3"/></port>
+</ports>
+<times srtt="27811" rttvar="20883" to="111343"/>
+</host>
+<host starttime="1671140870" endtime="1671141019"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" method="table" conf="3"/></port>
+</ports>
+<times srtt="27694" rttvar="20789" to="110850"/>
+</host>
+<host starttime="1671140870" endtime="1671140872"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="miranda.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" product="Dovecot imapd" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service></port>
+</ports>
+<times srtt="28706" rttvar="21620" to="115186"/>
+</host>
+<host starttime="1671140870" endtime="1671140872"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.177" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ariel.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" product="Dovecot imapd" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service></port>
+</ports>
+<times srtt="28635" rttvar="21479" to="114551"/>
+</host>
+<host starttime="1671140870" endtime="1671140872"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.103.254" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.bergen-plastics.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" product="Microsoft Exchange 2007-2010 imapd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="32025" rttvar="24036" to="128169"/>
+</host>
+<host starttime="1671140870" endtime="1671141020"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.116" addrtype="ipv4"/>
+<hostnames>
+<hostname name="116.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" method="table" conf="3"/></port>
+</ports>
+<times srtt="27779" rttvar="20854" to="111195"/>
+</host>
+<host starttime="1671140870" endtime="1671141020"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.129.118" addrtype="ipv4"/>
+<hostnames>
+<hostname name="118.212-33-129.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" method="table" conf="3"/></port>
+</ports>
+<times srtt="27802" rttvar="20863" to="111254"/>
+</host>
+<host starttime="1671140870" endtime="1671141019"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="miranda.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" product="Dovecot imapd" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service></port>
+</ports>
+<times srtt="28685" rttvar="21579" to="115001"/>
+</host>
+<host starttime="1671140870" endtime="1671141019"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.177" addrtype="ipv4"/>
+<hostnames>
+<hostname name="ariel.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" product="Dovecot imapd" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service></port>
+</ports>
+<times srtt="28593" rttvar="21477" to="114501"/>
+</host>
+<host starttime="1671140870" endtime="1671141019"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.103.254" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.bergen-plastics.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" product="Microsoft Exchange 2007-2010 imapd" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:exchange_server</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="32096" rttvar="24072" to="128384"/>
+</host>
+<runstats><finished time="1671141020" timestr="Thu Dec 15 21:50:20 2022" elapsed="150.44" summary="Nmap done at Thu Dec 15 21:50:20 2022; 28 IP addresses (20 hosts up) scanned in 150.44 seconds" exit="success"/><hosts up="20" down="8" total="28"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 21:14:04 2022 as: nmap -sV -iL ports/22.txt -p 22 -oX outputs/nmapOutput-22.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/22.txt -p 22 -oX outputs/nmapOutput-22.xml" start="1671138844" startstr="Thu Dec 15 21:14:04 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="22"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.130.145" addrtype="ipv4"/>
+<hostnames>
+<hostname name="145.212-33-130.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="for_Windows_8.1" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:for_windows_8.1</cpe></service></port>
+</ports>
+<times srtt="28830" rttvar="21802" to="116038"/>
+</host>
+<host starttime="1671138845" endtime="1671138847"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="5.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:5.2</cpe></service></port>
+</ports>
+<times srtt="27719" rttvar="20794" to="110895"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.137.149" addrtype="ipv4"/>
+<hostnames>
+<hostname name="149.212-33-137.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="48143" rttvar="36180" to="192863"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.138.223" addrtype="ipv4"/>
+<hostnames>
+<hostname name="223.212-33-138.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2</cpe></service></port>
+</ports>
+<times srtt="29773" rttvar="22387" to="119321"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.139.185" addrtype="ipv4"/>
+<hostnames>
+<hostname name="185.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="42318" rttvar="31784" to="169454"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.139.205" addrtype="ipv4"/>
+<hostnames>
+<hostname name="205.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="29325" rttvar="22001" to="117329"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.142.90" addrtype="ipv4"/>
+<hostnames>
+<hostname name="90.212-33-142.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="Bitvise WinSSHD" version="6.07" extrainfo="FlowSsh 5.25; protocol 2.0; non-commercial use" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:bitvise:winsshd:6.07</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29055" rttvar="22068" to="117327"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.143.106" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mur.timeanddate.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.6p1 Ubuntu 4ubuntu0.3" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.6p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+</ports>
+<times srtt="27749" rttvar="20836" to="111093"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.143.145" addrtype="ipv4"/>
+<hostnames>
+<hostname name="145.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="29839" rttvar="22448" to="119631"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.143.53" addrtype="ipv4"/>
+<hostnames>
+<hostname name="53.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="29351" rttvar="22099" to="117747"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.144.34" addrtype="ipv4"/>
+<hostnames>
+<hostname name="34.212-33-144.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.9p1 Debian 10+deb10u2" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.9p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+</ports>
+<times srtt="28252" rttvar="21189" to="113008"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.145.110" addrtype="ipv4"/>
+<hostnames>
+<hostname name="oslo.giantleap.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2p2 Ubuntu 4ubuntu2.10" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2p2</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+</ports>
+<times srtt="28028" rttvar="21059" to="112264"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.146.157" addrtype="ipv4"/>
+<hostnames>
+<hostname name="157.212-33-146.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="28184" rttvar="21169" to="112860"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.147.226" addrtype="ipv4"/>
+<hostnames>
+<hostname name="226.212-33-147.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2</cpe></service></port>
+</ports>
+<times srtt="28674" rttvar="21657" to="115302"/>
+</host>
+<host starttime="1671138845" endtime="1671138860"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.202" addrtype="ipv4"/>
+<hostnames>
+<hostname name="202.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="Cerberus FTP Server sshd" version="12.0" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:cerberusftp:ftp_server:12.0</cpe></service></port>
+</ports>
+<times srtt="31245" rttvar="23682" to="125973"/>
+</host>
+<host starttime="1671138845" endtime="1671138847"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.153.222" addrtype="ipv4"/>
+<hostnames>
+<hostname name="222.212-33-153.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="5.9" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:5.9</cpe></service></port>
+</ports>
+<times srtt="34649" rttvar="26377" to="140157"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.154.149" addrtype="ipv4"/>
+<hostnames>
+<hostname name="149.212-33-154.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="40022" rttvar="30076" to="160326"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.156.130" addrtype="ipv4"/>
+<hostnames>
+<hostname name="130.212-33-156.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2</cpe></service></port>
+</ports>
+<times srtt="28750" rttvar="22149" to="117346"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.158.145" addrtype="ipv4"/>
+<hostnames>
+<hostname name="145.212-33-158.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="27969" rttvar="20994" to="111945"/>
+</host>
+<host starttime="1671138845" endtime="1671138847"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.100.185" addrtype="ipv4"/>
+<hostnames>
+<hostname name="185.77-241-100.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="SrSshServer" version="1.00" extrainfo="sshlib 1.82; protocol 2.0" method="probed" conf="10"/></port>
+</ports>
+<times srtt="29089" rttvar="21875" to="116589"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="for_Windows_8.1" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:for_windows_8.1</cpe></service></port>
+</ports>
+<times srtt="28858" rttvar="21776" to="115962"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.105.115" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.hitecpd.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="Cisco SSH" version="1.25" extrainfo="protocol 2.0" ostype="IOS" method="probed" conf="10"><cpe>cpe:/a:cisco:ssh:1.25</cpe><cpe>cpe:/o:cisco:ios</cpe></service></port>
+</ports>
+<times srtt="32199" rttvar="24193" to="128971"/>
+</host>
+<host starttime="1671138845" endtime="1671138854"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.110.150" addrtype="ipv4"/>
+<hostnames>
+<hostname name="150.77-241-110.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="34598" rttvar="26025" to="138698"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.110.9" addrtype="ipv4"/>
+<hostnames>
+<hostname name="9.77-241-110.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="27681" rttvar="20773" to="110773"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.99.242" addrtype="ipv4"/>
+<hostnames>
+<hostname name="242.77-241-99.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2</cpe></service></port>
+</ports>
+<times srtt="29722" rttvar="22369" to="119198"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.130.145" addrtype="ipv4"/>
+<hostnames>
+<hostname name="145.212-33-130.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="for_Windows_8.1" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:for_windows_8.1</cpe></service></port>
+</ports>
+<times srtt="28780" rttvar="21742" to="115748"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="5.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:5.2</cpe></service></port>
+</ports>
+<times srtt="27927" rttvar="21021" to="112011"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.137.149" addrtype="ipv4"/>
+<hostnames>
+<hostname name="149.212-33-137.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="48500" rttvar="36471" to="194384"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.138.223" addrtype="ipv4"/>
+<hostnames>
+<hostname name="223.212-33-138.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2</cpe></service></port>
+</ports>
+<times srtt="30054" rttvar="22721" to="120938"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.139.185" addrtype="ipv4"/>
+<hostnames>
+<hostname name="185.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="42865" rttvar="32398" to="172457"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.139.205" addrtype="ipv4"/>
+<hostnames>
+<hostname name="205.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="29352" rttvar="22032" to="117480"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.142.90" addrtype="ipv4"/>
+<hostnames>
+<hostname name="90.212-33-142.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="Bitvise WinSSHD" version="6.07" extrainfo="FlowSsh 5.25; protocol 2.0; non-commercial use" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:bitvise:winsshd:6.07</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29037" rttvar="21992" to="117005"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.143.106" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mur.timeanddate.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.6p1 Ubuntu 4ubuntu0.3" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.6p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+</ports>
+<times srtt="27736" rttvar="20851" to="111140"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.143.145" addrtype="ipv4"/>
+<hostnames>
+<hostname name="145.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="30183" rttvar="22743" to="121155"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.143.53" addrtype="ipv4"/>
+<hostnames>
+<hostname name="53.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="29650" rttvar="22328" to="118962"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.144.34" addrtype="ipv4"/>
+<hostnames>
+<hostname name="34.212-33-144.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.9p1 Debian 10+deb10u2" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.9p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+</ports>
+<times srtt="28233" rttvar="21179" to="112949"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.145.110" addrtype="ipv4"/>
+<hostnames>
+<hostname name="oslo.giantleap.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2p2 Ubuntu 4ubuntu2.10" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2p2</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+</ports>
+<times srtt="27988" rttvar="21025" to="112088"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.146.157" addrtype="ipv4"/>
+<hostnames>
+<hostname name="157.212-33-146.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="28204" rttvar="21184" to="112940"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.147.226" addrtype="ipv4"/>
+<hostnames>
+<hostname name="226.212-33-147.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2</cpe></service></port>
+</ports>
+<times srtt="28701" rttvar="21733" to="115633"/>
+</host>
+<host starttime="1671138845" endtime="1671138851"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.202" addrtype="ipv4"/>
+<hostnames>
+<hostname name="202.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="Cerberus FTP Server sshd" version="12.0" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:cerberusftp:ftp_server:12.0</cpe></service></port>
+</ports>
+<times srtt="30550" rttvar="22950" to="122350"/>
+</host>
+<host starttime="1671138845" endtime="1671138847"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.153.222" addrtype="ipv4"/>
+<hostnames>
+<hostname name="222.212-33-153.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="5.9" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:5.9</cpe></service></port>
+</ports>
+<times srtt="34446" rttvar="26212" to="139294"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.154.149" addrtype="ipv4"/>
+<hostnames>
+<hostname name="149.212-33-154.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="39841" rttvar="29924" to="159537"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.156.130" addrtype="ipv4"/>
+<hostnames>
+<hostname name="130.212-33-156.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2</cpe></service></port>
+</ports>
+<times srtt="28873" rttvar="22117" to="117341"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.158.145" addrtype="ipv4"/>
+<hostnames>
+<hostname name="145.212-33-158.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="27937" rttvar="20967" to="111805"/>
+</host>
+<host starttime="1671138845" endtime="1671138847"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.100.185" addrtype="ipv4"/>
+<hostnames>
+<hostname name="185.77-241-100.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="SrSshServer" version="1.00" extrainfo="sshlib 1.82; protocol 2.0" method="probed" conf="10"/></port>
+</ports>
+<times srtt="29058" rttvar="21850" to="116458"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="for_Windows_8.1" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:for_windows_8.1</cpe></service></port>
+</ports>
+<times srtt="28825" rttvar="21760" to="115865"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.105.115" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.hitecpd.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="Cisco SSH" version="1.25" extrainfo="protocol 2.0" ostype="IOS" method="probed" conf="10"><cpe>cpe:/a:cisco:ssh:1.25</cpe><cpe>cpe:/o:cisco:ios</cpe></service></port>
+</ports>
+<times srtt="32393" rttvar="24370" to="129873"/>
+</host>
+<host starttime="1671138845" endtime="1671138854"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.110.150" addrtype="ipv4"/>
+<hostnames>
+<hostname name="150.77-241-110.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="36133" rttvar="27791" to="147297"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.110.9" addrtype="ipv4"/>
+<hostnames>
+<hostname name="9.77-241-110.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="28793" rttvar="21978" to="116705"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.99.242" addrtype="ipv4"/>
+<hostnames>
+<hostname name="242.77-241-99.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2</cpe></service></port>
+</ports>
+<times srtt="30311" rttvar="22834" to="121647"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.130.145" addrtype="ipv4"/>
+<hostnames>
+<hostname name="145.212-33-130.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="for_Windows_8.1" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:for_windows_8.1</cpe></service></port>
+</ports>
+<times srtt="28834" rttvar="21738" to="115786"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="5.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:5.2</cpe></service></port>
+</ports>
+<times srtt="27846" rttvar="20899" to="111442"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.137.149" addrtype="ipv4"/>
+<hostnames>
+<hostname name="149.212-33-137.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="48086" rttvar="36090" to="192446"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.138.223" addrtype="ipv4"/>
+<hostnames>
+<hostname name="223.212-33-138.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2</cpe></service></port>
+</ports>
+<times srtt="30009" rttvar="22681" to="120733"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.139.185" addrtype="ipv4"/>
+<hostnames>
+<hostname name="185.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="43550" rttvar="32897" to="175138"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.139.205" addrtype="ipv4"/>
+<hostnames>
+<hostname name="205.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="29246" rttvar="21937" to="116994"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.142.90" addrtype="ipv4"/>
+<hostnames>
+<hostname name="90.212-33-142.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="Bitvise WinSSHD" version="6.07" extrainfo="FlowSsh 5.25; protocol 2.0; non-commercial use" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:bitvise:winsshd:6.07</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29120" rttvar="22064" to="117376"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.143.106" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mur.timeanddate.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.6p1 Ubuntu 4ubuntu0.3" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.6p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+</ports>
+<times srtt="27720" rttvar="20837" to="111068"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.143.145" addrtype="ipv4"/>
+<hostnames>
+<hostname name="145.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="29878" rttvar="22454" to="119694"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.143.53" addrtype="ipv4"/>
+<hostnames>
+<hostname name="53.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="29646" rttvar="22262" to="118694"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.144.34" addrtype="ipv4"/>
+<hostnames>
+<hostname name="34.212-33-144.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.9p1 Debian 10+deb10u2" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.9p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+</ports>
+<times srtt="28211" rttvar="21164" to="112867"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.145.110" addrtype="ipv4"/>
+<hostnames>
+<hostname name="oslo.giantleap.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2p2 Ubuntu 4ubuntu2.10" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2p2</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+</ports>
+<times srtt="27959" rttvar="21002" to="111967"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.146.157" addrtype="ipv4"/>
+<hostnames>
+<hostname name="157.212-33-146.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="28091" rttvar="21114" to="112547"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.147.226" addrtype="ipv4"/>
+<hostnames>
+<hostname name="226.212-33-147.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2</cpe></service></port>
+</ports>
+<times srtt="28683" rttvar="21717" to="115551"/>
+</host>
+<host starttime="1671138845" endtime="1671138850"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.202" addrtype="ipv4"/>
+<hostnames>
+<hostname name="202.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="Cerberus FTP Server sshd" version="12.0" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:cerberusftp:ftp_server:12.0</cpe></service></port>
+</ports>
+<times srtt="31297" rttvar="23702" to="126105"/>
+</host>
+<host starttime="1671138845" endtime="1671138847"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.153.222" addrtype="ipv4"/>
+<hostnames>
+<hostname name="222.212-33-153.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="5.9" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:5.9</cpe></service></port>
+</ports>
+<times srtt="34522" rttvar="25996" to="138506"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.154.149" addrtype="ipv4"/>
+<hostnames>
+<hostname name="149.212-33-154.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="40102" rttvar="30083" to="160434"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.156.130" addrtype="ipv4"/>
+<hostnames>
+<hostname name="130.212-33-156.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2</cpe></service></port>
+</ports>
+<times srtt="28835" rttvar="22091" to="117199"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.158.145" addrtype="ipv4"/>
+<hostnames>
+<hostname name="145.212-33-158.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="27904" rttvar="20934" to="111640"/>
+</host>
+<host starttime="1671138845" endtime="1671138847"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.100.185" addrtype="ipv4"/>
+<hostnames>
+<hostname name="185.77-241-100.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="SrSshServer" version="1.00" extrainfo="sshlib 1.82; protocol 2.0" method="probed" conf="10"/></port>
+</ports>
+<times srtt="29028" rttvar="21825" to="116328"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="for_Windows_8.1" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:for_windows_8.1</cpe></service></port>
+</ports>
+<times srtt="28800" rttvar="21759" to="115836"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.105.115" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.hitecpd.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="Cisco SSH" version="1.25" extrainfo="protocol 2.0" ostype="IOS" method="probed" conf="10"><cpe>cpe:/a:cisco:ssh:1.25</cpe><cpe>cpe:/o:cisco:ios</cpe></service></port>
+</ports>
+<times srtt="32310" rttvar="24369" to="129786"/>
+</host>
+<host starttime="1671138845" endtime="1671138854"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.110.150" addrtype="ipv4"/>
+<hostnames>
+<hostname name="150.77-241-110.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="34820" rttvar="26416" to="140484"/>
+</host>
+<host starttime="1671138844" endtime="1671138846"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.110.9" addrtype="ipv4"/>
+<hostnames>
+<hostname name="9.77-241-110.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="28727" rttvar="21813" to="115979"/>
+</host>
+<host starttime="1671138845" endtime="1671138846"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.99.242" addrtype="ipv4"/>
+<hostnames>
+<hostname name="242.77-241-99.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2</cpe></service></port>
+</ports>
+<times srtt="30159" rttvar="22646" to="120743"/>
+</host>
+<host starttime="1671138845" endtime="1671138862"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.130.145" addrtype="ipv4"/>
+<hostnames>
+<hostname name="145.212-33-130.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="for_Windows_8.1" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:for_windows_8.1</cpe></service></port>
+</ports>
+<times srtt="28593" rttvar="21459" to="114429"/>
+</host>
+<host starttime="1671138844" endtime="1671138862"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.67" addrtype="ipv4"/>
+<hostnames>
+<hostname name="67.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="5.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:5.2</cpe></service></port>
+</ports>
+<times srtt="27809" rttvar="20894" to="111385"/>
+</host>
+<host starttime="1671138844" endtime="1671138862"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.137.149" addrtype="ipv4"/>
+<hostnames>
+<hostname name="149.212-33-137.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="48367" rttvar="36297" to="193555"/>
+</host>
+<host starttime="1671138845" endtime="1671138862"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.138.223" addrtype="ipv4"/>
+<hostnames>
+<hostname name="223.212-33-138.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2</cpe></service></port>
+</ports>
+<times srtt="29177" rttvar="22344" to="118553"/>
+</host>
+<host starttime="1671138845" endtime="1671138862"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.139.185" addrtype="ipv4"/>
+<hostnames>
+<hostname name="185.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="44080" rttvar="33540" to="178240"/>
+</host>
+<host starttime="1671138845" endtime="1671138862"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.139.205" addrtype="ipv4"/>
+<hostnames>
+<hostname name="205.212-33-139.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="29398" rttvar="22051" to="117602"/>
+</host>
+<host starttime="1671138844" endtime="1671138862"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.142.90" addrtype="ipv4"/>
+<hostnames>
+<hostname name="90.212-33-142.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="Bitvise WinSSHD" version="6.07" extrainfo="FlowSsh 5.25; protocol 2.0; non-commercial use" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:bitvise:winsshd:6.07</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29395" rttvar="22253" to="118407"/>
+</host>
+<host starttime="1671138844" endtime="1671138862"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.143.106" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mur.timeanddate.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.6p1 Ubuntu 4ubuntu0.3" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.6p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+</ports>
+<times srtt="27985" rttvar="21010" to="112025"/>
+</host>
+<host starttime="1671138844" endtime="1671138862"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.143.145" addrtype="ipv4"/>
+<hostnames>
+<hostname name="145.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="30452" rttvar="22883" to="121984"/>
+</host>
+<host starttime="1671138845" endtime="1671138862"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.143.53" addrtype="ipv4"/>
+<hostnames>
+<hostname name="53.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="29168" rttvar="21922" to="116856"/>
+</host>
+<host starttime="1671138845" endtime="1671138862"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.144.34" addrtype="ipv4"/>
+<hostnames>
+<hostname name="34.212-33-144.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.9p1 Debian 10+deb10u2" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.9p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+</ports>
+<times srtt="27729" rttvar="20875" to="111229"/>
+</host>
+<host starttime="1671138845" endtime="1671138862"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.145.110" addrtype="ipv4"/>
+<hostnames>
+<hostname name="oslo.giantleap.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2p2 Ubuntu 4ubuntu2.10" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2p2</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service></port>
+</ports>
+<times srtt="27805" rttvar="20862" to="111253"/>
+</host>
+<host starttime="1671138845" endtime="1671138862"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.146.157" addrtype="ipv4"/>
+<hostnames>
+<hostname name="157.212-33-146.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="28063" rttvar="21094" to="112439"/>
+</host>
+<host starttime="1671138845" endtime="1671138862"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.147.226" addrtype="ipv4"/>
+<hostnames>
+<hostname name="226.212-33-147.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2</cpe></service></port>
+</ports>
+<times srtt="28631" rttvar="21635" to="115171"/>
+</host>
+<host starttime="1671138845" endtime="1671138862"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.148.202" addrtype="ipv4"/>
+<hostnames>
+<hostname name="202.212-33-148.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="Cerberus FTP Server sshd" version="12.0" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:cerberusftp:ftp_server:12.0</cpe></service></port>
+</ports>
+<times srtt="30900" rttvar="23212" to="123748"/>
+</host>
+<host starttime="1671138845" endtime="1671138862"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.153.222" addrtype="ipv4"/>
+<hostnames>
+<hostname name="222.212-33-153.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="5.9" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:5.9</cpe></service></port>
+</ports>
+<times srtt="34904" rttvar="26774" to="142000"/>
+</host>
+<host starttime="1671138845" endtime="1671138862"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.154.149" addrtype="ipv4"/>
+<hostnames>
+<hostname name="149.212-33-154.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="40035" rttvar="30076" to="160339"/>
+</host>
+<host starttime="1671138844" endtime="1671138862"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.156.130" addrtype="ipv4"/>
+<hostnames>
+<hostname name="130.212-33-156.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2</cpe></service></port>
+</ports>
+<times srtt="28497" rttvar="21479" to="114413"/>
+</host>
+<host starttime="1671138845" endtime="1671138862"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.158.145" addrtype="ipv4"/>
+<hostnames>
+<hostname name="145.212-33-158.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="27704" rttvar="20796" to="110888"/>
+</host>
+<host starttime="1671138845" endtime="1671138862"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.100.185" addrtype="ipv4"/>
+<hostnames>
+<hostname name="185.77-241-100.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="SrSshServer" version="1.00" extrainfo="sshlib 1.82; protocol 2.0" method="probed" conf="10"/></port>
+</ports>
+<times srtt="28999" rttvar="21803" to="116211"/>
+</host>
+<host starttime="1671138845" endtime="1671138862"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.nettdrift.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="for_Windows_8.1" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:for_windows_8.1</cpe></service></port>
+</ports>
+<times srtt="28708" rttvar="21625" to="115208"/>
+</host>
+<host starttime="1671138844" endtime="1671138862"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.105.115" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mail.hitecpd.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="Cisco SSH" version="1.25" extrainfo="protocol 2.0" ostype="IOS" method="probed" conf="10"><cpe>cpe:/a:cisco:ssh:1.25</cpe><cpe>cpe:/o:cisco:ios</cpe></service></port>
+</ports>
+<times srtt="32238" rttvar="24268" to="129310"/>
+</host>
+<host starttime="1671138845" endtime="1671138862"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.110.150" addrtype="ipv4"/>
+<hostnames>
+<hostname name="150.77-241-110.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="36444" rttvar="27339" to="145800"/>
+</host>
+<host starttime="1671138844" endtime="1671138862"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.110.9" addrtype="ipv4"/>
+<hostnames>
+<hostname name="9.77-241-110.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="28706" rttvar="21798" to="115898"/>
+</host>
+<host starttime="1671138845" endtime="1671138862"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.99.242" addrtype="ipv4"/>
+<hostnames>
+<hostname name="242.77-241-99.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.2" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.2</cpe></service></port>
+</ports>
+<times srtt="29276" rttvar="22084" to="117612"/>
+</host>
+<runstats><finished time="1671138862" timestr="Thu Dec 15 21:14:22 2022" elapsed="17.89" summary="Nmap done at Thu Dec 15 21:14:22 2022; 124 IP addresses (100 hosts up) scanned in 17.89 seconds" exit="success"/><hosts up="100" down="24" total="124"/>
+</runstats>
+</nmaprun>

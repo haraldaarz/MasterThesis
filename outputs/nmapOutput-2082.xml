@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 23:59:17 2022 as: nmap -sV -iL ports/2082.txt -p 2082 -oX outputs/nmapOutput-2082.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/2082.txt -p 2082 -oX outputs/nmapOutput-2082.xml" start="1671148757" startstr="Thu Dec 15 23:59:17 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="2082"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671148757" endtime="1671148908"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="miranda.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2082"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="infowave" servicefp="SF-Port2082-TCP:V=7.80%I=7%D=12/16%Time=639BB539%P=x86_64-pc-linux-gnu%r(SIPOptions,7C70,&quot;HTTP/1\.0\x20200\x20OK\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=\&quot;utf-8\&quot;\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:00:57\x20GMT\r\nCache-Control:\x20no-cache,\x20no-store,\x20must-revalidate,\x20private\r\nPragma:\x20no-cache\r\nSet-Cookie:\x20cprelogin=no;\x20HttpOnly;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20cpsession=%3aD6osSeAl8GjvBDH3%2cbe145a6deffe4dd572d34f825dcc3e42;\x20HttpOnly;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20roundcube_sessid=expired;\x20HttpOnly;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20roundcube_sessauth=expired;\x20HttpOnly;\x20domain=miranda\.inbusiness\.no;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20Horde=expired;\x20HttpOnly;\x20domain=\.miranda\.inbusiness\.no;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20horde_secret_key=expired;\x20HttpOnly;\x20domain=\.miranda\.inbusiness\.no;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="29481" rttvar="22415" to="119141"/>
+</host>
+<host starttime="1671148757" endtime="1671148908"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="miranda.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2082"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="infowave" servicefp="SF-Port2082-TCP:V=7.80%I=7%D=12/16%Time=639BB539%P=x86_64-pc-linux-gnu%r(SIPOptions,97D3,&quot;HTTP/1\.0\x20200\x20OK\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=\&quot;utf-8\&quot;\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:00:57\x20GMT\r\nCache-Control:\x20no-cache,\x20no-store,\x20must-revalidate,\x20private\r\nPragma:\x20no-cache\r\nSet-Cookie:\x20cprelogin=no;\x20HttpOnly;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20cpsession=%3a4PaxkXjSqt77Rp4O%2ce80a440a0b4d0bb052cb485d0f925a48;\x20HttpOnly;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20roundcube_sessid=expired;\x20HttpOnly;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20roundcube_sessauth=expired;\x20HttpOnly;\x20domain=miranda\.inbusiness\.no;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20Horde=expired;\x20HttpOnly;\x20domain=\.miranda\.inbusiness\.no;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20horde_secret_key=expired;\x20HttpOnly;\x20domain=\.miranda\.inbusiness\.no;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="29631" rttvar="22525" to="119731"/>
+</host>
+<host starttime="1671148757" endtime="1671148908"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="miranda.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2082"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="infowave" servicefp="SF-Port2082-TCP:V=7.80%I=7%D=12/16%Time=639BB539%P=x86_64-pc-linux-gnu%r(SIPOptions,3890,&quot;HTTP/1\.0\x20200\x20OK\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=\&quot;utf-8\&quot;\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:00:57\x20GMT\r\nCache-Control:\x20no-cache,\x20no-store,\x20must-revalidate,\x20private\r\nPragma:\x20no-cache\r\nSet-Cookie:\x20cprelogin=no;\x20HttpOnly;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20cpsession=%3aMM6U44lEUXLn565A%2cb05a7f67a5d3988e1fb2565e76b5a43c;\x20HttpOnly;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20roundcube_sessid=expired;\x20HttpOnly;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20roundcube_sessauth=expired;\x20HttpOnly;\x20domain=miranda\.inbusiness\.no;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20Horde=expired;\x20HttpOnly;\x20domain=\.miranda\.inbusiness\.no;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20horde_secret_key=expired;\x20HttpOnly;\x20domain=\.miranda\.inbusiness\.no;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="29533" rttvar="22439" to="119289"/>
+</host>
+<host starttime="1671148757" endtime="1671148909"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.100.169" addrtype="ipv4"/>
+<hostnames>
+<hostname name="miranda.inbusiness.no" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="2082"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="infowave" servicefp="SF-Port2082-TCP:V=7.80%I=7%D=12/16%Time=639BB539%P=x86_64-pc-linux-gnu%r(SIPOptions,97D3,&quot;HTTP/1\.0\x20200\x20OK\r\nConnection:\x20close\r\nContent-Type:\x20text/html;\x20charset=\&quot;utf-8\&quot;\r\nDate:\x20Fri,\x2016\x20Dec\x202022\x2000:00:57\x20GMT\r\nCache-Control:\x20no-cache,\x20no-store,\x20must-revalidate,\x20private\r\nPragma:\x20no-cache\r\nSet-Cookie:\x20cprelogin=no;\x20HttpOnly;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20cpsession=%3aLsaidxjRCVG0yzvA%2ccef4cd72881c0523d27002979859d12b;\x20HttpOnly;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20roundcube_sessid=expired;\x20HttpOnly;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20roundcube_sessauth=expired;\x20HttpOnly;\x20domain=miranda\.inbusiness\.no;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20Horde=expired;\x20HttpOnly;\x20domain=\.miranda\.inbusiness\.no;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082\r\nSet-Cookie:\x20horde_secret_key=expired;\x20HttpOnly;\x20domain=\.miranda\.inbusiness\.no;\x20expires=Thu,\x2001-Jan-1970\x2000:00:01\x20GMT;\x20path=/;\x20port=2082&quot;);" method="table" conf="3"/></port>
+</ports>
+<times srtt="29506" rttvar="22427" to="119214"/>
+</host>
+<runstats><finished time="1671148909" timestr="Fri Dec 16 00:01:49 2022" elapsed="151.49" summary="Nmap done at Fri Dec 16 00:01:49 2022; 4 IP addresses (4 hosts up) scanned in 151.49 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

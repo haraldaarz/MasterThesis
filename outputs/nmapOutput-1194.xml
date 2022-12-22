@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:07:39 2022 as: nmap -sV -iL ports/1194.txt -p 1194 -oX outputs/nmapOutput-1194.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/1194.txt -p 1194 -oX outputs/nmapOutput-1194.xml" start="1671142059" startstr="Thu Dec 15 22:07:39 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="1194"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671142060" endtime="1671142094"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.143.106" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mur.timeanddate.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1194"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="openvpn" method="table" conf="3"/></port>
+</ports>
+<times srtt="28003" rttvar="21038" to="112155"/>
+</host>
+<host starttime="1671142060" endtime="1671142094"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.147.30" addrtype="ipv4"/>
+<hostnames>
+<hostname name="30.212-33-147.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1194"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="openvpn" method="table" conf="3"/></port>
+</ports>
+<times srtt="29021" rttvar="22062" to="117269"/>
+</host>
+<host starttime="1671142060" endtime="1671142077"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.170" addrtype="ipv4"/>
+<hostnames>
+<hostname name="170.77-241-96.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1194"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="GoAhead WebServer" method="probed" conf="10"><cpe>cpe:/a:goahead:goahead_webserver</cpe></service></port>
+</ports>
+<times srtt="28347" rttvar="21264" to="113403"/>
+</host>
+<host starttime="1671142060" endtime="1671142094"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.143.106" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mur.timeanddate.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1194"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="openvpn" method="table" conf="3"/></port>
+</ports>
+<times srtt="27973" rttvar="21011" to="112017"/>
+</host>
+<host starttime="1671142060" endtime="1671142094"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.147.30" addrtype="ipv4"/>
+<hostnames>
+<hostname name="30.212-33-147.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1194"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="openvpn" method="table" conf="3"/></port>
+</ports>
+<times srtt="30058" rttvar="23189" to="122814"/>
+</host>
+<host starttime="1671142060" endtime="1671142077"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.170" addrtype="ipv4"/>
+<hostnames>
+<hostname name="170.77-241-96.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1194"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="GoAhead WebServer" method="probed" conf="10"><cpe>cpe:/a:goahead:goahead_webserver</cpe></service></port>
+</ports>
+<times srtt="28749" rttvar="21728" to="115661"/>
+</host>
+<host starttime="1671142060" endtime="1671142094"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.143.106" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mur.timeanddate.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1194"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="openvpn" method="table" conf="3"/></port>
+</ports>
+<times srtt="27917" rttvar="20971" to="111801"/>
+</host>
+<host starttime="1671142060" endtime="1671142094"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.147.30" addrtype="ipv4"/>
+<hostnames>
+<hostname name="30.212-33-147.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1194"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="openvpn" method="table" conf="3"/></port>
+</ports>
+<times srtt="29948" rttvar="23096" to="122332"/>
+</host>
+<host starttime="1671142060" endtime="1671142077"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.170" addrtype="ipv4"/>
+<hostnames>
+<hostname name="170.77-241-96.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1194"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="GoAhead WebServer" method="probed" conf="10"><cpe>cpe:/a:goahead:goahead_webserver</cpe></service></port>
+</ports>
+<times srtt="28681" rttvar="21668" to="115353"/>
+</host>
+<host starttime="1671142060" endtime="1671142094"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.143.106" addrtype="ipv4"/>
+<hostnames>
+<hostname name="mur.timeanddate.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1194"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="openvpn" method="table" conf="3"/></port>
+</ports>
+<times srtt="27867" rttvar="20935" to="111607"/>
+</host>
+<host starttime="1671142060" endtime="1671142094"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.147.30" addrtype="ipv4"/>
+<hostnames>
+<hostname name="30.212-33-147.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1194"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="openvpn" method="table" conf="3"/></port>
+</ports>
+<times srtt="29919" rttvar="23093" to="122291"/>
+</host>
+<host starttime="1671142060" endtime="1671142094"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="77.241.96.170" addrtype="ipv4"/>
+<hostnames>
+<hostname name="170.77-241-96.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="1194"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="GoAhead WebServer" method="probed" conf="10"><cpe>cpe:/a:goahead:goahead_webserver</cpe></service></port>
+</ports>
+<times srtt="28681" rttvar="21619" to="115157"/>
+</host>
+<runstats><finished time="1671142094" timestr="Thu Dec 15 22:08:14 2022" elapsed="34.70" summary="Nmap done at Thu Dec 15 22:08:14 2022; 16 IP addresses (12 hosts up) scanned in 34.70 seconds" exit="success"/><hosts up="12" down="4" total="16"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 23:54:04 2022 as: nmap -sV -iL ports/3307.txt -p 3307 -oX outputs/nmapOutput-3307.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/3307.txt -p 3307 -oX outputs/nmapOutput-3307.xml" start="1671148444" startstr="Thu Dec 15 23:54:04 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="3307"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671148444" endtime="1671148444"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="66.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="3307"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="mysql" product="MySQL" version="5.5.5-10.3.29-MariaDB" method="probed" conf="10"><cpe>cpe:/a:mysql:mysql:5.5.5-10.3.29-mariadb</cpe></service></port>
+</ports>
+<times srtt="28541" rttvar="21664" to="115197"/>
+</host>
+<host starttime="1671148444" endtime="1671148444"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="66.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="3307"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="mysql" product="MySQL" version="5.5.5-10.3.29-MariaDB" method="probed" conf="10"><cpe>cpe:/a:mysql:mysql:5.5.5-10.3.29-mariadb</cpe></service></port>
+</ports>
+<times srtt="28672" rttvar="21817" to="115940"/>
+</host>
+<host starttime="1671148444" endtime="1671148444"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="66.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="3307"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="mysql" product="MySQL" version="5.5.5-10.3.29-MariaDB" method="probed" conf="10"><cpe>cpe:/a:mysql:mysql:5.5.5-10.3.29-mariadb</cpe></service></port>
+</ports>
+<times srtt="28566" rttvar="21727" to="115474"/>
+</host>
+<host starttime="1671148444" endtime="1671148444"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.136.66" addrtype="ipv4"/>
+<hostnames>
+<hostname name="66.212-33-136.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="3307"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="mysql" product="MySQL" version="5.5.5-10.3.29-MariaDB" method="probed" conf="10"><cpe>cpe:/a:mysql:mysql:5.5.5-10.3.29-mariadb</cpe></service></port>
+</ports>
+<times srtt="28543" rttvar="21709" to="115379"/>
+</host>
+<runstats><finished time="1671148444" timestr="Thu Dec 15 23:54:04 2022" elapsed="0.72" summary="Nmap done at Thu Dec 15 23:54:04 2022; 4 IP addresses (4 hosts up) scanned in 0.72 seconds" exit="success"/><hosts up="4" down="0" total="4"/>
+</runstats>
+</nmaprun>

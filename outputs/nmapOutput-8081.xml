@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 21:38:30 2022 as: nmap -sV -iL ports/8081.txt -p 8081 -oX outputs/nmapOutput-8081.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/8081.txt -p 8081 -oX outputs/nmapOutput-8081.xml" start="1671140310" startstr="Thu Dec 15 21:38:30 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="8081"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.143.162" addrtype="ipv4"/>
+<hostnames>
+<hostname name="162.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="32029" rttvar="24123" to="128521"/>
+</host>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.145.14" addrtype="ipv4"/>
+<hostnames>
+<hostname name="14.212-33-145.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="42039" rttvar="31697" to="168827"/>
+</host>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.145.206" addrtype="ipv4"/>
+<hostnames>
+<hostname name="206.212-33-145.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28771" rttvar="21604" to="115187"/>
+</host>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29118" rttvar="21875" to="116618"/>
+</host>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.108.150" addrtype="ipv4"/>
+<hostnames>
+<hostname name="150.77-241-108.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="40544" rttvar="31026" to="164648"/>
+</host>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.143.162" addrtype="ipv4"/>
+<hostnames>
+<hostname name="162.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="32171" rttvar="24199" to="128967"/>
+</host>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.145.14" addrtype="ipv4"/>
+<hostnames>
+<hostname name="14.212-33-145.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="43044" rttvar="32529" to="173160"/>
+</host>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.145.206" addrtype="ipv4"/>
+<hostnames>
+<hostname name="206.212-33-145.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28736" rttvar="21576" to="115040"/>
+</host>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28950" rttvar="21739" to="115906"/>
+</host>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.108.150" addrtype="ipv4"/>
+<hostnames>
+<hostname name="150.77-241-108.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="41374" rttvar="31495" to="167354"/>
+</host>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.143.162" addrtype="ipv4"/>
+<hostnames>
+<hostname name="162.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="32137" rttvar="24172" to="128825"/>
+</host>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.145.14" addrtype="ipv4"/>
+<hostnames>
+<hostname name="14.212-33-145.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="42630" rttvar="32045" to="170810"/>
+</host>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.145.206" addrtype="ipv4"/>
+<hostnames>
+<hostname name="206.212-33-145.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28607" rttvar="21463" to="114459"/>
+</host>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="29060" rttvar="21844" to="116436"/>
+</host>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.108.150" addrtype="ipv4"/>
+<hostnames>
+<hostname name="150.77-241-108.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="41335" rttvar="31505" to="167355"/>
+</host>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="212.33.143.162" addrtype="ipv4"/>
+<hostnames>
+<hostname name="162.212-33-143.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="31908" rttvar="23947" to="127696"/>
+</host>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.145.14" addrtype="ipv4"/>
+<hostnames>
+<hostname name="14.212-33-145.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="43110" rttvar="32345" to="172490"/>
+</host>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.145.206" addrtype="ipv4"/>
+<hostnames>
+<hostname name="206.212-33-145.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="28743" rttvar="21583" to="115075"/>
+</host>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="212.33.152.186" addrtype="ipv4"/>
+<hostnames>
+<hostname name="186.212-33-152.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="31233" rttvar="24301" to="128437"/>
+</host>
+<host starttime="1671140310" endtime="1671140318"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.108.150" addrtype="ipv4"/>
+<hostnames>
+<hostname name="150.77-241-108.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="8081"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft HTTPAPI httpd" version="2.0" extrainfo="SSDP/UPnP" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<times srtt="40676" rttvar="31086" to="165020"/>
+</host>
+<runstats><finished time="1671140318" timestr="Thu Dec 15 21:38:38 2022" elapsed="8.91" summary="Nmap done at Thu Dec 15 21:38:38 2022; 40 IP addresses (20 hosts up) scanned in 8.91 seconds" exit="success"/><hosts up="20" down="20" total="40"/>
+</runstats>
+</nmaprun>

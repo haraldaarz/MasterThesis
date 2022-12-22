@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Thu Dec 15 22:58:31 2022 as: nmap -sV -iL ports/161.txt -p 161 -oX outputs/nmapOutput-161.xml -->
+<nmaprun scanner="nmap" args="nmap -sV -iL ports/161.txt -p 161 -oX outputs/nmapOutput-161.xml" start="1671145111" startstr="Thu Dec 15 22:58:31 2022" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="161"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1671145111" endtime="1671145135"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.107.217" addrtype="ipv4"/>
+<hostnames>
+<hostname name="217.77-241-107.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="161"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28974" rttvar="21837" to="116322"/>
+</host>
+<host starttime="1671145111" endtime="1671145133"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.107.221" addrtype="ipv4"/>
+<hostnames>
+<hostname name="221.77-241-107.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="161"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28998" rttvar="21980" to="116918"/>
+</host>
+<host starttime="1671145111" endtime="1671145135"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.107.217" addrtype="ipv4"/>
+<hostnames>
+<hostname name="217.77-241-107.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="161"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="29184" rttvar="22153" to="117796"/>
+</host>
+<host starttime="1671145111" endtime="1671145132"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.107.221" addrtype="ipv4"/>
+<hostnames>
+<hostname name="221.77-241-107.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="161"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="29278" rttvar="22271" to="118362"/>
+</host>
+<host starttime="1671145111" endtime="1671145131"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.107.217" addrtype="ipv4"/>
+<hostnames>
+<hostname name="217.77-241-107.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="161"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="29045" rttvar="22041" to="117209"/>
+</host>
+<host starttime="1671145111" endtime="1671145134"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.107.221" addrtype="ipv4"/>
+<hostnames>
+<hostname name="221.77-241-107.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="161"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="29104" rttvar="22061" to="117348"/>
+</host>
+<host starttime="1671145111" endtime="1671145135"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.107.217" addrtype="ipv4"/>
+<hostnames>
+<hostname name="217.77-241-107.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="161"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="29159" rttvar="22111" to="117603"/>
+</host>
+<host starttime="1671145111" endtime="1671145135"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="77.241.107.221" addrtype="ipv4"/>
+<hostnames>
+<hostname name="221.77-241-107.static.xfiber.net" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="161"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="snmp" method="table" conf="3"/></port>
+</ports>
+<times srtt="28976" rttvar="21882" to="116504"/>
+</host>
+<runstats><finished time="1671145135" timestr="Thu Dec 15 22:58:55 2022" elapsed="24.08" summary="Nmap done at Thu Dec 15 22:58:55 2022; 8 IP addresses (8 hosts up) scanned in 24.08 seconds" exit="success"/><hosts up="8" down="0" total="8"/>
+</runstats>
+</nmaprun>
