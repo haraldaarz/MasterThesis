@@ -62,6 +62,7 @@ def discoveryScan():
     os.system('masscan -iL hosts.txt -p1-65535 --max-rate 100000 -oX discoveryScan' + date + ' --wait 20')
     os.system('cp hosts.txt ' + "discoveryScan_" + date)
 
+
 # TODO: Jobbe med denne funksjonen
 def masscanExecute2(ports, rate):
     print("Starting masscan")
@@ -128,6 +129,10 @@ def nmapExecute():
     if not os.path.exists('outputs'):
         os.makedirs('nmap')
 
+
+    print("Starting Nmap")
+
+
     with open (onlyPorts, "r+") as f:
         if f.read(1):
             for line in f:
@@ -135,22 +140,12 @@ def nmapExecute():
                 hosts = "ports/" + port + ".txt"
                 outputFile = "outputs/nmapOutput-" + port + ".xml"
                     
-                os.system("nmap -sV -iL " + hosts + " -p " + port + " -oX " + outputFile)
+                os.system("nmap -sV -T4 -Pn --script=vulners -iL " + hosts + " -p " + port + " -oX " + outputFile) 
+                # Hissing Nmap scan -defeat-rst-ratelimit --host-timeout 23H --max-retries 1 
+                # -O --osscan-guess
 
 
-    target_file = 'nmap_targets.txt'
-    date = 0
-    output_file = port + 'nmap.xml'
-    print("Starting Nmap")
-    os.system('nmap -sV -p' + port + ' -T4 -Pn --script=vulners -iL ' + target_file + ' -oL ' +  output_file)
-    # Hissing Nmap scan -defeat-rst-ratelimit --host-timeout 23H --max-retries 1 
-    # -O --osscan-guess
 
-
-def combineFiles():
-    # Combine all the nmap output files into one file
-    #os.system("cat outputs/*.xml > allNmap.xml") # Dette er autogenerert. Må teste ut.
-    pass
 
 
 if __name__ == "__main__":
