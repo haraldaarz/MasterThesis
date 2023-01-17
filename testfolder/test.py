@@ -1,3 +1,6 @@
+###### THIS FILE IS NOT THE FINAL VERSION ###### 
+# IT HAS SOME REALLY SIMILAR CODE TO scan.py, HOWEVER THAT FILE IS MORE RECENT.
+
 import os
 import sys
 
@@ -59,7 +62,7 @@ def nmapExecute():
                 port = line.strip()
                 hosts = "ports/" + port + ".txt"
                 outputFile = "outputs/nmapOutput-" + port + ".xml"
-                os.system("sudo nmap --open -Pn -n -sSV -O --open --osscan-limit -T4 -script=banner -iL " + hosts + " -p " + port + " -oX " + outputFile + "")
+                os.system("sudo nmap --open -Pn  -sV -O --open --osscan-limit -T4 -script=banner -iL " + hosts + " -p " + port + " -oX " + outputFile + "")
 
 
 def endCleanUp():
@@ -81,7 +84,7 @@ mostUsedPortOrder()
 
 nmapExecute()
 
-endCleanUp()
+#endCleanUp()
 
 time2 = os.system("date +%s")
 timeElapsed = time2 - time

@@ -6,7 +6,7 @@ import argparse
 
 # print current date 
 currentDate = time.strftime("%d-%m-%Y-%H:%M:%S")
-scanfile = "masscanOUT3"
+scanfile = "masscanOUT3.txt"
 portsandIP = "portsandIP.txt"
 sortedPorts = "sortedPorts.txt"
 onlyPorts = "onlyPorts.txt"
@@ -32,6 +32,9 @@ def cleanBeforeRun():
         os.system("rm uniqPorts.txt")
     if os.path.exists('paused.txt'):
         os.system("rm paused.conf")
+    if os.path.exists('onlyPorts.txt'):
+        os.system("rm onlyPorts.txt")
+
     
 def cleanAfterRun():
     # Clean up old files after running
@@ -41,6 +44,8 @@ def cleanAfterRun():
         os.system("rm portsandIP.txt")
     if os.path.exists('uniqPorts.txt'):
         os.system("rm uniqPorts.txt")
+    if os.path.exists('onlyPorts.txt'):
+        os.system("rm onlyPorts.txt")
 
 
 def inputIps(ips): # Stores provided IP addresses in a file
@@ -66,21 +71,31 @@ def discoveryScan():
 # TODO: Jobbe med denne funksjonen
 def masscanExecute2(ports, rate):
     print("Starting masscan")
-    os.system('masscan ' + '-iL hosts.txt ' + ports + ' --rate ' + rate + ' -oL ' + ' masscanOUT3 --wait 20')
-    
+    os.system('masscan ' + '-iL hosts.txt ' + ports + ' --rate ' + rate + ' -oL ' + ' masscanOUT3.txt --wait 20')
+    # delete the first line of the masscan output file
+
+    # delete the last line of the masscan output file
+
 
 # Create a file for each open port
 def uniquePorts():
     print("Creating files for each port")
-    os.system("awk '{ print $3 }' " + scanfile + " | sort -u -n > " + uPorts + "")
+    os.system("awk '{ print $3 }' " + scanfile + " | sort -u -n | grep '\S' | awk 'NF' >" + uPorts + "") # TODO : Remove empty lines under uniqPorts.txt
+    
+
     if not os.path.exists('ports'):
         os.makedirs('ports')
-
     with open(uPorts, "r+") as f:
         if f.read(1):
             for line in f:
                 filename = "ports/" + line.strip() + ".txt" # port filename
+                if filename == "0.txt":
+                    print("A file with the name 0.txt is created")
                 os.system("touch " + filename) # create a file for each port
+                print("Created the file: " + filename)
+                # if the file is empty, remove it
+                if os.stat(filename).st_size == 0:
+                    os.remove(filename)
         else:
             print("Uports file is empty 1")
             sys.exit()
@@ -91,7 +106,7 @@ def parsefile(): # Takes input from masscan -oL file
     print("Parsing ports and IP addresses to corresponding files")
     with open (scanfile , "r+") as f: 
         if f.read(1):
-            os.system("awk '{print $3 \" \" $4}' " + scanfile + "> '" + portsandIP + "'") # Store only the IP and port in a file
+            os.system("awk '{print $3 \" \" $4}' " + scanfile + " | grep '\S' > '" + portsandIP + "'") # Store only the IP and port in a file
         else:
             print("File is empty 2")
             sys.exit()
@@ -120,59 +135,54 @@ def parsefile(): # Takes input from masscan -oL file
 # Mulig jeg ikke trenger denne funksjonen
 def mostUsedPortOrder(): # Start nmap on the most used ports first
     ports = sortedPorts
-    os.system("cat " + scanfile + "| awk '{print $3}' | sort | uniq -c | sort -nr | awk '{print $2}' > " + onlyPorts + "")
+    os.system("cat " + scanfile + "| awk '{print $3}' | sort | uniq -c | sort -nr | awk '{print $2}' | grep '\S' > " + onlyPorts + "")
     
-
 def nmapExecute():
     # run nmap on each of the port files. Starting with the most used port
     # nmap on the ports with banners found in the masscan output file to separate files for each port
     if not os.path.exists('outputs'):
-        os.makedirs('nmap')
-
+        os.makedirs('outputs')
 
     print("Starting Nmap")
 
-
     with open (onlyPorts, "r+") as f:
-        if f.read(1):
-            for line in f:
-                port = line.strip()
-                hosts = "ports/" + port + ".txt"
-                outputFile = "outputs/nmapOutput-" + port + ".xml"
-                    
-                os.system("nmap -sV -T4 -Pn --script=vulners -iL " + hosts + " -p " + port + " -oX " + outputFile) 
-                # Hissing Nmap scan -defeat-rst-ratelimit --host-timeout 23H --max-retries 1 
-                # -O --osscan-guess
+     # if f.read(1):
+       # print("---- Ports in the file onlyPorts.txt: ----")
+        for line in f:
+            print("Ports:", line)
 
-
-
+            port = line.strip()
+            hosts = "ports/" + port + ".txt"
+            outputFile = "outputs/nmapOutput-" + port + ".xml"
+                
+            os.system("nmap -sV -T4 -Pn --open --script=vulners -iL " + hosts + " -p " + port + " -oX " + outputFile + " >/dev/null") 
+            # Hissing Nmap scan -defeat-rst-ratelimit --host-timeout 23H --max-retries 1 
+            # -O --osscan-guess
 
 
 if __name__ == "__main__":
     
     # if there are two arguments
-    if len(sys.argv) == 2:
-        ip = sys.argv[1]
-        port = sys.argv[2]
+ #   if len(sys.argv) == 3:
+ #       ip = sys.argv[1]
+ #       port = sys.argv[2]
 
+ #   if len(sys.argv) == 2:
+ #       port = sys.argv[1]
 
-    masscanExecute2(port, "1000")
-    #cleanBeforeRun()
-
-    # if there is 1 argument, run discovery scan
-    #if len(sys.argv) == 2:
-    #    nmapTest(ip)
-
-    #elif len(sys.argv) == 3:
-    #    nmapTest(ip, port)
+    cleanBeforeRun()
+  #  masscanExecute2(port, "10000")
+    uniquePorts()
+    parsefile()
+    mostUsedPortOrder()
+    nmapExecute()
+    cleanAfterRun()
     
     #discoveryScan()
-    #masscanExecute()
-    #nmapExecute()
-    #uniquePorts()
-    #parsefile()
 
- #   mostUsedPortOrder()
+    #
+    #
+    #
 
+ #   
 # Clean up files
-

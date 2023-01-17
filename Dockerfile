@@ -8,7 +8,7 @@ nmap \
 python3 \
 net-tools
 
-COPY scan2.py .
+COPY scan.py .
 
 # Usikker på om jeg trenger disse
 ENV IP={$ip}
