@@ -152,7 +152,7 @@ def nmapExecute():
             hosts = "ports/" + port + ".txt"
             outputFile = "outputs/nmapOutput-" + port + ".xml"
                 
-            os.system("nmap -sV -T4 -Pn --open --script=vulners -iL " + hosts + " -p " + port + " -oX " + outputFile + " >/dev/null")  # TODO Mabye dont dev/null
+            os.system("nmap -sV -T4 -Pn -n --open --script=vulners -iL " + hosts + " -p " + port + " -oX " + outputFile) #+ " >/dev/null")  # TODO Mabye dont dev/null
             # Hissing Nmap scan -defeat-rst-ratelimit --host-timeout 23H --max-retries 1 
             # -O --osscan-guess
 
