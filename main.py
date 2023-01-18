@@ -77,6 +77,11 @@ def main():
     
 
 
+# Before running the scan, create or delete all of the files in the folder "results"
+# after scanning, ingest all the files from the folder "results" into the elastic database
+
+
+
 # main
 if __name__ == "__main__":
     main()

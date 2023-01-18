@@ -163,11 +163,9 @@ def moveScanFiles(): # Move the scan files to a folder that is not within the do
     print("Moving scan files")
     # make the folder /outputs readable and writable by everyone
     
-    os.system("chmod -R 666 /outputs/*")
-    os.system("chmod -R 666 /outputs")
-    os.system("sleep 3")
-    os.system("cat /outputs/nmapOutput-80.xml")
-    os.system("sleep 200")
+    #os.system("chmod -R 666 /outputs/*")
+    #os.system("chmod -R 666 /outputs")
+    #os.system("sleep 200")
 
     # exit the container
     #sys.exit()
