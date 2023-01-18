@@ -143,8 +143,6 @@ def nmapExecute():
     print("Starting Nmap")
 
     with open (onlyPorts, "r+") as f:
-     # if f.read(1):
-       # print("---- Ports in the file onlyPorts.txt: ----")
         for line in f:
             print("Ports:", line)
 
@@ -155,46 +153,36 @@ def nmapExecute():
             os.system("nmap -sV -T4 -Pn -n --open --script=vulners -iL " + hosts + " -p " + port + " -oX " + outputFile) #+ " >/dev/null")  # TODO Mabye dont dev/null
             # Hissing Nmap scan -defeat-rst-ratelimit --host-timeout 23H --max-retries 1 
             # -O --osscan-guess
-
     print("Done with Nmap")
 
 
-def moveScanFiles(): # Move the scan files to a folder that is not within the docker container
-    print("Moving scan files")
-    # make the folder /outputs readable and writable by everyone
-    
-    #os.system("chmod -R 666 /outputs/*")
-    #os.system("chmod -R 666 /outputs")
-    #os.system("sleep 200")
-
-    # exit the container
-    #sys.exit()
-
-    
 
 if __name__ == "__main__":
     
-    # if there are two arguments
- #   if len(sys.argv) == 3:
- #       ip = sys.argv[1]
- #       port = sys.argv[2]
-
     if len(sys.argv) == 2:
        port = sys.argv[1]
        masscanExecute2(port, "10000")
 
     if len(sys.argv) == 3:
         port = sys.argv[1]
-        rate = sys.argv[2]
+        ips = sys.argv[2]
+        with open("hosts.txt", "w+") as f:
+            f.write(ips)
+        masscanExecute2(port, "10000")
+
+    if len(sys.argv) == 4:
+        port = sys.argv[1]
+        ips = sys.argv[2]
+        rate = sys.argv[3]
+        with open("hosts.txt", "w+") as f:
+            f.write(ips)
         masscanExecute2(port, rate)
 
     #cleanBeforeRun()
-    
     uniquePorts()
     parsefile()
     mostUsedPortOrder()
     nmapExecute()
     #cleanAfterRun()
     moveScanFiles()
-    
     #discoveryScan()
