@@ -2,9 +2,11 @@ version: '3.7'
 services:
   ubuntu:
     build: .
-    container_name: ubuntuScanner
+    container_name: security_lab_robot_scanner
     volumes:
-      - .:/Masscan
+      - ./finalOutput:/finalOutput
+    environment:
+      - PORT=80
 #  web:
 #    image: nginx:alpine
 #    container_name: nginx

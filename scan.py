@@ -21,8 +21,6 @@ def cleanBeforeRun():
 
     if os.path.exists('ports'):
         os.system("rm -rf ports")
-    if os.path.exists('outputs'):
-        os.system("rm -rf outputs")
     if os.path.exists('sortedPorts.txt'):
         os.system("rm sortedPorts.txt")
     if os.path.exists('portsandIP.txt'):
@@ -164,9 +162,13 @@ def nmapExecute():
 def moveScanFiles(): # Move the scan files to a folder that is not within the docker container
     print("Moving scan files")
     # make the folder /outputs readable and writable by everyone
-    os.system("chmod -R 777 /outputs")
-    os.system("cp -r /outputs/* /finalOutput")
-    os.system("sleep 300")
+    
+    os.system("chmod -R 666 /outputs/*")
+    os.system("chmod -R 666 /outputs")
+    os.system("sleep 3")
+    os.system("cat /outputs/nmapOutput-80.xml")
+    os.system("sleep 200")
+
     # exit the container
     #sys.exit()
 
@@ -194,7 +196,7 @@ if __name__ == "__main__":
     parsefile()
     mostUsedPortOrder()
     nmapExecute()
-    cleanAfterRun()
+    #cleanAfterRun()
     moveScanFiles()
     
     #discoveryScan()
