@@ -1,6 +1,5 @@
 import os
 import time
-import subprocess
 import sys
 import argparse
 
@@ -34,6 +33,8 @@ def cleanBeforeRun():
         os.system("rm paused.conf")
     if os.path.exists('onlyPorts.txt'):
         os.system("rm onlyPorts.txt")
+    if os.path.exists('masscanOUT3.txt'):
+        os.system("rm masscanOUT3.txt")
 
     
 def cleanAfterRun():
@@ -46,6 +47,8 @@ def cleanAfterRun():
         os.system("rm uniqPorts.txt")
     if os.path.exists('onlyPorts.txt'):
         os.system("rm onlyPorts.txt")
+    if os.path.exists('masscanOUT3.txt'):
+        os.system("rm masscanOUT3.txt")
 
 
 def inputIps(ips): # Stores provided IP addresses in a file
@@ -68,40 +71,35 @@ def discoveryScan():
     os.system('cp hosts.txt ' + "discoveryScan_" + date)
 
 
-# TODO: Jobbe med denne funksjonen
 def masscanExecute2(ports, rate):
     print("Starting masscan")
-    os.system('masscan ' + '-iL hosts.txt ' + ports + ' --rate ' + rate + ' -oL ' + ' masscanOUT3.txt --wait 20')
-    # delete the first line of the masscan output file
-
-    # delete the last line of the masscan output file
+    os.system('masscan ' + '-iL hosts.txt -p' + ports + ' --rate ' + rate + ' -oL ' + ' masscanOUT3.txt --wait 20')
 
 
 # Create a file for each open port
 def uniquePorts():
     print("Creating files for each port")
     os.system("awk '{ print $3 }' " + scanfile + " | sort -u -n | grep '\S' | awk 'NF' >" + uPorts + "") # TODO : Remove empty lines under uniqPorts.txt
-    
+    print("Check 1")
 
     if not os.path.exists('ports'):
         os.makedirs('ports')
     with open(uPorts, "r+") as f:
-        if f.read(1):
-            for line in f:
-                filename = "ports/" + line.strip() + ".txt" # port filename
-                if filename == "0.txt":
-                    print("A file with the name 0.txt is created")
-                os.system("touch " + filename) # create a file for each port
-                print("Created the file: " + filename)
-                # if the file is empty, remove it
-                if os.stat(filename).st_size == 0:
-                    os.remove(filename)
-        else:
-            print("Uports file is empty 1")
-            sys.exit()
+       # if f.read(1): # Uncomment for testing 
+        for line in f:
+            filename = "ports/" + line.strip() + ".txt" # port filename
+            if filename == "0.txt":
+                print("A file with the name 0.txt is created")
+            os.system("touch " + filename) # create a file for each port
+            print("Created the file: " + filename)
+            # if the file is empty, remove it
+            if os.stat(filename).st_size == 0:
+                os.remove(filename)
+        #else: # Uncomment for testing 
+          #  print("Uports file is empty 1") # Uncomment for testing 
+         #   sys.exit() # Uncomment for testing 
 
 
-# Lik funksjon som er i test.py
 def parsefile(): # Takes input from masscan -oL file
     print("Parsing ports and IP addresses to corresponding files")
     with open (scanfile , "r+") as f: 
@@ -130,6 +128,7 @@ def parsefile(): # Takes input from masscan -oL file
         #else:
        #    print("File is empty 4")
         #    sys.exit()
+    print("Done parsing ports and IP addresses to corresponding files")
 
 
 # Mulig jeg ikke trenger denne funksjonen
@@ -155,10 +154,23 @@ def nmapExecute():
             hosts = "ports/" + port + ".txt"
             outputFile = "outputs/nmapOutput-" + port + ".xml"
                 
-            os.system("nmap -sV -T4 -Pn --open --script=vulners -iL " + hosts + " -p " + port + " -oX " + outputFile + " >/dev/null") 
+            os.system("nmap -sV -T4 -Pn --open --script=vulners -iL " + hosts + " -p " + port + " -oX " + outputFile + " >/dev/null")  # TODO Mabye dont dev/null
             # Hissing Nmap scan -defeat-rst-ratelimit --host-timeout 23H --max-retries 1 
             # -O --osscan-guess
 
+    print("Done with Nmap")
+
+
+def moveScanFiles(): # Move the scan files to a folder that is not within the docker container
+    print("Moving scan files")
+    # make the folder /outputs readable and writable by everyone
+    os.system("chmod -R 777 /outputs")
+    os.system("cp -r /outputs/* /finalOutput")
+    os.system("sleep 300")
+    # exit the container
+    #sys.exit()
+
+    
 
 if __name__ == "__main__":
     
@@ -167,22 +179,22 @@ if __name__ == "__main__":
  #       ip = sys.argv[1]
  #       port = sys.argv[2]
 
- #   if len(sys.argv) == 2:
- #       port = sys.argv[1]
+    if len(sys.argv) == 2:
+       port = sys.argv[1]
+       masscanExecute2(port, "10000")
 
-    cleanBeforeRun()
-  #  masscanExecute2(port, "10000")
+    if len(sys.argv) == 3:
+        port = sys.argv[1]
+        rate = sys.argv[2]
+        masscanExecute2(port, rate)
+
+    #cleanBeforeRun()
+    
     uniquePorts()
     parsefile()
     mostUsedPortOrder()
     nmapExecute()
     cleanAfterRun()
+    moveScanFiles()
     
     #discoveryScan()
-
-    #
-    #
-    #
-
- #   
-# Clean up files
