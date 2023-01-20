@@ -14,7 +14,8 @@ uPorts = "uniqPorts.txt"
 
 ### Rate ###
 # How fast to scan, calculate max speed from network speed & cpu
-
+def rate():
+    pass
 
 def inputIps(ips): # Stores provided IP addresses in a file
     os.system("rm hosts2.txt")
@@ -145,11 +146,9 @@ if __name__ == "__main__":
             f.write(ips)
         masscanExecute2(port, rate)
 
-    #cleanBeforeRun()
     uniquePorts()
     parsefile()
     mostUsedPortOrder()
     nmapExecute()
-    #cleanAfterRun()
     moveScanFiles()
     #discoveryScan()

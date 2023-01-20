@@ -14,18 +14,21 @@ import csv
 
 
 def installDependencies():
-    os.system('apt install python3-pip')
-    # if os.system('masscan --regres) returns [hint]: you must install libpcap or WinPcap
-        # then os.system('apt install libpcap-dev -y)
-    pass
+    os.system('apt update -y && sudo apt upgrade -y')
+    os.system('apt install docker.io docker-compose git -y')
+    os.system('sudo usermod -aG docker ${USER}')
+    os.system('git clone https://github.com/bennettwarner/elk_nmap')
+    os.system('git clone https://github.com/haraldaarz/MasterThesis')
+    # Web interface
+    # git clone or cd and docker-compose up -d
+
 
 
 def prepearInterface():
     os.system('iptables -A INPUT -i eth0 -p tcp --dport 44444 -j DROP')
 
 
-
-def getIPs():
+def getIPs(): # Gets all of the IP adresses in Norway to a list
     response = requests.get("https://www.nirsoft.net/countryip/no.csv")
     reader = csv.reader(response.text.splitlines())
     ip_data = {}
@@ -51,29 +54,26 @@ def getIPs():
     print("Total IPs:", total_ips)
 
 
+def buildContainer()
+    print("Building the scanner container""")
+    os.system("docker build . -t security_lab_robot_scanner --no-cache")
+    
+def startWebServer():
+    # Start the django web server
+    os.system("python3 manage.py runserver")
 
-def startContainer()
-    os.system("sudo docker run -v $(pwd)/results:/outputs security_lab_robot_scanner") # & 80 213.187.160.0/22  
 
+def elastic():
+    # run a scan, and then run the ingestor
+    # after ingesting, visit IP:5601, 
+    # add index pattern, *nmap*
+    # copy dashboard template
 
-
-def moveScanResults()
-    os.system("mv /results/* /elk_nmap/import/")
-
-
-def startIngestorContainer()
-    os.system("docker-compose run ingestor")
-
+    pass
 
 def main():
     getIPs()
     
-
-
-# Before running the scan, create or delete all of the files in the folder "results"
-# after scanning, ingest all the files from the folder "results" into the elastic database
-
-
 
 # main
 if __name__ == "__main__":
