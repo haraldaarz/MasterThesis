@@ -10,8 +10,6 @@ import csv
 
 # Main program to controll Docker containers, and logging
 
-#### Consts
-
 
 def installDependencies():
     os.system('apt update -y && sudo apt upgrade -y')
@@ -64,17 +62,17 @@ def startWebServer():
 
 
 def elastic():
+    os.system("cd elk_nmap")
+    os.system("docker-compose up -d")
     # run a scan, and then run the ingestor
     # after ingesting, visit IP:5601, 
     # add index pattern, *nmap*
     # copy dashboard template
-
     pass
 
 def main():
     getIPs()
-    
 
-# main
+
 if __name__ == "__main__":
     main()

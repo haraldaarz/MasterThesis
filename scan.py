@@ -12,7 +12,6 @@ onlyPorts = "onlyPorts.txt"
 uPorts = "uniqPorts.txt"
 
 
-### Rate ###
 # How fast to scan, calculate max speed from network speed & cpu
 def rate():
     pass
