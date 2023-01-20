@@ -9,7 +9,6 @@ import shlex
 
 # Check for correct number of arguments
 
-
 # Get the IP address and port range
 ip = sys.argv[1]
 port_range = sys.argv[2]
@@ -37,4 +36,3 @@ def print_open_ports(nmap_output):
             print(line)
 
 print_open_ports(nmap_output)
-

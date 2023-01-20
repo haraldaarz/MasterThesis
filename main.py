@@ -19,19 +19,9 @@ def installDependencies():
         # then os.system('apt install libpcap-dev -y)
     pass
 
-def checkForGitUpdate():
-    if os.path.exists("MasterThesis"):
-        print("Folder exists")
-        os.system('cd MasterThesis && git pull')
-    else:
-        print("Folder does not exist")
-        os.system('git clone xxx') # Clone repo
-    
 
 def prepearInterface():
     os.system('iptables -A INPUT -i eth0 -p tcp --dport 44444 -j DROP')
-
-
 
 
 
@@ -62,14 +52,17 @@ def getIPs():
 
 
 
-
-def masscan():
-    # Start the masscan container
-    pass
+def startContainer()
+    os.system("sudo docker run -v $(pwd)/results:/outputs security_lab_robot_scanner") # & 80 213.187.160.0/22  
 
 
 
+def moveScanResults()
+    os.system("mv /results/* /elk_nmap/import/")
 
+
+def startIngestorContainer()
+    os.system("docker-compose run ingestor")
 
 
 def main():

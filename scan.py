@@ -12,41 +12,8 @@ onlyPorts = "onlyPorts.txt"
 uPorts = "uniqPorts.txt"
 
 
-
 ### Rate ###
 # How fast to scan, calculate max speed from network speed & cpu
-
-def cleanBeforeRun():
-    # Clean up old files before running
-
-    if os.path.exists('ports'):
-        os.system("rm -rf ports")
-    if os.path.exists('sortedPorts.txt'):
-        os.system("rm sortedPorts.txt")
-    if os.path.exists('portsandIP.txt'):
-        os.system("rm portsandIP.txt")
-    if os.path.exists('uniqPorts.txt'):
-        os.system("rm uniqPorts.txt")
-    if os.path.exists('paused.txt'):
-        os.system("rm paused.conf")
-    if os.path.exists('onlyPorts.txt'):
-        os.system("rm onlyPorts.txt")
-    if os.path.exists('masscanOUT3.txt'):
-        os.system("rm masscanOUT3.txt")
-
-    
-def cleanAfterRun():
-    # Clean up old files after running
-    if os.path.exists('sortedPorts.txt'):
-        os.system("rm sortedPorts.txt")
-    if os.path.exists('portsandIP.txt'):
-        os.system("rm portsandIP.txt")
-    if os.path.exists('uniqPorts.txt'):
-        os.system("rm uniqPorts.txt")
-    if os.path.exists('onlyPorts.txt'):
-        os.system("rm onlyPorts.txt")
-    if os.path.exists('masscanOUT3.txt'):
-        os.system("rm masscanOUT3.txt")
 
 
 def inputIps(ips): # Stores provided IP addresses in a file
