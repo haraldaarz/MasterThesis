@@ -52,7 +52,7 @@ def getIPs(): # Gets all of the IP adresses in Norway to a list
     print("Total IPs:", total_ips)
 
 
-def buildContainer()
+def buildContainer():
     print("Building the scanner container""")
     os.system("docker build . -t security_lab_robot_scanner --no-cache")
     

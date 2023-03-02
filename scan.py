@@ -117,7 +117,7 @@ def nmapExecute():
             hosts = "ports/" + port + ".txt"
             outputFile = "outputs/nmapOutput-" + port + ".xml"
                 
-            os.system("nmap -sV -T4 -Pn -n --open --script=vulners -iL " + hosts + " -p " + port + " -oX " + outputFile) #+ " >/dev/null")  # TODO Mabye dont dev/null
+            os.system("nmap -sV -T5 -Pn -n --open --script=vulners -iL " + hosts + " -p " + port + " -oX " + outputFile) #+ " >/dev/null")  # TODO Mabye dont dev/null
             # Hissing Nmap scan -defeat-rst-ratelimit --host-timeout 23H --max-retries 1 
             # -O --osscan-guess
     print("Done with Nmap")
@@ -149,5 +149,5 @@ if __name__ == "__main__":
     parsefile()
     mostUsedPortOrder()
     nmapExecute()
-    moveScanFiles()
+    #moveScanFiles()
     #discoveryScan()

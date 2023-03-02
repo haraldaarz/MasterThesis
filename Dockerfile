@@ -1,26 +1,17 @@
 FROM ubuntu:20.04
 ENV DEBIAN_FRONTEND noninteractive
-# tag the image
 
 RUN apt update && apt-get install -y \
-nmap \
-python3 \
-net-tools \
-python3-pip \
-masscan \
-libpcap-dev
+python3 python3-pip nmap net-tools \
+masscan libpcap-dev
 
 COPY scan.py .
 COPY requirements.txt .
 COPY hosts.txt .
-
 RUN mkdir /finalOutput
 RUN python3 -m pip install -r requirements.txt
-
-# Usikker på om jeg trenger disse
 ENV IP={$ip}
 ENV PORT={$port}
-
 ENTRYPOINT ["python3", "scan.py"]
 
 
