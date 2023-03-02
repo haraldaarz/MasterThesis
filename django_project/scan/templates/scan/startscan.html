@@ -1,0 +1,33 @@
+{% extends "scan/base.html" %}
+{% block content %}
+    <h1>Start a new scan</h1><br>
+
+    <!-- If a scan is already running, the user will see the progress of the scan. -->
+    <!-- If docker container is running (scanning container)-->
+
+    <!-- 
+        Link to the file defaultScan.html
+    -->
+    <a href="/scan/defaultscan">Default scan</a><br>
+    <a href="/scan/customports">Custom ports</a><br>
+    <a href="/scan/customcommand">Custom command</a><br><br>
+
+
+    <!--
+
+    <form action="discovery" method="POST">
+        {% csrf_token %}
+        {{data_internal}}
+
+        <br><br>
+        <input type="submit" value="Launch a discovery scan towards all of Norways IPs">
+    <br>
+    </form> 
+
+-->
+
+
+    <t> Go back to homepage:</t>
+    <a href="/scan">Home</a><br><br>
+{% endblock content %}
+

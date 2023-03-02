@@ -1,0 +1,11 @@
+{% extends "scan/base.html" %}
+{% block content %}
+    <h1>Scan Home</h1>
+    <t>This is a UiO Robot Vulnerability Scanner</t><br><br>
+    <t>Shortcut to scan results:</t>
+    <a href="http://192.168.1.135:5601/app/dashboards#/view/3ed0c340-2d17-11ed-a4f1-8f3a048603fe?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),tags:!(),timeRestore:!f,title:testDashboard,viewMode:view)">Elastic</a><br><br>
+    <h3>Start a new scan</h3>
+    <a href="/scan/startscan">Start a new scan</a><br><br>
+
+    <!-- <img src="/scan/templates/scan/securitylab.png" alt="SecurityLab" width="500" height="600"> -->
+{% endblock content %}

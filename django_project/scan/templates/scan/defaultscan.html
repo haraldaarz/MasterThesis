@@ -1,0 +1,33 @@
+{% extends "scan/base.html" %}
+{% block content %}
+
+<i> Go back to scan page:</i>
+<a href="/scan/startscan/">Scan</a><br><br>
+
+<h1>Default scan</h1><br>
+<t>This scan takes in one or multiple IP adresses, and launches a scan against the most common ports.</t>
+<br><br>
+<t> Enter IP or IP range:</t>
+
+<form action="external" method="POST"> <!--Points to views.py, which has a function "external", that runs the python file defaultscan.py -->
+    {% csrf_token %}
+    IP:
+    <input type="text" name="parameter" required><br>
+    <!-- {{data_external}} --->
+    {{data1}}
+    <br>
+    <input type="submit" value="Start scan">
+
+</form>
+<br><br>
+
+<!-- 
+    Give the user the option to start a new scan. Choose between a scan types
+    If the user chooses a scan type, the user will be redirected to the scan form
+    where the user can enter the scan parameters.
+-->
+
+
+<t> Go back to homepage:</t>
+<a href="/scan">Home</a><br><br>
+{% endblock content %}

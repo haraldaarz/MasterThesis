@@ -1,0 +1,32 @@
+{% extends "scan/base.html" %}
+{% block content %}
+
+<i> Go back to scan page:</i>
+<a href="/scan/startscan/">Scan</a><br><br>
+
+
+
+
+
+<t> Type custom Nmap or Masscan command:</t>
+
+<form action="customcommand" method="POST">
+    {% csrf_token %}
+    <br>
+    Scan type:
+    <select name="parameter5">
+        <option value="nmap">Nmap</option>
+        <option value="masscan">Masscan</option>
+    </select>
+    <br><br>
+    Command:
+    <input type="text" name="parameter6" required><br><br>
+    <input type="submit" value="Start scan"><br> <br>
+    {{data5}}
+
+</form>
+    
+
+<t> Go back to homepage:</t>
+<a href="/scan">Home</a><br><br>
+{% endblock content %}

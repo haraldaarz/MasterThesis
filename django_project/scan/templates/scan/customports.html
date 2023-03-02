@@ -1,0 +1,36 @@
+{% extends "scan/base.html" %}
+{% block content %}
+
+<i> Go back to scan page:</i>
+<a href="/scan/startscan/">Scan</a><br><br>
+
+
+
+<h1> Custom port scan:</h1><br>
+<t>Launch a towards one or multiple IP adresses, and specify the ports you want to include.</t><br>
+<t>Type the ports in the format "1,2,3.." or "1-5"</t><br><br>
+<form action="custom" method="POST"> <!--Points to views.py, which has a function "custom", that runs the python file customIPandPort.py -->
+    {% csrf_token %}
+    IP:
+    <input type="text" name="parameter2" required><br>
+    <br>
+    Port:
+    <input type="text" name="parameter3" required><br>
+    <br>
+    Rate:
+    <input type="text" name="parameter4" required><br><br>
+<input type="submit" value="Start scan"><br> <br>
+{{data2}}
+{{data3}}
+
+</form>
+
+<br>
+<p> After the scan is done, you can watch the results here: 
+<a href="http://192.168.1.85:5601/goto/7d6cedd3a9e8f0e6ea21b8e8976d5234" target="_blank">Elastic</a><br><br> </p>
+<p> View database for the specified IPs:</p>
+<!-- Legge til lenke for databasesøk mot den IPen som bruker har spesifisert.-->
+<br><br>
+<t> Go back to homepage:</t>
+<a href="/scan">Home</a><br><br>
+{% endblock content %}
