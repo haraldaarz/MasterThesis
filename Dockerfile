@@ -12,7 +12,7 @@ RUN mkdir /finalOutput
 RUN python3 -m pip install -r requirements.txt
 ENV IP={$ip}
 ENV PORT={$port}
-ENTRYPOINT ["python3", "scan.py"]
+ENTRYPOINT ["python3", "scan.py"] # or run the runscanner.py script file
 
 
 # DEBUG: docker run -it --entrypoint sh security_lab_robot_scanner 
