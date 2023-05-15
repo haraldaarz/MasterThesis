@@ -1,0 +1,3 @@
+[submodule "elk_nmap"]
+	path = elk_nmap
+	url = https://github.com/bennettwarner/elk_nmap

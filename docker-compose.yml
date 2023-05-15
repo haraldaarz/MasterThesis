@@ -2,18 +2,118 @@ version: '3.7'
 services:
   ubuntu:
     build: .
+    image: security_lab_robot_scanner
     container_name: security_lab_robot_scanner
     volumes:
       - ./finalOutput:/finalOutput
     environment:
       - PORT=80
-#  web:
-#    image: nginx:alpine
-#    container_name: nginx
-#    ports:
-#      - "80:80"
-#    volumes:
-#      - ./website:/usr/share/nginx/html
 
-# Build from Dockerfile
 
+  web:
+    # build should be from within the folder directory called "django_project"
+    build: ./django_project
+    command: bash -c "cd django_project && python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    container_name: scan-webserver
+    image: scan-webserver
+    volumes:
+      - .:/scan
+  #    - /var/run/docker.sock.raw:/var/run/docker.sock
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - "8000:8000"
+
+
+  elasticsearch:
+    build:
+      context: elk_nmap/elasticsearch/
+      args:
+        ELK_VERSION: $ELK_VERSION
+    volumes:
+      - type: bind
+        source: ./elk_nmap/elasticsearch/config/elasticsearch.yml
+        target: /usr/share/elasticsearch/config/elasticsearch.yml
+        read_only: true
+      - type: bind
+        source: ./elk_nmap/_data
+        target: /usr/share/elasticsearch/data
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    environment:
+      ES_JAVA_OPTS: "-Xmx256m -Xms256m"
+      ELASTIC_PASSWORD: changeme
+      # Use single node discovery in order to disable production mode and avoid bootstrap checks.
+      # see: https://www.elastic.co/guide/en/elasticsearch/reference/current/bootstrap-checks.html
+      discovery.type: single-node
+    networks:
+      - elk
+
+  logstash:
+    build:
+      context: elk_nmap/logstash/
+      args:
+        ELK_VERSION: $ELK_VERSION
+    volumes:
+      - type: bind
+        source: ./elk_nmap/logstash/config/logstash.yml
+        target: /usr/share/logstash/config/logstash.yml
+        read_only: true
+      - type: bind
+        source: ./elk_nmap/logstash/pipeline
+        target: /usr/share/logstash/pipeline
+        read_only: true
+    ports:
+      - "5044:5044"
+      - "5000:5000/tcp"
+      - "5000:5000/udp"
+      - "9600:9600"
+    environment:
+      LS_JAVA_OPTS: "-Xmx256m -Xms256m"
+    networks:
+      - elk
+    depends_on:
+      - elasticsearch
+
+  kibana:
+    build:
+      context: elk_nmap/kibana/
+      args:
+        ELK_VERSION: $ELK_VERSION
+    volumes:
+      - type: bind
+        source: ./elk_nmap/kibana/config/kibana.yml
+        target: /usr/share/kibana/config/kibana.yml
+        read_only: true
+    ports:
+      - "5601:5601"
+    networks:
+      - elk
+    depends_on:
+      - elasticsearch
+    
+  kibana_init:
+    build:
+      context: elk_nmap/kibana_init/
+    networks:
+      - elk
+    depends_on: 
+      - kibana
+
+  ingestor:
+    build: 
+      context: elk_nmap/ingestor/
+    volumes:
+      - type: bind
+        source: ./elk_nmap/import
+        target: /scans
+    environment:
+      PROJECT: default
+    networks: 
+        - elk
+    depends_on:
+        - elasticsearch
+
+networks:
+  elk:
+    driver: bridge
