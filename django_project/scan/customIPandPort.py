@@ -2,18 +2,14 @@
 import sys
 import os
 
-
 ip = sys.argv[1]
 port = sys.argv[2]
 rate = sys.argv[3]
-
 ip = ip.replace(" ", ",")
 
-
-# print new line
 print("Starting scan towards IP: " + ip + ", Port: " + port + " at rate: " + rate + " requests per second")
 
-#os.system("docker run security_lab_robot_scanner " + ip + " " + port + " " + rate)
+os.system("docker run security_lab_robot_scanner " + ip + " " + port + " " + rate)
 
 portRange = ""
 
@@ -22,9 +18,7 @@ if "-" in port:
     portRange = port
 
 if "," in port:
-    # example syntax for goal: port 22 or port 23
     portRange = port.replace(",", "%20or%20port%20")
-
 
 if not "0/" in ip:
     ipRange = ip
@@ -35,7 +29,7 @@ mainURL = "http://192.168.1.85:5601/app/discover#/?_g=(filters:!(),refreshInterv
 ending = ")'),sort:!())"
 midDivider = "%20and%20(port%20"
 customUrl = mainURL + ipRange + midDivider + portRange + ending
-# print a new line
+
 
 print("Database results from the specified scan: ")
 print(customUrl)
